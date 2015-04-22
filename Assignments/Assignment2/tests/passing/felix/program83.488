@@ -1,0 +1,10 @@
+
+begin 
+	procedure l ( boolean s , boolean g , integer d , boolean j , boolean c , boolean g , boolean n , boolean c ) 
+	begin 
+		integer function w 
+		begin 
+			return 
+		end 
+	end 
+end 

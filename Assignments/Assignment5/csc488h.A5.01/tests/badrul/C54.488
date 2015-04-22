@@ -1,0 +1,6 @@
+% read input from stdin
+begin
+	integer x
+	get x
+	put x
+end

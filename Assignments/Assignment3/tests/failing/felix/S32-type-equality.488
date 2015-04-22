@@ -1,0 +1,4 @@
+begin
+    put 1 = true
+    put 5 != false
+end

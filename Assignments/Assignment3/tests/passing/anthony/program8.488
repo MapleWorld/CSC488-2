@@ -1,0 +1,4 @@
+begin
+	integer var1, var2[47, 88..92]
+end
+

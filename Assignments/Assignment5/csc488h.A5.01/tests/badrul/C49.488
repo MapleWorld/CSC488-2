@@ -1,0 +1,8 @@
+% calling function without parameter
+begin
+	integer function get5
+	begin
+		return (5)
+	end
+	put get5
+end

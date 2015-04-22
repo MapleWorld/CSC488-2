@@ -1,0 +1,16 @@
+begin
+    integer function factorial(integer n) begin
+       if n <= 1 then
+           return (1)
+       end
+       return (n * factorial(n - 1))
+    end
+
+    integer x
+    x <= 5 
+
+    while x > 0 do
+        put factorial(x), skip
+        x <= x - 1
+    end
+end

@@ -1,0 +1,58 @@
+begin
+	while {
+		loop
+			put "!?", skip, "world"
+			boolean var1[-94..100, -83..10], var2, var4[61]
+			exit
+			var4[-(32)] <= false
+			put skip
+		end
+	yields
+		!(false)
+	} do
+		put 66, 95, skip
+		if true then
+			exit
+		end
+		integer function func1(boolean arg1, integer arg5)
+		begin
+			integer var3[27..69, 21], var1
+			var1 <= -(func1(true, func1(false, 2)))
+			return (arg5)
+		end
+
+		exit
+	end
+	if {
+		if true then
+			put 38
+			boolean var3[-68..-23, -75..48]
+		end
+	yields
+		((-(34)) + (func1(true, 17))) >= (func1(false, 6))
+	} then
+		boolean var2[87..91], var11, var4
+		if !(((func1(true, 73)) + (func1(true, 10))) <= (72)) then
+			var4 <= (false) | (var11)
+			put "!?"
+			put ((89) + ((-(66)) - (func1(var4, 7)))) + ((93) - (func1(false, -(76)))), "hello", ":D"
+			integer var1[39, 8]
+		end
+	end
+	get var1[{
+		boolean function func1
+		begin
+			return (var11)
+			return (var11)
+			integer var1, var3[-47..0, 83..92]
+		end
+
+	yields
+		(var1[57, 36]) + (var1[68, 19])
+	}, -({
+		get var1[39, 63]
+	yields
+		var1[39, 8]
+	})]
+end
+

@@ -1,0 +1,20 @@
+begin
+	while false do
+		loop
+			exit when (false)
+			exit
+			put skip, 73
+		end
+		loop
+			put -(55), (-(-((10) * (92)))) - (77), skip
+			exit
+			exit when (true)
+		end
+		loop
+			exit
+			exit
+		end
+	end
+	boolean var1, var3, var4[36]
+end
+

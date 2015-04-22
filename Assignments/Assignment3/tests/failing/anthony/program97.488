@@ -1,0 +1,81 @@
+begin
+	put {
+		if !({
+			put (18) <= (true), "hello", skip
+		yields
+			-(true)
+		}) then
+			put "world", skip, -((!(69)) <= (true))
+			exit when (72)
+			exit when (!(!(25)))
+			exit
+			put "hello", skip, "hello"
+		else
+			exit
+			exit when (40)
+			exit
+			exit
+			exit when (47)
+		end
+	yields
+		{
+			put ":D", (7) = (true)
+		yields
+			true
+		}
+	}, true, -((false) = ((37) + ((73) = (false))))
+	while 88 do
+		procedure proc4(boolean arg15, boolean arg16)
+		begin
+			return (true)
+			proc4((15) * (-(arg15[arg15[true, false], true])), !(11))
+		end
+
+		boolean var1
+		get var1[{
+			proc4(50, (43) - (var1[true, false]))
+		yields
+			!((48) - (true))
+		}]
+		put "!?", false, skip
+	end
+	while {
+		get var1
+	yields
+		false
+	} do
+		if {
+			proc4(18, 28)
+		yields
+			false
+		} then
+			get var1, var1[var1[-(var1[false, true]), (!(31)) >= (var1[false])]]
+			exit when (!(19))
+			var1[-(false)] <= 83
+		else
+			put true, var1
+			get var1[(55) > (true)]
+			put "!?"
+			get var1[var1[-(-(var1))], var1[var1]]
+			proc4(4, !(!(20)))
+		end
+		if {
+			exit when (!((66) * (true)))
+		yields
+			true
+		} then
+			return
+			proc4(34, (89) / (-(var1[true, -(true)])))
+		else
+			proc4(60, !(51))
+			get var1[(13) != (var1[var1[true, false], -(true)]), -(false)], var1[true]
+		end
+		get var1, var1, var1[true, {
+			get var1[true, var1], var1[false, var1[true]]
+		yields
+			75
+		}]
+		exit when (76)
+	end
+end
+

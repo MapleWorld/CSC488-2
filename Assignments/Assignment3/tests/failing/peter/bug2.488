@@ -1,0 +1,6 @@
+% check if we can detect some error with variable type
+% and some other silly thing
+begin
+	integer z[0..0, 1..1]
+	z[0] <= 1
+end

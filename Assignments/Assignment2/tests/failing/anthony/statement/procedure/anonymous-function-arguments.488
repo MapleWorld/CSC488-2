@@ -1,0 +1,4 @@
+begin
+    boolean function (integer hello, integer world) begin
+    end
+end

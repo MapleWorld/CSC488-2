@@ -1,0 +1,5 @@
+% missing expression after !
+begin
+    boolean x 
+    x <= !
+end

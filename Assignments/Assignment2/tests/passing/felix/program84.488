@@ -1,0 +1,10 @@
+
+begin 
+	procedure b ( boolean y , integer p , boolean z , integer l , boolean e , integer m , boolean o , integer w ) 
+	begin 
+		procedure x ( boolean h , boolean v ) 
+		begin 
+			put skip 
+		end 
+	end 
+end 

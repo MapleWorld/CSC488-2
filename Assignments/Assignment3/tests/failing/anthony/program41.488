@@ -1,0 +1,70 @@
+begin
+	while {
+		exit when ({
+			put ":D"
+		yields
+			-(false)
+		})
+	yields
+		(64) < (false)
+	} do
+		if 46 then
+			put "!?", "hello"
+		end
+		exit when ({
+			integer var1[49, 88..-10]
+		yields
+			false
+		})
+		if 1 then
+			put ((-(false)) != (1)) & (88)
+			put -(((20) * (true)) <= (true))
+			exit when ((90) / (false))
+		end
+		integer function func3(boolean arg9)
+		begin
+			put skip
+			get arg9[false], arg9[arg9]
+			put arg9, "hello"
+			put "!?", "!?"
+			integer var1, var2[67..-93, 64]
+		end
+
+		loop
+			exit
+			exit when ((83) * (true))
+			put skip
+		end
+	end
+	loop
+		exit when (3)
+		exit when (func3(func3({
+			put skip, false
+		yields
+			false
+		})))
+		procedure proc3(boolean arg5)
+		begin
+			proc3(func3(7))
+			exit
+			exit when (func3(38))
+		end
+
+		if 47 then
+			proc3(!(func3(!(func3(63)))))
+			put "hello"
+			exit when (func3(func3(!(func3(70)))))
+			exit when (func3(func3(31)))
+		else
+			return (!(!(39)))
+		end
+		loop
+			proc3(func3(func3(func3(83))))
+			integer var1[20, 34], var2
+			proc3(var2[true])
+			exit
+		end
+	end
+	put false, false, false
+end
+

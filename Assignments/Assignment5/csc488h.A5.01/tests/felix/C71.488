@@ -1,0 +1,5 @@
+begin
+    if 10 < 100 then
+        put "10 < 100"
+    end
+end

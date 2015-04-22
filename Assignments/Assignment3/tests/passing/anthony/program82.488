@@ -1,0 +1,30 @@
+begin
+	loop
+		procedure proc2
+		begin
+			put 97, ":D"
+			put ":D", (34) - ((76) / (84)), "world"
+		end
+
+		begin
+			put skip
+			integer var2
+			put "hello"
+		end
+		integer var1
+		boolean function func2(boolean arg2, integer arg4, integer arg1)
+		begin
+			return (arg2)
+			return (func2(false, -(45), 59))
+			return (true)
+			var1 <= -(-(arg4))
+			return (false)
+		end
+
+		begin
+			var1 <= -(79)
+			get var1
+		end
+	end
+end
+

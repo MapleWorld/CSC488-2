@@ -1,0 +1,78 @@
+begin
+	exit
+	while {
+		loop
+			exit
+			exit
+			boolean var1[39, 89], var2
+			put skip, var2[var1[var2[false]]], ":D"
+		end
+	yields
+		false
+	} do
+		exit when (!({
+			put ":D", skip, skip
+		yields
+			false
+		}))
+		boolean function func2(boolean arg4)
+		begin
+			exit when (!(1))
+		end
+
+	end
+	put skip
+	begin
+		integer function func4(boolean arg7, boolean arg8)
+		begin
+			exit when (69)
+		end
+
+		if 80 then
+			return (17)
+			return (53)
+		else
+			exit
+			put true
+			integer var1, var2, var3[-81..-87]
+			put "hello", "world"
+		end
+		if {
+			var2 <= false
+		yields
+			false
+		} then
+			return (!(78))
+			exit
+		else
+			exit when (var1[(var1[(61) < (true), false]) != (-(true))])
+			integer var1, var2[-28..-43]
+			put "hello", skip, skip
+		end
+	end
+	begin
+		boolean function func1(boolean arg1, integer arg2, integer arg3)
+		begin
+			put ":D", func1(arg3[true], false, false), skip
+		end
+
+		begin
+			exit when (4)
+			exit
+			put true, skip, skip
+		end
+		procedure proc1
+		begin
+			exit
+		end
+
+		while !(!(15)) do
+			proc1
+			exit
+			exit when (4)
+			proc1
+		end
+		proc1
+	end
+end
+

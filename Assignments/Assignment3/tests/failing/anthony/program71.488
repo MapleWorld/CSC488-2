@@ -1,0 +1,19 @@
+begin
+	procedure proc1(integer arg1, boolean arg2)
+	begin
+		return (false)
+		while arg1[(false) | ({
+			put true
+		yields
+			arg2[false, arg2]
+		}), arg2[-((arg1) <= (arg2))]] do
+			exit
+			exit
+			arg2[false] <= arg1[arg2[arg2[-(false), -(true)]], -(-(false))]
+			exit when (47)
+		end
+	end
+
+	proc1(false, 0)
+end
+

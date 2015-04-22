@@ -1,0 +1,90 @@
+begin
+	procedure proc1(integer arg3)
+	begin
+		if !(false) then
+			put "!?", skip
+			put -(-((65) / ((30) + (91)))), arg3, skip
+			boolean var1[21..79, 68..92], var3[87, 1..96]
+			get arg3, arg3, arg3
+			put 90, arg3
+		else
+			var1[arg3, 37] <= false
+			put "hello", 17
+			integer var4
+			var4 <= (90) / (80)
+			get arg3
+		end
+		while (-({
+			return
+		yields
+			13
+		})) != (({
+			get arg3, var4, var4
+		yields
+			88
+		}) + (61)) do
+			integer var2, var7
+			boolean var6[7], var8, var5[-24..73]
+			put arg3, skip, skip
+		end
+		while (arg3) > ({
+			return
+		yields
+			10
+		}) do
+			var2 <= arg3
+			get var7, var4, arg3
+			get var7, var4, var2
+		end
+		return
+		var5[{
+			put ":D", -((var7) - (var2))
+		yields
+			16
+		}] <= {
+			put ":D", skip, (var7) + (-(var2))
+		yields
+			var6[71]
+		}
+	end
+
+	boolean var3[-70..8, 71]
+	while true do
+		put "world"
+		if false then
+			var3[28, -(24)] <= false
+			exit
+			exit
+		end
+		exit when (true)
+		procedure proc4(integer arg1, integer arg2, integer arg3)
+		begin
+			put skip, "hello", arg2
+			put "hello", "!?", skip
+		end
+
+		exit
+	end
+	loop
+		var3[35, 28] <= false
+		begin
+			integer var1[69..84, -63..-18], var3[16, 96], var4[19..84, -23..71]
+			boolean var2[15], var5, var6[53, 47]
+			put ":D"
+			get var4[-(((55) * (25)) / (var1[95, 94])), -(-(var3[65, 6]))], var4[31, var1[-((16) * (43)), 50]], var4[73, 77]
+		end
+		begin
+			put ":D", (19) / (62)
+			put "!?", -(-(-(91))), "world"
+		end
+		exit
+		if true then
+			exit
+			exit
+			exit when (true)
+			exit when (true)
+			exit when (false)
+		end
+	end
+end
+

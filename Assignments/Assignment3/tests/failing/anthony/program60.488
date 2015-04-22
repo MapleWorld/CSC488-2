@@ -1,0 +1,31 @@
+begin
+	integer var1[26]
+	boolean var1
+	if 13 then
+		loop
+			get var1
+			exit when (var1)
+			get var1
+			get var1[false], var1, var1[(56) < (-((79) < (false)))]
+			put ":D"
+		end
+	else
+		return (var1[-({
+			var1[var1] <= -(true)
+		yields
+			var1[false]
+		})])
+		return (false)
+		var1[true] <= var1[-(false), true]
+		var1[(var1) <= (false), false] <= {
+			exit
+		yields
+			76
+		}
+		begin
+			return
+		end
+	end
+	exit
+end
+

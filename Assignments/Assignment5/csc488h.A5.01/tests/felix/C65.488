@@ -1,0 +1,9 @@
+begin
+    if !false = true then
+        put "true"
+    end
+    put skip
+    if !true = false then
+        put "false"
+    end
+end

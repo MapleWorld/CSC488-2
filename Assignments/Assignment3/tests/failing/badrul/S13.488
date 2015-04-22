@@ -1,0 +1,8 @@
+% messing with scope, should get parsing error
+begin
+	integer function add1 (integer x)
+	begin
+		return (x+1)
+	end
+	return 
+end

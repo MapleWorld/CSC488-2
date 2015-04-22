@@ -1,0 +1,8 @@
+begin
+    procedure hello begin
+        procedure world begin
+        end
+
+        return
+    end
+end

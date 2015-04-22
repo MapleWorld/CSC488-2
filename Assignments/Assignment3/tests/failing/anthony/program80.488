@@ -1,0 +1,25 @@
+begin
+	loop
+		if ({
+			exit when (!((84) + (true)))
+		yields
+			true
+		}) * ({
+			exit
+		yields
+			!((68) * (false))
+		}) then
+			put skip
+			put skip
+		end
+		boolean function func4(boolean arg8)
+		begin
+			put skip, skip
+			exit when ((46) - ((23) >= (true)))
+			arg8[func4(40)] <= 86
+			put "hello"
+		end
+
+	end
+end
+

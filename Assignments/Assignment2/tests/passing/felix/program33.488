@@ -1,0 +1,7 @@
+
+begin 
+	procedure f ( boolean p , boolean n , integer k , integer y , integer x , boolean z , boolean d , integer b ) 
+	begin 
+		e ( ! true , ! ! - c ) 
+	end 
+end 

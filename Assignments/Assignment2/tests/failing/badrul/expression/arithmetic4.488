@@ -1,0 +1,5 @@
+% unary multiplication
+begin
+    integer x 
+    x <= *5
+end

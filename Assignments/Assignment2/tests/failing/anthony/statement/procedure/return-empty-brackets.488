@@ -1,0 +1,5 @@
+begin
+    boolean function lol begin
+        return ()
+    end
+end

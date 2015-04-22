@@ -1,0 +1,36 @@
+begin
+	procedure proc1(boolean arg2, boolean arg3, boolean arg1)
+	begin
+		boolean var1, var7, var6[14, 78..91]
+		var7 <= !(var1)
+		if true then
+			return
+		else
+			put skip, skip, ":D"
+			boolean var2[34, 27], var3
+			var2[24, 21] <= (var3) | (var1)
+			put "hello", (25) - (72)
+			boolean var9[34, 91], var4
+		end
+		boolean function func2
+		begin
+			put "world"
+			var3 <= var9[-(37), ((37) - (-(88))) - (-(61))]
+			var3 <= true
+			integer var2[73, 42], var1[-10..93, 49..85], var4
+			return (true)
+		end
+
+		procedure proc2(boolean arg1, integer arg2, integer arg4)
+		begin
+			get arg4, arg2
+			put skip, "!?", "world"
+			boolean var1[44..99, -15..22], var3[38..81, 36..37]
+			var1[arg2, -((-(21)) * (-(arg2)))] <= func2
+			get arg4, arg2
+		end
+
+	end
+
+end
+

@@ -1,0 +1,44 @@
+begin
+	integer var2[1, 69], var3[-32..62, -65..-61], var1[-7..78]
+	var3[({
+		while true do
+			get var1[5], var2[23, 45], var2[66, 75]
+			exit
+			put "!?", 20, skip
+			get var2[23, 84], var3[2, 65]
+			var3[95, 1] <= 42
+		end
+	yields
+		var3[0, 95]
+	}) + ({
+		boolean function func1(boolean arg5, boolean arg3)
+		begin
+			return (false)
+		end
+
+	yields
+		(26) + (48)
+	}), 71] <= -(((var1[93]) / (var2[62, 53])) + ({
+		get var1[54], var1[60]
+	yields
+		var3[25, 18]
+	}))
+	loop
+		boolean function func2(integer arg4, boolean arg1)
+		begin
+			return (!(true))
+			integer var1[59, 33]
+			get var1[82, -(var1[-(71), 31])], arg4
+		end
+
+		var1[66] <= ({
+			get var3[-(83), var3[56, 16]], var1[(67) * (89)]
+		yields
+			99
+		}) + (var1[var1[var1[15]]])
+		loop
+			var1[var1[81]] <= var3[var3[(24) - (var2[31, 41]), 96], var1[var2[0, var3[2, 65]]]]
+		end
+	end
+end
+

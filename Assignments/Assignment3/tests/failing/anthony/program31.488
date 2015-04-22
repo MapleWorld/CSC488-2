@@ -1,0 +1,59 @@
+begin
+	while {
+		if !({
+			exit when (88)
+		yields
+			-(true)
+		}) then
+			put skip
+			exit
+			put skip
+			exit
+			put false
+		end
+	yields
+		((true) | (92)) & (!(!(66)))
+	} do
+		integer var1[26..-97, 49..-7]
+		loop
+			var1[(false) | (92), (var1[-(false)]) <= (-(true))] <= true
+			exit
+			exit when (var1[false])
+		end
+	end
+	while 13 do
+		exit when (65)
+		procedure proc2(integer arg5, boolean arg6)
+		begin
+			integer var1, var2[49..-36]
+			exit
+			proc2(false, var1[false])
+			return (true)
+		end
+
+		var1[{
+			exit
+		yields
+			!(100)
+		}] <= {
+			exit
+		yields
+			80
+		}
+	end
+	integer function func2
+	begin
+		if !(({
+			proc2(false, var1[false, false])
+		yields
+			(3) > (false)
+		}) * (false)) then
+			proc2(true, 10)
+			put ":D", (false) | (21), -(((true) | (74)) = (func2))
+		end
+		put false, "!?"
+	end
+
+	put skip, skip, false
+end
+

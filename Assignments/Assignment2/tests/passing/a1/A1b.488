@@ -1,0 +1,61 @@
+% Author: Vishrant Vasavada
+% Info: A program using arrays including all forms of array declaration, positive and negative bounds.
+
+begin
+	integer sArray[3]	% Simple array
+	integer pbArray[2 .. 4]	% Array with positive bounds
+	integer ngArray[-3 .. -1]	% Array with negative bounds
+	integer mArray[2,2] % Multidimensional array
+
+	% As given in notes, lower bound must be less than or equal to upper bound
+	integer ebArray[4 .. 4] % Array with equal bounds
+
+	% TEST 1: Assignment statements
+	% Array indices start at 1 not 0
+	sArray[1] <= 1
+	sArray[2] <= 2
+
+	if sArray[1] + sArray[2] = 3 then
+		put "Test 1 passed: Assignment statements" , skip
+	else
+		put "Test 1 failed: Assignment statements" , skip
+	end
+
+	% TEST 2: Positive and Equal Bounds
+	% The bounded array can have entry values only within (and including) bounds
+	pbArray[2] <= 2
+	pbArray[3] <= 3
+	pbArray[4] <= 4
+	ebArray[4] <= 4
+
+	if pbArray[2] = 2 & pbArray[3] = 3 & pbArray[4] = 4 & ebArray[4] = 4 then
+		put "Test 2 passed: Positive and Equal Bounds" , skip
+	else
+		put "Test 2 failed: Positive and Equal Bounds" , skip
+	end
+
+	% TEST 3: Negative Bounds
+	nbArray[-3] <= -3
+	nbArray[-2] <= -2
+	nbArray[-1] <= -1
+
+	if nbArray[-3] = -3 & nbArray[-2] = -2 & nbArray[-1] = -1 then
+		put "Test 3 passed: Negative Bounds" , skip
+	else
+		put "Test 3 failed: Negative Bounds" , skip
+	end
+
+	% TEST 4: Multi-dimensional Array
+	mArray[1,1] <= 1
+	mArray[1,2] <= 2
+	mArray[2,1] <= 3
+	mArray[2,2] <= 4
+
+	if mArray[1,1] = 1 & mArray[1,2] = 2 & mArray[2,1] = 3 & mArray[2,2] = 4 then
+		put "Test 4 passed: Multi-dimensional Array" , skip
+	else
+		put "Test 4 failed: Multi-dimensional Array" , skip
+	end
+
+	put "That's all folks!"
+end

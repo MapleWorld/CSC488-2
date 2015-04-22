@@ -1,0 +1,5 @@
+% int var <- boolean value
+begin
+    integer x
+    x <= true
+end

@@ -1,0 +1,23 @@
+% before parameter code generation (function with params)
+begin
+	boolean x
+	x <= true
+	integer y
+	y <= 2
+	integer result
+	result <= 0
+	integer function foo (boolean a , integer b)
+	begin
+		integer r
+		r <= 0
+		if a
+		then
+			r <= b
+		else
+			r <= b + b
+		end
+		return (r)
+	end
+	result <= foo(x,y)
+	put result
+end

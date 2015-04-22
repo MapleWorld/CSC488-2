@@ -1,0 +1,40 @@
+begin
+	exit
+	exit
+	loop
+		if !(({
+			integer var1, var2[-16..-86], var3[51, 79]
+		yields
+			false
+		}) - (true)) then
+			exit
+			exit when (39)
+			exit when (!(28))
+			exit
+		end
+		put "!?", {
+			integer var1[81]
+		yields
+			86
+		}
+		put true, skip, "hello"
+		procedure proc1(boolean arg1)
+		begin
+			get arg1, arg1[arg1[false, ((7) - (true)) > (false)]]
+			get arg1[true, -(-(true))], arg1
+		end
+
+	end
+	procedure proc2(integer arg2, integer arg3, boolean arg4)
+	begin
+		while {
+			exit when (arg3)
+		yields
+			false
+		} do
+			exit when (arg2)
+		end
+	end
+
+end
+

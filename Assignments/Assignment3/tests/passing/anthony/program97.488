@@ -1,0 +1,30 @@
+begin
+	put skip, {
+		integer function func1(integer arg1, boolean arg2)
+		begin
+			return (68)
+			return (arg1)
+			return (arg1)
+			return (arg1)
+		end
+
+	yields
+		-(2)
+	}
+	put "world", {
+		begin
+			put -(-(84))
+			boolean var2[33..65]
+			var2[90] <= var2[21]
+		end
+	yields
+		{
+			boolean var2[-33..69, 70..78], var3[93..95], var6
+		yields
+			-(43)
+		}
+	}, "!?"
+	integer var1[71, -62..-17], var2[82]
+	put "world", 31
+end
+

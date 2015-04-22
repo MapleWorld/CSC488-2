@@ -1,0 +1,5 @@
+% short-circuit false followed by hanging |
+begin
+    boolean x 
+    x <= false |
+end

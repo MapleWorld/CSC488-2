@@ -1,0 +1,88 @@
+begin
+	begin
+		while {
+			put "!?", (29) <= (true)
+		yields
+			false
+		} do
+			exit when (96)
+			exit when (!(59))
+			exit when (18)
+			exit when (52)
+			put "hello"
+		end
+		if 24 then
+			exit when (!(!(50)))
+			exit when (82)
+			integer var1, var2[52..-57, -68..-96], var3[50..-71]
+			exit
+		else
+			return (true)
+			boolean var1
+			exit
+			exit
+			var1 <= 27
+		end
+		begin
+			boolean var1, var2[-80..-95]
+			exit when (12)
+		end
+		exit
+		get var1, var1[var1[(var3[false]) >= (-(false))]], var1[((var2[true]) / ((true) | (13))) <= ({
+			get var1[false]
+		yields
+			98
+		})]
+	end
+	begin
+		exit
+		begin
+			put skip, true
+		end
+		if {
+			exit
+		yields
+			-(false)
+		} then
+			exit when (38)
+			exit when (!(((64) / (true)) - (false)))
+			exit when (!(56))
+		end
+		while (({
+			exit when (40)
+		yields
+			true
+		}) / ((!(82)) <= (false))) - (-(false)) do
+			exit when (38)
+		end
+		loop
+			exit
+			exit when (78)
+			exit
+			exit
+		end
+	end
+	put true, ":D"
+	procedure proc4(boolean arg13, boolean arg14)
+	begin
+		if {
+			boolean var1[-49..-60, -31..-77], var2[2]
+		yields
+			arg13[arg13[-(true), true]]
+		} then
+			get arg13, arg14[(true) | (23)]
+			arg14[false] <= 96
+			proc4(4, !(!((!(59)) + (true))))
+			proc4((56) - (arg14), !(71))
+		end
+		procedure proc1(boolean arg4)
+		begin
+			return
+			proc4(81, 66)
+		end
+
+	end
+
+	exit
+end
+

@@ -1,0 +1,7 @@
+% arithmetic with boolean: parsing error 
+begin
+	integer function add1 (boolean x)
+	begin
+		return (x+1)
+	end
+end

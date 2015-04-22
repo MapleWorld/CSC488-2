@@ -1,0 +1,4 @@
+begin
+	put skip, "hello"
+end
+

@@ -1,0 +1,48 @@
+Mark: 86 / 100
+
+  * Good README.A1, with explanation of authorship
+     - Next time please include your team # as well
+  * Correct naming for tarball, readme and programs
+     - Next time, please put assignment contents at the top-level of the 
+tarball and not within any subdirectory (such as `programs`)
+
+
+a) Arthimetic, Logical and Comparison Operators (20 / 20)
+-----------------------------------------------
+
+  * All operators exercised (don't forget the Boolean constant `true` 
+though)
+  * Good use of PUT statements to turn these into functional test cases
+
+
+b) Arrays, with all forms of bounds (20 / 20)
+-----------------------------------
+
+  * All forms declared and used
+  * In the future, consider testing array accesses with expressions
+  * In the future, consider testing 'generalBound's with negative lower 
+and positive upper bounds
+  * In the future, consider testing 'generalBound's with 2D arrays
+
+
+c) Loop building and exit constructs (16 / 20)
+------------------------------------
+
+  * (-4) Missing `exit` and `exit when` usage from within a while loop
+
+
+d) Non-recursive functions & procedures, with & without parameters (16 / 20)
+------------------------------------------------------------------
+
+  * (-4) Missing declaration & use of a non-recursive function without 
+parameters
+
+
+e) Recursive function & procedures, with & without parameters, including 
+nested declarations (14 / 20)
+--------------------------------------------------------------------------------------------
+
+  * (-3) Missing a declaration of a parameter-less procedure with 
+recursive use
+  * (-3) Missing a declaration of a parameter-less function with 
+recursive use

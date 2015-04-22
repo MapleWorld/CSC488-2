@@ -1,0 +1,61 @@
+begin
+	boolean function func3(integer arg1, boolean arg4)
+	begin
+		loop
+			return (arg4)
+			return (true)
+			return (func3(arg1, (-(arg1)) < (-(arg1))))
+			put skip, (77) + (arg1), arg1
+		end
+	end
+
+	integer var1, var2[29..44, 95..99]
+	while {
+		put skip, skip, skip
+	yields
+		func3(62, func3(var2[var1, 77], !(false)))
+	} do
+		if true then
+			exit
+			integer var4[31], var5, var7
+		end
+		integer function func1(integer arg4)
+		begin
+			put func1(48), skip
+			return (-((-(func1(var1))) / (36)))
+			put skip, -(var7), skip
+			var1 <= -(29)
+			return (var2[func1(func1(84)), 76])
+		end
+
+		loop
+			var2[func1(-(func1(var1))), var5] <= func1((var5) * (var2[func1(81), func1(64)]))
+		end
+		loop
+			exit when (!(func3(var5, false)))
+			var5 <= var2[func1(-(func1(83))), var7]
+			exit
+			put var4[var7]
+			get var7, var1, var1
+		end
+	end
+	procedure proc1(boolean arg2, boolean arg3)
+	begin
+		boolean var1
+		begin
+			var7 <= -(func1(func1((3) + (81))))
+			get var2[func1(var7), var5], var2[(var5) - (-(var5)), var4[func1((var5) * (var7))]]
+			integer var1[47..94], var2[97], var3[-57..83]
+			get var1[var3[(19) + (54)]], var3[var3[var1[(41) / (69)]]], var2[func1(var1[func1(78)])]
+			put -(func1(11)), "hello", "world"
+		end
+		loop
+			exit when (func3(93, true))
+			var1 <= func3(func1(88), false)
+			integer var5[-94..12], var2[61..73, 19..25], var4[57, 62]
+			var4[func1(var4[41, (34) * (55)]), var2[var7, func1((15) + (30))]] <= func1(41)
+		end
+	end
+
+end
+

@@ -1,0 +1,40 @@
+begin
+	while false do
+		loop
+			exit
+			exit when (false)
+			exit when ((-((3) / (37))) <= (74))
+			exit
+			put 48
+		end
+	end
+	while !({
+		procedure proc5
+		begin
+			integer var1, var6, var2[10, -64..70]
+			get var6, var1
+			boolean var4, var5[3], var3
+			var5[24] <= false
+		end
+
+	yields
+		true
+	}) do
+		boolean var1[55, 20]
+		if false then
+			put 74
+			var1[58, -(-(19))] <= (93) < (41)
+		end
+	end
+	put 96, "!?", {
+		begin
+			var1[81, -(58)] <= var1[66, 56]
+			boolean var1, var2[-4..99], var3
+			var2[93] <= true
+			put skip, skip
+		end
+	yields
+		89
+	}
+end
+

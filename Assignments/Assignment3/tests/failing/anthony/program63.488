@@ -1,0 +1,35 @@
+begin
+	procedure proc1
+	begin
+		while {
+			exit when (16)
+		yields
+			true
+		} do
+			exit when (!(78))
+			put "world", false, skip
+			proc1
+			exit
+			proc1
+		end
+		while 46 do
+			put ":D"
+			put skip
+			exit when (76)
+			proc1
+			exit when (!(25))
+		end
+		loop
+			put skip, true, -(false)
+			integer var1[98, 70], var2[96..35], var3
+			return
+		end
+		loop
+			proc1
+			exit when (((23) + (false)) * (false))
+			exit when (!(3))
+		end
+	end
+
+end
+

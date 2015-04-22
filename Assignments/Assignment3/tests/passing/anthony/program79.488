@@ -1,0 +1,25 @@
+begin
+	while true do
+		while {
+			put skip, skip, skip
+		yields
+			true
+		} do
+			exit when (true)
+		end
+		exit when (true)
+	end
+	while true do
+		exit
+		procedure proc1(integer arg1, boolean arg2)
+		begin
+			integer var2[24], var5, var1
+			return
+			return
+			return
+			return
+		end
+
+	end
+end
+

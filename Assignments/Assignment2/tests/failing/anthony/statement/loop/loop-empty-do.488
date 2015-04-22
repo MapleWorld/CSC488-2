@@ -1,0 +1,5 @@
+begin
+    loop do
+        begin end
+    end
+end

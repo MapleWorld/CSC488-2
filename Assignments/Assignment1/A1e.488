@@ -1,0 +1,56 @@
+% Author: Tian Ze Chen
+% Info: A program using recursive functions and procedures
+% with and without parameters include at least
+% one nested procedure and one nested function declaration
+
+begin
+
+	procedure job_0 begin put "Hello world!", skip end
+
+	procedure job_1 begin
+		% recursive function
+		integer function fib ( integer x ) begin
+			if x < 2 then
+				return (1)
+			else
+				return ( fib(x-1) + fib(x-2) )
+			end
+		end
+
+		% recursive procedure
+		procedure putseq ( integer val_begin, integer val_end ) begin
+			% [ val_begin, val_end ]
+
+			% nested procedure
+			procedure putseq_impl ( integer a, integer b, integer d ) begin
+				put a, skip
+				if a != b then
+					putseq_impl(a+d, b)
+				end
+			end
+
+			if val_begin < val_end then
+				putseq_impl(val_begin, val_end,  1)
+			else
+				putseq_impl(val_end, val_begin, -1)
+			end
+		end
+
+		putseq(fib(20), fib(19))
+	end
+
+	procedure job_2 begin put "Hello world! (again)", skip end
+	procedure job_3 begin put "Hello world! (???)", skip end
+
+	integer jobid
+	get jobid
+
+	if jobid = 0 then job_0 end
+	if jobid = 1 then job_1 end
+	if jobid = 2 then job_2 end
+	if jobid = 3 then job_3 end
+	if jobid < 0 | jobid > 3 then
+		put "invalid job id", skip
+	end
+
+end

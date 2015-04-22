@@ -1,0 +1,19 @@
+begin
+	procedure proc1(integer arg1)
+	begin
+		return
+	end
+
+	exit when (!({
+		begin
+			put "hello", false
+			put true
+			proc1(false)
+			proc1((false) | (70))
+			exit when (!(!(86)))
+		end
+	yields
+		((38) * (false)) < (false)
+	}))
+end
+

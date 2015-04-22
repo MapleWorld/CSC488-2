@@ -1,0 +1,11 @@
+
+begin 
+	boolean function l 
+	begin 
+		if t & true then 
+			if - j then 
+				get y 
+			end 
+		end 
+	end 
+end 

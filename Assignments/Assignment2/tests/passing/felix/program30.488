@@ -1,0 +1,7 @@
+
+begin 
+	procedure f 
+	begin 
+		p ( -61 , ! 40 ) 
+	end 
+end 

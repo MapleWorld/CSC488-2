@@ -1,0 +1,15 @@
+begin
+	put false, true, skip
+	exit
+	begin
+		loop
+			integer var1[-69..-98], var2[84]
+			var2[true, true] <= false
+			exit when (((!(var1[true])) * (true)) * ((31) >= (false)))
+			exit when (var1)
+			put "!?", "world", false
+		end
+		integer var1, var2, var3[-48..-94]
+	end
+end
+

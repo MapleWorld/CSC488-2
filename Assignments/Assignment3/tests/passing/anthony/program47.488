@@ -1,0 +1,23 @@
+begin
+	put skip
+	loop
+		boolean function func2
+		begin
+			return (true)
+			integer var1[73, -66..-18], var2[12], var3[53..67, 6]
+			return (!(true))
+			put skip, var2[var2[(var2[61]) / ((81) * (8))]]
+			var3[91, 71] <= var3[31, var1[var3[84, 35], 40]]
+		end
+
+		while ((false) & (func2)) | (false) do
+			put skip, (-(-(4))) * (2)
+			exit when (!(func2))
+			exit when (false)
+			exit
+			put 25, -(-(6))
+		end
+	end
+	integer var2[80..83], var1[-33..70], var3[84, 56]
+end
+

@@ -1,0 +1,429 @@
+%  Assignment 4 Sample Program 2                        % 2-1
+begin                                                   % 2-2
+   integer a, b , c                                     % 2-3
+   boolean p, q, r                                      % 2-4
+   if p | q  then  a <= 3 end                           % 2-5
+   if ! q & ! q  then b <= 2 else b <= 0 end            % 2-6
+   while c < 7 do  c <= 8 end                           % 2-7
+   loop  a <= 3 exit b <= 7 end                         % 2-8
+   while q | r & ! p do  exit when !(b != 10) end       % 2-9
+   put "Value is " , a / b, " or  " , b * -c ,  skip    % 2-10
+   get  a, c, b                                         % 2-11
+   begin                                                % 2-12
+       integer m, n, c                                  % 2-13
+       m <= 7 - b +c                                    % 2-14
+       begin                                            % 2-15
+          integer p, q, r                               % 2-16
+          p <= { begin  p <= a end yields r-b }         % 2-17
+       end                                              % 2-18
+   end                                                  % 2-18
+   while ! ( p | q )  do                                % 2-20
+       exit when p & r                                  % 2-21
+       loop                                             % 2-22
+          integer w, x                                  % 2-23
+          if w <= a then exit end                       % 2-24
+          integer t, u                                  % 2-25
+          t <= { boolean m  m <= w < t                  % 2-26
+                       if m then t <= t + c end         % 2-27
+                           yields t }                   % 2-28
+        end     % loop                                  % 2-29
+   end   % while                                        % 2-30
+end                                                     % 2-31
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Vishrant Vasavada               %
+% A4 Sample 2                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Open the main scope
+
+ADDR 0 0
+PUSHMT
+SETD 0
+
+% Local variables:
+% a, b, c : 3
+% p, q, r : 3
+% m, n, c : 3
+% p, q, r : 3
+% w, x : 2
+% t, u : 2
+% m : 1
+% Total: 17
+
+PUSH UNDEFINED
+PUSH 17
+DUPN
+
+% if p | q  then  a <= 3 end
+
+        % p | q
+        ADDR 0 3
+        LOAD
+        PUSH else7
+        BF
+        PUSH MACHINE_TRUE
+        PUSH end7
+        BR
+        else7:
+        ADDR 0 4
+        LOAD
+        end7:
+
+        % if p | q ...
+        PUSH end0
+        BF
+
+                % then a <= 3
+                ADDR 0 0
+                PUSH 3
+                STORE
+
+        % else and end
+        end0:
+
+% if ! q & ! q  then b <= 2 else b <= 0 end
+
+        % ! q
+        ADDR 0 4
+        LOAD
+        PUSH MACHINE_FALSE
+        EQ
+
+        % ! q & ...
+        PUSH else2
+        BF
+                % ! q
+                ADDR 0 4
+                LOAD
+                PUSH MACHINE_FALSE
+                EQ
+                PUSH end2
+                BR
+        else2:
+                PUSH MACHINE_FALSE
+        end2:
+
+        % if (...)
+        PUSH else4
+        BF
+                % then b <= 2
+                ADDR 0 1
+                PUSH 2
+                STORE
+                PUSH end4
+                BR
+        else4:
+                % else b <= 0
+                ADDR 0 1
+                PUSH 0
+                STORE
+        end4:
+
+% while c < 7 do  c <= 8 end
+
+        begin0:
+
+        % c < 7
+        ADDR 0 2
+        LOAD
+        PUSH 7
+        LT
+        PUSH end5
+        BF
+
+                % do c <= 8
+                ADDR 0 2
+                LOAD
+                PUSH 8
+                STORE
+                PUSH begin0
+                BR
+
+        end5:
+
+% loop  a <= 3 exit b <= 7 end
+
+        begin1:
+
+        % a <= 3
+        ADDR 0 0
+        PUSH 3
+        STORE
+
+        % exit
+        BR end6
+
+        % b <= 7
+        ADDR 0 1
+        LOAD
+        PUSH 7
+        STORE
+
+        PUSH begin1
+        BR
+
+        end6:
+
+% while q | r & ! p do  exit when !(b != 10) end
+
+        begin2:
+
+        % q | (r & !p)
+        ADDR 0 4
+        LOAD
+        PUSH else3
+        BF
+                PUSH MACHINE_TRUE
+                PUSH end3
+                BR
+        else3:
+                % r & !p
+                ADDR 0 5
+                LOAD
+                PUSH else1
+                BF
+                        % !p
+                        ADDR 0 3
+                        LOAD
+                        PUSH end1
+                        BR
+                else1:
+                        PUSH MACHINE_FALSE
+                end1:
+        end3:
+
+        % !(b != 10)
+        ADDR 0 1
+        LOAD
+        PUSH 10
+        EQ
+        PUSH MACHINE_FALSE
+        EQ
+        PUSH MACHINE_FALSE
+        EQ
+
+        % exit when ...
+        PUSH MACHINE_FALSE
+        EQ
+        PUSH end7
+        BF
+
+        % end
+        PUSH begin2
+        BR
+        end7:
+
+% put "Value is " , a / b, " or  " , b * -c ,  skip
+
+PUSH 'V'
+PRINTC
+PUSH 'a'
+PRINTC
+PUSH 'l'
+PRINTC
+PUSH 'u'
+PRINTC
+PUSH 'e'
+PRINTC
+PUSH ' '
+PRINTC
+PUSH 'i'
+PRINTC
+PUSH 's'
+PRINTC
+PUSH ' '
+PRINTC
+
+ADDR 0 0
+LOAD
+ADDR 0 1
+LOAD
+DIV
+PRINTI
+
+PUSH ' '
+PRINTC
+PUSH 'o'
+PRINTC
+PUSH 'r'
+PRINTC
+PUSH ' '
+PRINTC
+
+ADDR 0 1
+LOAD
+ADDR 0 2
+LOAD
+NEG
+MUL
+PRINTI
+
+PUSH '\n'
+PRINTC
+
+% get  a, c, b
+ADDR 0 0
+READI
+STORE
+
+ADDR 0 2
+READI
+STORE
+
+ADDR 0 1
+READI
+STORE
+
+        % Inside the minor scope
+
+        % m <= 7 - b +c
+        ADDR 0 6
+
+        % 7 - b + c
+        PUSH 7
+        ADDR 0 1
+        LOAD
+        SUB
+        ADDR 0 8
+        ADD
+
+        % m <= 7 - b + c
+        STORE
+
+                % Inside the minor scope inside this scope
+
+                % p <= { begin  p <= a end yields r-b }
+                ADDR 0 9
+
+                % p <= a
+                ADDR 0 9
+                ADDR 0 0
+                LOAD
+                STORE
+
+                % r - b
+                ADDR 0 11
+                LOAD
+                ADDR 0 1
+                SUB
+
+                STORE
+
+% while ! ( p | q )
+        begin3:
+
+        % p | q
+        ADDR 0 3
+        LOAD
+        PUSH else9
+        BF
+                PUSH MACHINE_TRUE
+                PUSH end9
+                BR
+        else9:
+                ADDR 0 4
+                LOAD
+        end9:
+
+        % !(p | q)
+        PUSH MACHINE_FALSE
+        EQ
+
+        % while ...
+        PUSH end8
+        BF
+
+        % p & r
+        ADDR 0 3
+        LOAD
+        PUSH else11
+        BF
+                ADDR 0 5
+                LOAD
+                PUSH end11
+                BR
+        else11:
+                PUSH MACHINE_FALSE
+        end11:
+
+        % exit when p & r
+        PUSH MACHINE_FALSE
+        EQ
+        PUSH end8
+        BF
+
+        % loop
+                begin4:
+
+                % w <= a is same as ! (a < w)
+                ADDR 0 12
+                LOAD
+                ADDR 0 0
+                LOAD
+                SWAP
+                LT
+                PUSH MACHINE_FALSE
+                EQ
+
+                % if (...) then
+                PUSH end5
+                BF
+                        % exit
+                        PUSH end9
+                        BR
+                end5:
+
+                % t <= ...
+                ADDR 0 4
+
+                % Inside parameterless function scope
+                        % m <= w < t
+                        ADDR 0 16
+
+                        % w < t
+                        ADDR 0 12
+                        LOAD
+                        ADDR 0 14
+                        LOAD
+                        LT
+
+                        % m <= ...
+                        STORE
+
+                        % if m
+                        ADDR 1 0
+                        LOAD
+                        PUSH end10
+                        BF
+
+                        % t <= t + c
+                        ADDR 0 8
+
+                        % t + c
+                        ADDR 0 14
+                        LOAD
+                        ADDR 0 2
+                        LOAD
+                        ADD
+
+                        STORE
+
+                        end10:
+
+                        % yields t
+                        ADDR 0 14
+                        LOAD
+                STORE
+
+                PUSH begin4
+                BR
+
+                end9:
+
+        PUSH begin3
+        BR
+
+        end8:
+
+HALT

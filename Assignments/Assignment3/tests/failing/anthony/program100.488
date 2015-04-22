@@ -1,0 +1,35 @@
+begin
+	loop
+		while !(7) do
+			put "hello", skip, "!?"
+			put -(false), "hello", skip
+		end
+		procedure proc2(integer arg1)
+		begin
+			boolean var1[94], var2[-12..-39, 51..-23]
+			exit when (arg1[-(false)])
+			exit
+			arg1 <= true
+		end
+
+		if {
+			boolean var1
+		yields
+			true
+		} then
+			put skip, false, (82) >= (true)
+			integer var1, var2
+			return (true)
+		else
+			exit when (21)
+		end
+		loop
+			var2[(-(-(false))) != (48)] <= false
+			exit
+			boolean var1[-81..-90, -77..-84]
+			get var1[var1]
+		end
+		exit when (var1)
+	end
+end
+

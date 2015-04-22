@@ -1,0 +1,21 @@
+begin
+	integer var1[14, 98]
+	while false do
+		while true do
+			get var1[var1[(var1[68, 60]) * (var1[89, 46]), (var1[6, 36]) - (var1[19, 68])], var1[23, 78]], var1[var1[49, (91) / ((4) + (68))], -((16) - (-(18)))], var1[var1[30, var1[92, 24]], 38]
+			boolean var4[48..80], var3[98..98, 19..76], var2
+			integer var5[40], var6[46..93], var9[-99..47, 17]
+		end
+		while var2 do
+			exit when ((var9[-(-(65)), 74]) > (-(88)))
+		end
+		while true do
+			var1[57, (var5[(28) + (43)]) + (85)] <= 48
+			get var1[var1[(var9[78, 83]) / (81), 42], 82], var6[46], var5[35]
+			put skip, var5[var9[var6[var1[27, 74]], var5[58]]]
+			integer var8
+			integer var7[84]
+		end
+	end
+end
+

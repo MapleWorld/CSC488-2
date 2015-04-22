@@ -1,0 +1,12 @@
+begin
+	exit
+	exit
+	procedure proc1
+	begin
+		loop
+			exit when (71)
+		end
+	end
+
+end
+

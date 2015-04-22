@@ -1,0 +1,45 @@
+begin
+	boolean var1, var2[1, 54], var3[13, 83..10]
+	while {
+		integer function func1(integer arg1, integer arg2)
+		begin
+			put (arg1[(false) != (39)]) = ((var1[true]) & (func1(false, true))), skip, var1[var3, false]
+			exit
+			arg2[true] <= (var3[true, -(var3)]) & (48)
+			put ":D"
+		end
+
+	yields
+		var1[false, false]
+	} do
+		var1[false] <= {
+			exit
+		yields
+			false
+		}
+		get var3[true, (false) & ({
+			put skip, "!?", -(true)
+		yields
+			-(false)
+		})]
+		procedure proc2
+		begin
+			exit
+			get var3[false, false]
+			put ":D", "!?"
+			put skip, true
+			exit when (0)
+		end
+
+		begin
+			get var3[false], var3[var1[true, false], -((16) > (true))]
+			var2[var3[-(-(false))]] <= !(!(!(83)))
+		end
+	end
+	exit when (!({
+		proc2
+	yields
+		false
+	}))
+end
+

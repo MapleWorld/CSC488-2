@@ -1,0 +1,48 @@
+begin
+	while !((false) | (false)) do
+		procedure proc3(integer arg1, integer arg2, integer arg5)
+		begin
+			get arg1
+			put "!?", "hello"
+		end
+
+	end
+	proc3(92, -({
+		put ":D", "world"
+	yields
+		{
+			boolean var2[46, 62]
+		yields
+			75
+		}
+	}), {
+		integer function func1
+		begin
+			integer var2[63, 85..89], var5[49, 82]
+			return (func1)
+			get var2[func1, (var2[88, 24]) - ((51) / (37))], var5[var2[var2[84, 96], (18) + (6)], 54], var2[var2[func1, var5[87, 7]], (func1) * (func1)]
+			return (8)
+		end
+
+	yields
+		func1
+	})
+	begin
+		procedure proc1(boolean arg2)
+		begin
+			boolean var2[25, 74], var1[45], var5
+			boolean var4, var6[86], var10[29..43]
+			put "world"
+		end
+
+		put skip, skip, skip
+		begin
+			put skip, skip, "world"
+			put skip, 67, ":D"
+			put "!?", ":D"
+			put ":D", "world", skip
+		end
+		boolean var2[-6..94, 53], var1[-65..2, 81], var3[-21..80, 59]
+	end
+end
+

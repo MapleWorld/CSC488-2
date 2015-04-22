@@ -1,0 +1,14 @@
+
+begin 
+	procedure g ( boolean s , boolean o , integer b , integer b , boolean r , boolean j , boolean w , boolean x ) 
+	begin 
+		if 
+		{ 
+			boolean l yields r 
+		} then 
+			if false then 
+				return 
+			end 
+		end 
+	end 
+end 

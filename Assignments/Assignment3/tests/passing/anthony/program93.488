@@ -1,0 +1,22 @@
+begin
+	begin
+		put 21, 13
+	end
+	loop
+		exit
+		boolean var1[-100..5], var2[46..94, 51], var6[11, -11..25]
+		if true then
+			var6[68, 53] <= true
+			boolean var3, var5[10..20], var7
+			boolean var4[30..77], var8[37], var9
+		end
+		put "hello"
+		integer var10[44..75, 27..27]
+	end
+	get var10[69, {
+		var5[-(0)] <= false
+	yields
+		(21) - (var10[27, 98])
+	}]
+end
+

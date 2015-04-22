@@ -1,0 +1,16 @@
+begin
+	boolean function func1(integer arg1, integer arg2)
+	begin
+		procedure proc1(integer arg3, boolean arg4)
+		begin
+			exit
+			return
+			arg4[func1(arg4, true)] <= (arg2) - (func1(false, false))
+			return (!(35))
+		end
+
+	end
+
+	exit
+end
+

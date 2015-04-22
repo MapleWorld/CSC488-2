@@ -1,0 +1,113 @@
+begin
+	boolean function func3(integer arg1, integer arg3, integer arg2)
+	begin
+		put skip
+		if true then
+			return (true)
+			boolean var4
+			return (false)
+		else
+			return (false)
+			return (true)
+			put arg3, "!?"
+			return (!(var4))
+			return (var4)
+		end
+		while ((-(60)) / ({
+			return (!(var4))
+		yields
+			9
+		})) <= ({
+			get arg1, arg3, arg2
+		yields
+			arg2
+		}) do
+			exit when (false)
+			return (true)
+			exit
+		end
+		begin
+			var4 <= true
+			return (false)
+			return (false)
+			put "hello"
+			return (false)
+		end
+	end
+
+	loop
+		while func3(-({
+			boolean var1
+		yields
+			-(64)
+		}), -(((37) * (52)) + (13)), {
+			put skip, 76
+		yields
+			43
+		}) do
+			exit when ((96) < (4))
+			boolean var3[64, 72]
+			var3[(86) - ((-(22)) / ((100) - (19))), 27] <= (82) > (47)
+			var3[100, -(((84) + (95)) + (-(24)))] <= true
+			integer var1
+		end
+		procedure proc2(boolean arg1, boolean arg2, boolean arg4)
+		begin
+			return
+			integer var1
+			return
+			return
+		end
+
+		boolean var4[77..90, 29], var2, var6[75..92, 16]
+		begin
+			get var1, var1, var1
+		end
+		if {
+			boolean var2[8..40, 96]
+		yields
+			func3(var1, var1, var1)
+		} then
+			proc2(var2, true, false)
+			var3[-(-(-(16))), var1] <= true
+			proc2(func3(-(94), -(96), var1), var2, !(true))
+			exit when (true)
+		end
+	end
+	var6[86, 24] <= true
+	proc2(func3(80, 97, var1), !(func3({
+		while (65) < (var1) do
+			boolean var1, var4, var3[-24..22, 16..44]
+			exit
+			exit
+			exit
+		end
+	yields
+		(20) - (76)
+	}, 20, 100)), ({
+		loop
+			put 58
+			exit
+			put 15, "!?", "hello"
+			get var1, var1
+		end
+	yields
+		11
+	}) < (-(var1)))
+	proc2(var4[34, 7], (34) < (90), {
+		begin
+			get var1
+			var4[-(39), 85] <= true
+			put skip, var1, skip
+			get var1
+			var3[53, var1] <= false
+		end
+	yields
+		{
+			put "hello"
+		yields
+			true
+		}
+	})
+end
+

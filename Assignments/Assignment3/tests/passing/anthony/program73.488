@@ -1,0 +1,18 @@
+begin
+	loop
+		if !(!(false)) then
+			exit
+			integer var1[95..96], var2[-13..83, 22..55], var4[33..91, 2]
+		end
+		integer var7[98..99]
+		exit when (true)
+		var2[52, {
+			put skip, skip, skip
+		yields
+			var1[var1[14]]
+		}] <= 78
+		exit when (false)
+	end
+	put skip, var4[45, 96]
+end
+

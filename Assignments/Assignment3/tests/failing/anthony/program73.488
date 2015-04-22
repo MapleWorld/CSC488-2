@@ -1,0 +1,54 @@
+begin
+	if 50 then
+		return (false)
+	else
+		if 65 then
+			exit
+			put "!?"
+			exit when (85)
+		else
+			exit
+			exit
+			exit when (12)
+			exit
+			exit
+		end
+	end
+	if 41 then
+		loop
+			put skip, skip
+			boolean var1, var2
+		end
+		get var2[{
+			get var2, var1
+		yields
+			1
+		}, -({
+			var2[false, false] <= 89
+		yields
+			!(43)
+		})]
+	else
+		exit when ({
+			integer var1[14], var2
+		yields
+			true
+		})
+		procedure proc1
+		begin
+			exit
+		end
+
+		while {
+			return (-(false))
+		yields
+			(71) <= (var1[(true) != (98)])
+		} do
+			var1 <= 47
+			return
+			get var1[true], var2[((95) * (true)) = (false)]
+			exit when (26)
+		end
+	end
+end
+

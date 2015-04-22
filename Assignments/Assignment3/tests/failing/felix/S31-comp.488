@@ -1,0 +1,6 @@
+begin
+    put true < 1
+    put false <= 5
+    put 1 > true
+    put 5 >= false
+end

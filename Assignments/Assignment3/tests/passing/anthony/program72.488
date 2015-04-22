@@ -1,0 +1,32 @@
+begin
+	begin
+		loop
+			boolean var4[0], var5[31]
+			exit when (false)
+		end
+		procedure proc1(integer arg4, integer arg3)
+		begin
+			return
+			return
+		end
+
+		integer var1[43, 0], var6, var2
+	end
+	while false do
+		put {
+			integer var1[-51..28], var2[53], var3[68]
+		yields
+			16
+		}, -({
+			put skip, skip, "hello"
+		yields
+			-(-(4))
+		})
+	end
+	procedure proc2(integer arg1)
+	begin
+		boolean var3[87..94, -18..38], var4[46..100, -26..23], var1[90..100, 38]
+	end
+
+end
+

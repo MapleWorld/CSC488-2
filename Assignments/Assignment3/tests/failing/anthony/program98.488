@@ -1,0 +1,82 @@
+begin
+	loop
+		if 9 then
+			exit
+			exit when (!(!(64)))
+			put "!?", false
+		else
+			exit
+			put skip, "hello"
+		end
+		if 68 then
+			exit when (4)
+		else
+			return (1)
+			exit when (36)
+			exit
+		end
+		exit when ({
+			put "world"
+		yields
+			false
+		})
+	end
+	exit
+	if (17) + (false) then
+		exit when ({
+			put true, "!?", skip
+		yields
+			false
+		})
+		while {
+			exit when (!((86) * (true)))
+		yields
+			false
+		} do
+			exit
+			exit
+			exit
+			put "world", skip
+			put (false) & (64), true, true
+		end
+		exit when (11)
+		put true, true, skip
+		integer function func3
+		begin
+			put "!?", "!?", false
+			exit
+			exit
+			put false
+		end
+
+	else
+		exit
+		if {
+			boolean var1[82, 0], var2[-49..-61]
+		yields
+			((func3) < (-(true))) = (func3)
+		} then
+			return (false)
+		else
+			put skip, false, -(false)
+			exit
+			exit when (74)
+		end
+		procedure proc1(integer arg1)
+		begin
+			put skip, (true) | (arg1[true, false])
+			proc1(true)
+		end
+
+		while 16 do
+			exit when (!(59))
+			exit
+		end
+	end
+	if ((func3) / (false)) * ((90) > (-(true))) then
+		put "world", true
+		exit
+	end
+	exit
+end
+

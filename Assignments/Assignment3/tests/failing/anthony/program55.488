@@ -1,0 +1,22 @@
+begin
+	exit
+	exit
+	begin
+		procedure proc1
+		begin
+			return
+			integer var1[-94..-97]
+		end
+
+		procedure proc1(boolean arg1, boolean arg2)
+		begin
+			exit when (14)
+			exit when (23)
+			exit
+			exit
+		end
+
+		put skip
+	end
+end
+

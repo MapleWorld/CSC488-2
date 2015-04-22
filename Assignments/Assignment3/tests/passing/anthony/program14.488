@@ -1,0 +1,13 @@
+begin
+	put skip
+	put {
+		if true then
+			boolean var1[-28..74, -19..74], var4, var2[-16..34]
+			var1[94, 83] <= var1[1, (-(26)) * (74)]
+		end
+	yields
+		86
+	}
+	put "hello"
+end
+

@@ -1,0 +1,3 @@
+begin
+    put 10 * 40
+end

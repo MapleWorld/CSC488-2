@@ -1,0 +1,9 @@
+begin
+    boolean b
+    b <= false
+    if then
+        begin end
+    else
+        begin end
+    end
+end

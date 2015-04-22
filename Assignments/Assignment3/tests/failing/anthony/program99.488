@@ -1,0 +1,93 @@
+begin
+	procedure proc1(integer arg1)
+	begin
+		procedure proc2(boolean arg2, boolean arg3)
+		begin
+			arg3[(1) > (arg2[(28) >= (true)])] <= !(arg1[arg3[true, true]])
+			proc1(true)
+			exit
+			exit
+		end
+
+		procedure proc3
+		begin
+			exit when (62)
+			exit when ((!(100)) * (true))
+			proc3
+			arg1[false, -(false)] <= true
+			arg1[true, true] <= true
+		end
+
+		while arg1 do
+			proc1((46) > (false))
+			arg1 <= true
+			integer var1[56], var2[15], var3
+		end
+		loop
+			put false
+		end
+	end
+
+	begin
+		if 16 then
+			boolean var1, var2[43], var3
+			exit
+		end
+		procedure proc1(integer arg1, boolean arg2)
+		begin
+			return
+		end
+
+		if 25 then
+			put skip, var2[false]
+			proc1(true, (31) * (false))
+			get var1, var1, var3
+			put skip, false
+		end
+		get var1[{
+			put -(false), "world", var1
+		yields
+			6
+		}]
+	end
+	procedure proc3(integer arg6, boolean arg7)
+	begin
+		return (false)
+		procedure proc4(boolean arg8, boolean arg9, integer arg10)
+		begin
+			put skip, skip, ":D"
+			put skip, skip, skip
+		end
+
+		if !(8) then
+			arg6[true] <= true
+			arg6[-(true)] <= false
+			put "world", ":D"
+			exit
+		end
+		if ({
+			get arg7[arg7[false]], arg7, arg7
+		yields
+			arg7[(true) = (9), arg7[false]]
+		}) + (arg7[(!(24)) > ((93) = (true))]) then
+			get arg7, arg7
+			put skip, "hello"
+			put false, (arg6) > (false), arg7[arg7[arg7], true]
+		end
+		if {
+			get arg7[(arg7[true]) != (arg6), arg7[true, false]], arg7[arg7[true]], arg7[true, arg7]
+		yields
+			-(false)
+		} then
+			integer var1, var2[89, 28]
+			proc4(!(!(32)), arg6[arg7], -(-(false)))
+			exit
+		else
+			exit when (!(97))
+			exit
+		end
+	end
+
+	exit
+end
+

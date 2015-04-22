@@ -1,0 +1,98 @@
+begin
+	begin
+		boolean function func4(boolean arg1, integer arg2)
+		begin
+			return (true)
+		end
+
+		procedure proc1(integer arg2, boolean arg3)
+		begin
+			put ":D", skip
+			put ":D", "!?"
+			put "!?", ":D", "hello"
+			integer var1[-64..-48, -64..30], var3[78, 100], var2
+			put arg2, "hello"
+		end
+
+		procedure proc5(integer arg4, integer arg2, boolean arg1)
+		begin
+			get arg2, arg4
+			boolean var3[94, -17..62], var1, var6[97, -69..18]
+			get arg4, arg4, arg4
+		end
+
+		boolean function func1(integer arg1, boolean arg6)
+		begin
+			return (false)
+		end
+
+		put skip, "hello"
+	end
+	procedure proc1(integer arg3, integer arg4, integer arg7)
+	begin
+		while {
+			integer var1
+		yields
+			false
+		} do
+			exit
+			exit
+			put "hello"
+			exit when ((-(arg4)) <= ((arg7) * (arg7)))
+			get arg7
+		end
+		loop
+			return
+			return
+			get arg7
+			put "world", 51
+		end
+		procedure proc2(integer arg1, boolean arg3)
+		begin
+			return
+			get arg1, arg7
+			put arg4, "hello", 59
+			get arg7
+		end
+
+		begin
+			return
+			return
+		end
+		integer var3[-20..15, 70]
+	end
+
+	loop
+		if {
+			put "hello", "hello", skip
+		yields
+			true
+		} then
+			exit
+			exit
+			boolean var5[12], var1[9..31, -44..77]
+			proc1(-(-(78)), 36, -(92))
+		end
+	end
+	boolean function func1(boolean arg2, integer arg1, boolean arg4)
+	begin
+		begin
+			return (arg2)
+		end
+		loop
+			return (func1(func1(!(false), 73, arg2), arg1, (true) & (false)))
+			return (func1(false, 81, false))
+		end
+	end
+
+	loop
+		begin
+			var5[26] <= false
+			var1[-(-(6)), 64] <= false
+			boolean var1[85, -42..48], var16[-30..17, 37], var5
+			var5 <= false
+		end
+		exit
+	end
+end
+

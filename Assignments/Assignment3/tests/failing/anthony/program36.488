@@ -1,0 +1,72 @@
+begin
+	begin
+		begin
+			exit when (17)
+			exit when (!(!(!(!(89)))))
+			exit
+			exit
+			exit when (!(98))
+		end
+		integer function func4(integer arg8)
+		begin
+			arg8[true, (func4(false)) > (true)] <= true
+		end
+
+		exit
+		if 11 then
+			exit
+			exit when (!((14) / (true)))
+			exit when (18)
+		end
+	end
+	if 33 then
+		put "hello", skip, true
+		loop
+			boolean var1[51..-36], var2, var3[14]
+			get var2[(false) != (((12) / (true)) + (true))], var3, var3
+			put var3, ":D", true
+			exit
+		end
+		if 24 then
+			exit
+			exit
+		else
+			integer var1, var2[66]
+			exit
+		end
+		put skip, skip, var1[{
+			var1[var1[true, true], false] <= var3[true]
+		yields
+			80
+		}, false]
+		integer var1[45], var2[97..83, 93..-92], var3[-46..-61]
+	else
+		var3 <= 84
+	end
+	procedure proc1(boolean arg1, boolean arg2)
+	begin
+		exit
+		if var2[({
+			return (true)
+		yields
+			(20) >= (true)
+		}) >= ({
+			exit when ((12) + (arg2))
+		yields
+			(7) * (false)
+		})] then
+			return
+			return (-(false))
+			exit
+			return (true)
+		end
+	end
+
+	if var1[var2[var1[true], false], false] then
+		exit
+		integer var1[90], var2[54..49]
+	else
+		put skip, skip
+	end
+end
+

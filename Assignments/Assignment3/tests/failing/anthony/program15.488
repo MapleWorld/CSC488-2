@@ -1,0 +1,53 @@
+begin
+	loop
+		procedure proc1
+		begin
+			put "!?"
+			exit when (26)
+			put skip, false, "world"
+			exit when (27)
+			exit when (48)
+		end
+
+		while {
+			exit when (39)
+		yields
+			true
+		} do
+			proc1
+			put false
+		end
+		if 81 then
+			exit when (15)
+			proc1
+			proc1
+			proc1
+			proc1
+		else
+			exit when (28)
+			exit when (18)
+			put skip
+			put skip, true
+			put "!?", "world"
+		end
+		if 43 then
+			exit when (!(42))
+			put skip, true, skip
+			exit
+		end
+		if {
+			put ":D", true, ":D"
+		yields
+			(29) = ((16) < (false))
+		} then
+			put true, "!?"
+			proc1
+			proc1
+		else
+			exit
+			integer var1[26]
+		end
+	end
+	exit
+end
+

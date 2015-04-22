@@ -1,0 +1,65 @@
+begin
+	loop
+		procedure proc5(integer arg1, integer arg3, integer arg2)
+		begin
+			integer var5, var2
+			put -(15), var5, 52
+			boolean var4[87, 59]
+		end
+
+		exit when ({
+			integer var1, var4[-5..17, -50..-50]
+		yields
+			!(true)
+		})
+		proc5({
+			boolean var2[19, 81], var3
+		yields
+			-((33) * (14))
+		}, 20, (-(-(42))) / (58))
+	end
+	put skip, -(49), "!?"
+	while {
+		procedure proc1
+		begin
+			return
+			return
+			return
+			put "hello", skip, skip
+			put -(-((63) * (11))), skip
+		end
+
+	yields
+		true
+	} do
+		if {
+			put 100
+		yields
+			false
+		} then
+			put skip, "world", skip
+			proc5(50, 27, -(25))
+			proc5(44, 66, 25)
+		end
+		begin
+			put "!?", skip
+		end
+	end
+	if true then
+		proc5(87, 70, {
+			put 67
+		yields
+			40
+		})
+		proc5({
+			put 34, skip
+		yields
+			36
+		}, {
+			boolean var6[81..84, 57], var3[87]
+		yields
+			33
+		}, 62)
+	end
+end
+

@@ -1,0 +1,15 @@
+begin
+	exit when ({
+		begin
+			integer var1
+			var1[(!(19)) > (false)] <= true
+		end
+	yields
+		{
+			exit when (69)
+		yields
+			20
+		}
+	})
+end
+

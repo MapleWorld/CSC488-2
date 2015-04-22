@@ -1,0 +1,17 @@
+begin
+	procedure proc1(boolean arg1)
+	begin
+		loop
+			exit when (16)
+		end
+		get arg1
+		boolean function func1(boolean arg2)
+		begin
+			put skip, arg2
+			proc1((45) - (false))
+		end
+
+	end
+
+end
+

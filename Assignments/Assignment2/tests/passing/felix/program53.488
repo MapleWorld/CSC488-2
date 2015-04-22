@@ -1,0 +1,7 @@
+
+begin 
+	boolean function h 
+	begin 
+		exit when o < = m 
+	end 
+end 

@@ -1,0 +1,95 @@
+begin
+	while {
+		begin
+			boolean var1[22..41, 50], var2[-67..44, -79..45], var3[-74..-52]
+			put skip, "!?"
+			var1[63, 10] <= true
+			put skip, skip
+		end
+	yields
+		false
+	} do
+		exit
+		begin
+			boolean var1[88..89, 72], var2[20..45]
+			var2[(31) - (3)] <= true
+		end
+		while {
+			boolean var5, var1
+		yields
+			var5
+		} do
+			exit
+			exit
+			exit
+		end
+	end
+	boolean function func2(integer arg2, integer arg3)
+	begin
+		if !({
+			return (false)
+		yields
+			true
+		}) then
+			return (true)
+		else
+			get arg3, arg3, arg3
+		end
+	end
+
+	begin
+		boolean function func3(boolean arg1)
+		begin
+			integer var4[27, -93..71], var2, var1[-15..76, 59..68]
+			return (arg1)
+		end
+
+	end
+	begin
+		integer var1[61..79], var3[64, 80], var2
+		while (((-(30)) / (-(15))) != (94)) != ({
+			var1[91] <= 31
+		yields
+			func2(var1[68], 39)
+		}) do
+			exit
+			exit when (func2(25, var1[var2]))
+			boolean var4[-42..89], var5[12], var7[-36..2, 35]
+			exit when (var7[-((var1[78]) * ((24) + (var2))), -(-(var3[var2, var2]))])
+		end
+		begin
+			put "hello", var1[74], skip
+			boolean var5[18], var1[75]
+			get var3[65, -(71)]
+			put 67
+		end
+	end
+	while false do
+		while func2(({
+			integer var2, var1[-94..92]
+		yields
+			(var2) / (83)
+		}) * ({
+			put "!?"
+		yields
+			17
+		}), 35) do
+			exit
+			integer var4[42], var1, var2[93]
+		end
+		procedure proc1(boolean arg7, integer arg1)
+		begin
+			var4[-(-(51))] <= arg1
+			get var1, var2[var2[var4[(arg1) * (67)]]]
+			get var1, var2[75]
+			integer var1[19]
+		end
+
+		procedure proc2(integer arg2)
+		begin
+			return
+		end
+
+	end
+end
+

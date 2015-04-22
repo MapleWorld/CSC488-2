@@ -1,0 +1,4 @@
+% bound check
+begin
+	boolean z0[0..0, 1 .. -1234]
+end

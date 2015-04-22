@@ -1,0 +1,3 @@
+begin
+    put 100/10
+end

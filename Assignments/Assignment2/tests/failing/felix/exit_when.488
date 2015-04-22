@@ -1,0 +1,7 @@
+% Author: Felix Lu
+begin
+    loop
+        put 1
+        exit when
+    end
+end

@@ -1,0 +1,4 @@
+begin
+    boolean x
+    get x
+end

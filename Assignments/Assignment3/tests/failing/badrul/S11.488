@@ -1,0 +1,7 @@
+% boolean proc return integer value
+begin
+	boolean function foo
+	begin
+		return (0)
+	end
+end

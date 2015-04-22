@@ -1,0 +1,6 @@
+
+begin 
+	loop 
+		exit when false * u > t ( m ) 
+	end 
+end 

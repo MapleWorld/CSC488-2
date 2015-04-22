@@ -1,0 +1,66 @@
+begin
+	while {
+		exit
+	yields
+		true
+	} do
+		loop
+			exit when (12)
+			boolean var1[82..-19], var2[-26..-55]
+		end
+		get var1, var2[-((true) & ((6) + (true)))], var2[var2[false, ((63) = (var1)) & (80)], {
+			var1[true] <= (23) * ((70) >= (false))
+		yields
+			100
+		}]
+		put {
+			var1 <= !(89)
+		yields
+			100
+		}, "!?", true
+	end
+	loop
+		procedure proc1
+		begin
+			put var2[var2[-(false)]], skip, true
+			proc1
+			proc1
+			exit
+			exit when (27)
+		end
+
+		if !(96) then
+			proc1
+			var2[var1] <= 97
+		end
+	end
+	while !({
+		exit when (31)
+	yields
+		{
+			put skip, "hello"
+		yields
+			!(16)
+		}
+	}) do
+		exit when (22)
+		boolean function func3
+		begin
+			exit
+			proc1
+		end
+
+		loop
+			integer var1[39..7, 18]
+			put skip, skip, skip
+		end
+		while var1[var1[func3]] do
+			var1[func3] <= false
+			exit
+			proc1
+			get var1[(34) = (true)], var2[var1[func3], (var1[var2, true]) < (true)], var1
+			var2[-(false)] <= ((66) - (true)) / (false)
+		end
+	end
+end
+

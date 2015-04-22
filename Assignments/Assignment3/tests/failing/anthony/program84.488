@@ -1,0 +1,39 @@
+begin
+	loop
+		while {
+			exit
+		yields
+			(!(64)) < (-((40) <= (true)))
+		} do
+			put skip, false
+			exit when (63)
+		end
+	end
+	boolean function func2(boolean arg4, boolean arg5, integer arg6)
+	begin
+		if arg6[false] then
+			exit when (!(17))
+		end
+		begin
+			arg5[-(-(-(true)))] <= 67
+		end
+	end
+
+	while 8 do
+		exit
+	end
+	loop
+		loop
+			exit
+			exit
+		end
+		integer function func5(boolean arg14)
+		begin
+			boolean var1, var2[64]
+			put "!?", skip
+		end
+
+	end
+	put skip, "world"
+end
+

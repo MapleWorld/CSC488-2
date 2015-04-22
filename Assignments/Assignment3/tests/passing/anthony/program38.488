@@ -1,0 +1,127 @@
+begin
+	procedure proc2
+	begin
+		procedure proc1(boolean arg3, boolean arg1)
+		begin
+			put -(56)
+			put 24, "hello"
+			put "!?", (40) / ((-(12)) * ((-(80)) - (39))), "world"
+			put skip
+		end
+
+		if !(true) then
+			proc1(!(true), false)
+			proc1(true, true)
+			return
+		else
+			return
+			return
+			proc1(true, true)
+			put -(25), -(-(79)), skip
+		end
+	end
+
+	if (27) < ({
+		integer function func6(integer arg1, boolean arg5)
+		begin
+			return (arg1)
+			return (-(arg1))
+			get arg1
+			return (arg1)
+		end
+
+	yields
+		75
+	}) then
+		procedure proc1(integer arg1, integer arg3, integer arg4)
+		begin
+			integer var1[89..97, -24..30], var2[22..90], var3[87..87]
+			integer var5, var4[84, 56], var6[18..19, -41..66]
+			return
+			return
+			get var3[var5]
+		end
+
+		while false do
+			exit
+			exit
+			boolean var1[2], var3[7..21]
+			var1[(-(19)) - (-(85))] <= false
+			proc2
+		end
+	else
+		while var3[-(36)] do
+			var1[87] <= var3[-(66)]
+		end
+		procedure proc4(integer arg2, boolean arg5)
+		begin
+			var1[63] <= true
+			get arg2, arg2
+			var3[71] <= var1[-(arg2)]
+			boolean var1[10..11], var3[34..72, 79]
+		end
+
+		put "world", "!?", skip
+		proc4({
+			var3[-(13)] <= false
+		yields
+			100
+		}, var1[((78) + (85)) + ((59) / (54))])
+		boolean function func1
+		begin
+			return ((8) >= (50))
+			return (func1)
+			integer var3[4, -72..100], var2[30]
+			put "!?"
+		end
+
+	end
+	if func1 then
+		while {
+			boolean var2, var1[21..47, 67], var3[79]
+		yields
+			false
+		} do
+			integer var5, var4[37]
+			get var4[var5], var5
+			boolean var9[-16..1]
+		end
+		proc1(-(21), 54, -({
+			var3[65] <= func1
+		yields
+			75
+		}))
+		procedure proc3(boolean arg7)
+		begin
+			return
+		end
+
+		proc3(var3[-(var4[var4[6]])])
+	else
+		put skip, "!?", skip
+		loop
+			exit
+			proc1(-((var5) + (var5)), var5, var4[18])
+			var5 <= 27
+			proc2
+		end
+		begin
+			var4[27] <= (58) * (var4[99])
+			var4[var5] <= 79
+			var4[var4[-(var4[92])]] <= (34) / (52)
+			put ":D", skip, skip
+			get var5, var4[5]
+		end
+		proc1(90, 60, -((57) - (-(var5))))
+		proc4(14, ({
+			put 67
+		yields
+			var4[-(19)]
+		}) >= ({
+			put "hello", skip, -(78)
+		yields
+			-(68)
+		}))
+	end
+end
+

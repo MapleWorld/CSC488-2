@@ -1,0 +1,55 @@
+% Author: Felix Lu
+% Info: A program using all forms of loop building and loop exit constructs
+
+begin
+    integer i, j
+
+    % enter then exit loop
+    loop
+        exit
+    end
+
+    % conditional loop
+    i <= 0
+    while i < 10 do
+        put i, skip
+        i <= i + 1
+    end
+
+    % exit when expression statement
+    i <= 0
+    loop
+        put i, skip
+        i <= i + 1
+        exit when i = 10
+    end
+
+    % exit using conditional statement
+    i <= 10
+    loop
+        put i, skip
+        i <= i - 1
+        if i = 0 then
+            exit
+        end
+    end
+
+    % nested loop
+    i <= 0
+    loop
+        j <= 0
+        loop
+            put i, j, skip
+            j <= j + 1
+            exit when j = 10
+        end
+        i <= i + 1
+        exit when i = 10
+    end
+
+    % infinite loop
+    loop
+        put "looping", skip
+    end
+
+end

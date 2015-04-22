@@ -1,0 +1,68 @@
+begin
+	while false do
+		exit
+	end
+	if false then
+		loop
+			integer var1[19, 81], var2[86]
+		end
+		boolean var7[-38..47]
+		integer var8[-64..0], var3[86, -24..-6], var5[43]
+		boolean var4[-55..88, 37], var9[-71..-46], var6[-13..64, 98]
+	else
+		var5[(-(29)) * (-(-(6)))] <= 41
+		while true do
+			integer var10[-86..50]
+		end
+		while false do
+			var6[var3[48, 64], -(var2[var8[7]])] <= (54) <= (-(63))
+			boolean var11[44]
+			var11[(var3[var3[50, 66], var10[76]]) + (-(-(25)))] <= false
+			get var5[(93) - (24)], var2[var8[23]]
+		end
+	end
+	boolean function func1(integer arg1)
+	begin
+		while !(var11[{
+			return (func1(75))
+		yields
+			arg1
+		}]) do
+			return (func1(19))
+		end
+		loop
+			var9[-(47)] <= false
+			var3[32, 35] <= 53
+			boolean var3[0]
+			return ((var3[-(var8[78])]) = (false))
+			var3[arg1] <= false
+		end
+		integer var4[69..81, 41], var1[88..93], var2[0, -17..45]
+		boolean var6
+		return (true)
+	end
+
+	var10[{
+		if var11[var5[30]] then
+			integer var1[36]
+		else
+			put "!?"
+		end
+	yields
+		var2[6]
+	}] <= {
+		boolean var1, var2, var3
+	yields
+		var5[-(var5[60])]
+	}
+	get var8[{
+		procedure proc1(integer arg1)
+		begin
+			return
+		end
+
+	yields
+		(var1[20, 48]) + (51)
+	}]
+end
+

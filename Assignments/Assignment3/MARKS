@@ -1,0 +1,84 @@
+Mark: 98.4 / 100
+
+
+Package and Submission (3 / 3)
+----------------------
+
+  - Submission was correctly packaged, and was compilable
+
+
+Design and Implementation (30 / 30)
+-------------------------
+
+  - Cup grammar modifications:
+     * Successfully built AST nodes for all language productions
+     * Captured source coordinates of important tokens throughout
+
+  - AST modifications:
+     * Support for source coordinates tracking
+     * Added semantic analysis inline with tree
+
+  - Symbol table design:
+     * Very terse design for symbol mapping, but multiple differing 
+notions of what a scope is
+
+  - Semantics analysis design:
+     * Very dense but readable code; the choice to embed into AST 
+classes has some consequences for readability but this was still well done
+     * Good compiler error messages
+
+  - The following error is not caught:
+
+         begin
+             integer v[0]  % Also, the implicit lower bound should be 1, 
+so 0 should not be a valid bound (S46)
+
+             % The following is not rejected
+             v[0, 0] <= 1
+         end
+
+
+Documentation (25 / 25)
+-------------
+
+  - Great writeup all around, well written and clear, bravo!
+  - Your testing approach using Prolog & Agda was particularly cool! 
+Thanks for sharing that
+
+
+Testing (29 / 30)
+-------
+
+  - Test runner did not quite capture the 'is-expected-to-fail' notion 
+of the failing test cases
+
+(T)Symbol Table Test: 9
+(A)AST building Test: 10
+(S)Semantic Analysis Test: 10
+
+Comments:
+1. Great testing programs generator.
+2. Better to have a uniform test programs naming rules.
+3. (T -1) Did not test trying to access a variable when it is in the 
+parameter list.
+4. Fail to check some corner case in array declaration.
+5. Better to have short test programs instead of long programs to help 
+debugging.
+** Find the corresponding unpassed test case(s) in Notes part
+
+Notes:
+
+% Should Fail but Pass:
+
+Case #1:
+     %Error trying to create an Array with upper bound = 0
+     integer array2[0]
+
+Case #2:
+     begin
+         % declare procedure with parameters
+         procedure f(integer x) begin boolean x end
+     end
+
+
+Official Testing (11.4 / 12)

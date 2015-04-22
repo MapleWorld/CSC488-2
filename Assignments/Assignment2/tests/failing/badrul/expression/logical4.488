@@ -1,0 +1,5 @@
+% hanging &, expected expression missing
+begin
+    boolean x
+    x <= true &
+end

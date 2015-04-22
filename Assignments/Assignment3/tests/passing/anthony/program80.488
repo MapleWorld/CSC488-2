@@ -1,0 +1,37 @@
+begin
+	boolean function func1(boolean arg3, boolean arg1)
+	begin
+		if true then
+			boolean var1[54], var4[84..93], var7
+			put skip
+		end
+		if true then
+			return (func1(false, func1(!(func1(false, false)), var1[14])))
+		else
+			put -(83), 91, 2
+			return ((-((84) - (63))) >= (-(53)))
+			return (false)
+			return (var1[-(-(23))])
+			return (true)
+		end
+	end
+
+	while true do
+		loop
+			boolean var1[24..27, 91], var4, var2
+			put skip, 99
+			var2 <= func1(true, true)
+			exit
+			put "!?", "world"
+		end
+		put 23, ":D", "!?"
+		begin
+			put skip
+			integer var3[-90..-38], var2
+			var4 <= func1(true, func1(func1(func1(var4, true), false), var1[var3[41], var2]))
+			boolean var4[10, 64..84]
+		end
+	end
+	var2 <= func1(func1(func1(var2, func1(true, true)), var2), false)
+end
+

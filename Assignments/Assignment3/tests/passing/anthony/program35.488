@@ -1,0 +1,67 @@
+begin
+	loop
+		while {
+			put skip, skip, skip
+		yields
+			!(false)
+		} do
+			put 30, skip
+		end
+		while (24) >= (({
+			boolean var1[-87..30]
+		yields
+			(64) + (93)
+		}) / ((-(56)) * (46))) do
+			exit when (false)
+			exit when (false)
+			boolean var2, var1[71], var5[-47..-32, -47..-43]
+			exit when (!(true))
+		end
+		begin
+			var5[67, 99] <= false
+			boolean var1[-39..90, 12], var3[-70..13]
+			put skip, skip, "world"
+		end
+		begin
+			integer var2[-9..97, 24], var3[-81..-49]
+			put skip, var2[47, -(var3[60])]
+			integer var1[99, 78..82]
+		end
+	end
+	begin
+		if false then
+			integer var3[41..93], var1[49, 10]
+			integer var4, var2[15], var5[7, 59..59]
+			put -(0), "hello"
+			boolean var6, var9[97..97, -89..17], var7[13]
+		end
+	end
+	procedure proc3
+	begin
+		begin
+			boolean var2
+		end
+		begin
+			integer var3
+			integer var2, var1[-4..-3, 94..96]
+			integer var4[74, 9], var5
+			boolean var6, var7[53..83, 52], var8[82..89]
+		end
+		while {
+			put "world", 70
+		yields
+			true
+		} do
+			exit when (var2)
+			integer var5[63], var1[84], var6[49, -71..-65]
+		end
+	end
+
+	if var2 then
+		put 59, skip, 75
+		while true do
+			exit when (!(true))
+		end
+	end
+end
+

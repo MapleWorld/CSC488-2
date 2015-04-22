@@ -1,0 +1,51 @@
+begin
+	boolean function func1(integer arg1)
+	begin
+		procedure proc1
+		begin
+			return (false)
+		end
+
+	end
+
+	begin
+		while 72 do
+			put skip
+			exit
+		end
+		begin
+			exit
+			exit
+			exit
+		end
+		procedure proc2(boolean arg4, boolean arg5)
+		begin
+			put (false) & (!(!((66) - (false))))
+			exit
+		end
+
+	end
+	exit when (44)
+	while 13 do
+		begin
+			boolean var1[19, 66], var2[-14..-83, 11]
+			get var2[func1(var1[func1(true)]), true]
+			integer var1[18], var2[74]
+		end
+		while 34 do
+			put func1(true), "hello"
+			exit
+			exit when (13)
+			exit when (28)
+			put "hello", skip, skip
+		end
+		integer var1[-30..-43, 23..-96], var2[6..-94]
+		exit when (!(var2[{
+			put "world", true, skip
+		yields
+			(69) + (false)
+		}, func1(func1(true))]))
+	end
+	boolean var1, var2[63..-95, 29]
+end
+

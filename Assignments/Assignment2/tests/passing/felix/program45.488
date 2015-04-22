@@ -1,0 +1,9 @@
+
+begin 
+	loop 
+		procedure m ( boolean l , integer j , boolean v , boolean k ) 
+		begin 
+			exit when - q 
+		end 
+	end 
+end 

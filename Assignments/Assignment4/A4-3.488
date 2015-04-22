@@ -1,0 +1,368 @@
+%%% Assignment 4 Sample Program 3 %%%                              % 3-1
+begin                                                              % 3-2
+   integer a, b, c, d                                              % 3-3
+   boolean p, q, r, s                                              % 3-4
+   procedure P                                                     % 3-5
+      begin                                                        % 3-6
+         integer e, f                                              % 3-7
+         if p then  return  end                                    % 3-8
+         e <= a                                                    % 3-9
+     return                                                        % 3-10
+      end  % P                                                     % 3-11
+  integer function F( integer m, boolean n )                       % 3-12
+      begin                                                        % 3-13
+         if n then  return ( m + b )                               % 3-14
+         else  return ( c - m )   end                              % 3-15
+      end  % F                                                     % 3-16
+  procedure Q( boolean m , integer n , boolean p )                 % 3-17
+    begin                                                          % 3-18
+      integer t, u, v                                              % 3-19
+      boolean  function G                                          % 3-20
+          begin                                                    % 3-21
+             integer w, x                                          % 3-22
+             return (                                              % 3-23
+                { boolean b integer d  d<= c P                     % 3-24
+                      yields  d + w - v  < 12  } )                 % 3-25
+          end  % G                                                 % 3-26
+      put F( t - n + a  , ! G | r ) , skip                         % 3-27
+  end  %Q                                                          % 3-28
+  Q( ! p | q , F( F( b, p ), !q ) ,                                % 3-29
+        { P yields p != q } )                                      % 3-30
+end                                                                % 3-31
+
+%%% Author: Badrul Chowdhury %%%
+
+% LOCAL VAR NAME  |   WORD SIZE
+
+% a               |   1
+% b               |   1
+% c               |   1
+% d               |   1
+
+% p               |   1
+% q               |   1
+% r               |   1
+% s               |   1
+% _____________________________
+% TOTAL           =   8
+
+ADDR 0 0 % start address
+PUSHMT % push msp onto stack
+SETD 0 % lex level 0 for main scope
+
+PUSH UNDEFINED % value, 2nd in stack
+PUSH 8 % count, at the top of stack
+DUPN % create 8 copies of undefined (1 for each of the local vars)
+
+PUSH 29 % skip P, F, Q def's
+BR % branch to line 29
+
+% Q
+    % enter major scope
+    ADDR 1 0
+    PUSHMT
+    SETD 1
+
+    % evaluating params to Q first from left to right
+    % param 1: !p | q
+
+        % !p
+        ADDR 0 4
+        LOAD
+        PUSH MACHINE_FALSE
+        EQ
+
+        BF else0
+        PUSH MACHINE_TRUE
+        BR end0
+        else0:
+
+        % .. | q
+        ADDR 0 5
+        LOAD
+        else0:
+        end0:
+
+    % param 2: F(F(b, p), !q))
+        % outer F
+            % enter major scope
+            ADDR 2 0
+            PUSHMT
+            SETD 2
+
+            % nested F(b, p)
+                % enter major scope
+                ADDR 3 0
+                PUSHMT
+                SETD 3
+
+                % make local copy m of b
+                ADDR 0 1
+                LOAD
+
+                % if n
+                % make local copy n of p
+                ADDR 0 4
+                LOAD
+                PUSH MACHINE_TRUE
+                EQ
+
+                BF else3
+                    % return (m + b)
+                    ADDR 3 0 % using another copy of m as it will be consumed (popped from stack)
+                    LOAD
+                    ADDR 0 1
+                    LOAD
+                    ADD
+
+                    % saving result at top of stack
+                    ADDR 3 2
+                    SWAP
+                    STORE
+
+                    % returning to parent
+                    PUSHMT
+                    ADDR 2 0
+                    SUB
+                    POPN % destroy the local variables
+                    SETD 2 % restore display
+
+                BR end3
+                else3:
+                    % return (c - m)
+                    ADDR 3 0 % using another copy of m as it will be consumed (popped from stack)
+                    LOAD
+                    ADDR 0 2
+                    LOAD
+                    SUB
+
+                    % saving result at top of stack
+                    ADDR 3 2
+                    SWAP
+                    STORE
+
+                    % returning to parent
+                    PUSHMT
+                    ADDR 2 0
+                    SUB
+                    POPN % destroy the local variables
+                    SETD 2 % restore display
+
+                end3:
+
+            % top of stack is value returned by F(b, p)
+            ADDR 3 2
+            LOAD
+
+            % !q
+            ADDR 0 5
+            LOAD
+            PUSH MACHINE_FALSE
+            EQ
+
+            BF else2
+                % return (m + b)
+                ADDR 2 0 % using another copy of m as it will be consumed (popped from stack)
+                LOAD
+                ADDR 0 1
+                LOAD
+                ADD
+
+                % saving result at top of stack
+                ADDR 2 2
+                SWAP
+                STORE
+
+                % returning to parent
+                PUSHMT
+                ADDR 1 0
+                SUB
+                POPN % destroy the local variables
+                SETD 1 % restore display
+
+            BR end2
+            else2:
+                % return (c - m)
+                ADDR 2 0 % using another copy of m as it will be consumed (popped from stack)
+                LOAD
+                ADDR 0 2
+                LOAD
+                SUB
+
+                % saving result at top of stack
+                ADDR 2 2
+                SWAP
+                STORE
+
+                % returning to parent
+                PUSHMT
+                ADDR 1 0
+                SUB
+                POPN % destroy the local variables
+                SETD 1 % restore display
+
+            end2:
+
+    % param 3: anonymous procedure P
+
+        % anon function
+            % enter major scope
+            ADDR 2 0
+            PUSHMT
+            SETD 2
+
+            % P
+                % enter major scope
+                ADDR 3 0
+                PUSHMT
+                SETD 3
+
+                PUSH UNDEFINED
+                PUSH 2
+                DUPN % initilize 2 integers to UNDEFINED
+
+                ADDR 0 4
+                LOAD
+                PUSH MACHINE_TRUE
+                EQ
+
+                BF else3
+                    % returning to parent
+                    PUSHMT
+                    ADDR 2 0
+                    SUB
+                    POPN % destroy the local variables
+                    SETD 2 % restore display
+                BR end3
+                else3:
+                end3:
+                    ADDR 0 0
+                    LOAD
+                    ADDR 3 0
+                    LOAD
+                    STORE
+
+            ADDR 0 4
+            LOAD
+            ADDR 0 6
+            LOAD
+            EQ
+            NOT
+
+    % defining t, u, v
+    PUSH UNDEFINED
+    PUSH 3
+    DUPN
+
+    PUSH Q_F
+    PUSH '\n'
+
+    PRINTI
+    PRINTC
+
+    Q_F:
+        % function F
+            % enter major scope
+            ADDR 2 0
+            PUSHMT
+            SETD 2
+
+            G_LABEL
+            PUSH MACHINE_TRUE
+            EQ
+
+            BF else2
+                % return (m + b)
+                ADDR 2 0 % using another copy of m as it will be consumed (popped from stack)
+                LOAD
+                ADDR 0 1
+                LOAD
+                ADD
+
+                % saving result at top of stack
+                ADDR 2 2
+                SWAP
+                STORE
+
+                % returning to parent
+                PUSHMT
+                ADDR 1 0
+                SUB
+                POPN % destroy the local variables
+                SETD 1 % restore display
+
+            BR end2
+            else2:
+                % return (c - m)
+                ADDR 2 0 % using another copy of m as it will be consumed (popped from stack)
+                LOAD
+                ADDR 0 2
+                LOAD
+                SUB
+
+                % saving result at top of stack
+                ADDR 2 2
+                SWAP
+                STORE
+
+                % returning to parent
+                PUSHMT
+                ADDR 1 0
+                SUB
+                POPN % destroy the local variables
+                SETD 1 % restore display
+
+            end2:
+            G_LABEL:
+                PUSH G
+                PUSH MACHINE_FALSE
+                EQ
+                ADDR 0 6
+                LOAD
+                OR
+            G:
+                % enter major scope
+                ADDR 3 0
+                PUSHMT
+                SETD 3
+
+                % defining w, x
+                PUSH UNDEFINED
+                PUSH 2
+                DUPN
+
+                ANON_FUNCTION
+                    % enter major scope
+                    ADDR 4 0
+                    PUSHMT
+                    SETD 4
+
+                    % defining b, d
+                    PUSH UNDEFINED
+                    PUSH 2
+                    DUPN
+
+                    % d <= c
+                    ADDR 0 2
+                    LOAD
+                    ADDR 4 1
+                    LOAD
+                    STORE
+
+                    COMP_LABEL
+                    PUSH 12
+                    LT
+
+                    COMP_LABEL:
+                        ADDR 1 2
+                        LOAD
+                        ADD_LABEL
+                        SUB
+
+                    ADD_LABEL:
+                        ADDR 4 1
+                        LOAD
+                        ADDR 3 0
+                        LOAD
+                        ADD
+HALT

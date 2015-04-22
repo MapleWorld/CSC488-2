@@ -1,0 +1,13 @@
+begin
+    procedure hello (boolean name) begin
+        procedure world begin
+        end
+        procedure high (integer five) begin
+        end
+    end
+
+    procedure yo begin
+        procedure gabba (boolean gabba) begin
+        end
+    end
+end

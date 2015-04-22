@@ -1,0 +1,9 @@
+% check if we can detect some error with variable type
+% and some other silly thing
+begin
+	integer function fi begin return (1) end
+	boolean function fb begin return (true) end
+	integer i
+	boolean b
+	b <= i
+end

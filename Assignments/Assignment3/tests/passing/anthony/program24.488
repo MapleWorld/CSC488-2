@@ -1,0 +1,16 @@
+begin
+	integer function func1(boolean arg2, integer arg1)
+	begin
+		if !((func1((true) | (false), (arg1) * (arg1))) = ({
+			return (arg1)
+		yields
+			arg1
+		})) then
+			get arg1
+			get arg1, arg1, arg1
+			boolean var2[97..98]
+		end
+	end
+
+end
+

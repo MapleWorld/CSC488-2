@@ -1,0 +1,21 @@
+% Multiple routine declarations
+
+begin
+	integer function add1 (integer x)
+	begin
+		return (x+1)
+	end
+
+	procedure printInteger(integer x)
+	begin
+		put x
+	end
+
+	procedure printOnePlusOne
+	begin
+		put "1+1= "
+	end
+
+	printOnePlusOne
+	printInteger(add1(1))
+end

@@ -1,0 +1,3 @@
+begin
+    boolean foo[-5]
+end

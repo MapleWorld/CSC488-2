@@ -1,0 +1,15 @@
+begin
+	loop
+		begin
+			boolean var3[-43..15]
+		end
+		procedure proc3
+		begin
+			integer var1[87], var2
+		end
+
+	end
+	boolean var1[16], var2[51], var5[-87..57, 88]
+	integer var8[33..82]
+end
+

@@ -1,0 +1,9 @@
+% clopen curly braces should cause program to fail
+begin
+	integer function add1 (integer x)
+	begin
+		return (x+1)
+	end
+	boolean x
+    x <= { add1(1) yields 2 
+end

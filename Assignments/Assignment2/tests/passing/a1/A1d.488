@@ -1,0 +1,33 @@
+%%TASK: Design a program using non-recursive functions and procedures with and without parameters
+%%NAME: Badrul (Taki) Chowdhury 
+%%DATE: 17/01/15
+%%STATUS: complete
+
+begin
+	%function with parameter
+	%IN 	integer x
+	%OUT 	x+1
+	integer function add1 (integer x)
+	begin
+		return (x+1)
+	end
+
+	%procedure with parameter
+	%IN 	integer x
+	%OUT 	x -> stdout
+	procedure printInteger(integer x)
+	begin
+		put x
+	end
+
+	%procedure w/o parameter(s)
+	%IN 	nil
+	%OUT 	"1+1= " -> stdout
+	procedure printOnePlusOne
+	begin
+		put "1+1= "
+	end
+
+	printOnePlusOne
+	printInteger(add1(1))
+end

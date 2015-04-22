@@ -1,0 +1,7 @@
+% functions with parameters should be parsed successfully
+begin
+	integer function add1 (integer x)
+	begin
+		return (x+1)
+	end
+end

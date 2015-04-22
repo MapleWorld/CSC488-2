@@ -1,0 +1,10 @@
+
+begin 
+	procedure s ( integer z , integer s , integer u , boolean p , integer u , integer x , integer j , integer s ) 
+	begin 
+		procedure o 
+		begin 
+			integer h 
+		end 
+	end 
+end 

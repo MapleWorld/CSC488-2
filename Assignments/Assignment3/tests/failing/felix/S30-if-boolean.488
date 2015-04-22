@@ -1,0 +1,10 @@
+begin
+    if 3 then
+        put "error"
+    end
+    if 2 then
+        put "error"
+    else
+        put skip
+    end
+end

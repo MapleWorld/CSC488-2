@@ -1,0 +1,14 @@
+begin
+	put {
+		begin
+			exit
+			exit when (88)
+			exit when (!(41))
+			put skip, ":D", skip
+			exit when (71)
+		end
+	yields
+		94
+	}, skip
+end
+

@@ -1,0 +1,4 @@
+begin
+    put -1, skip
+    put --1
+end

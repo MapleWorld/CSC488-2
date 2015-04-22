@@ -1,0 +1,14 @@
+begin
+	integer function add1(integer x)
+	begin
+		return (x+1)
+	end
+
+	integer i
+	get i
+
+	integer retVal
+	retVal < = add1(i)
+
+	put retVal
+end

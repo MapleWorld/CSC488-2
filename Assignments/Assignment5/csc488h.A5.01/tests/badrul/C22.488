@@ -1,0 +1,12 @@
+% before parameter code generation (procedure w/o param)
+begin
+	put "a"
+	put "b"
+	procedure foo
+	begin
+		put "c"
+		put "d"
+	end
+	foo
+	put "e"
+end

@@ -1,0 +1,67 @@
+begin
+	begin
+		exit when (30)
+		boolean function func1(boolean arg1)
+		begin
+			put skip, "hello"
+			get arg1[true, func1(93)]
+		end
+
+		if {
+			put skip, ":D", "!?"
+		yields
+			func1(70)
+		} then
+			put skip, skip, -(func1(95))
+			integer var1, var2[-18..-82, 44]
+		end
+		if {
+			exit
+		yields
+			true
+		} then
+			exit when ((var1[-((75) <= (true)), func1(62)]) - (true))
+			exit
+			integer var1[-72..-77], var2[-5..-40]
+		end
+		while 86 do
+			exit when ((!(24)) * (false))
+			put func1(var1[false, (5) > (-(true))])
+			exit when (28)
+		end
+	end
+	boolean function func1
+	begin
+		while {
+			put "!?"
+		yields
+			func1
+		} do
+			exit
+			put ":D", func1
+			put func1, ":D"
+		end
+		exit when ({
+			exit
+		yields
+			(func1) != (3)
+		})
+		if 74 then
+			integer var1[66..-51, 47], var2[93, -50..-83], var3
+			exit when (var1[(var1) > (false), (var3[false]) != (func1)])
+		else
+			exit when (var1)
+			put true
+			put false, skip, skip
+			exit
+			exit
+		end
+	end
+
+	while 26 do
+		exit when (24)
+	end
+	exit
+	exit
+end
+

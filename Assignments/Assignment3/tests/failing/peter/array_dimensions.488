@@ -1,0 +1,9 @@
+begin
+boolean function foo
+begin
+return (true)
+end
+integer z[0..0, 1..1]
+foo <= true
+z[0] <= true
+end

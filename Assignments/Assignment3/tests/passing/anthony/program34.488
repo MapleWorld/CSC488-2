@@ -1,0 +1,16 @@
+begin
+	put {
+		loop
+			exit when (false)
+			integer var2[-90..40, 65..65], var1
+			exit
+		end
+	yields
+		var2[{
+			put -(32), "hello", skip
+		yields
+			99
+		}, var1]
+	}, 71
+end
+

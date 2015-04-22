@@ -1,0 +1,3 @@
+begin
+    procedure (integer foo)
+end

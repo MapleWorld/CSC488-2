@@ -1,0 +1,11 @@
+
+begin 
+	loop 
+		boolean function o ( integer g , integer d , integer q , boolean a ) 
+		begin 
+			integer function f ( boolean d ) 
+			begin 
+			end 
+		end 
+	end 
+end 

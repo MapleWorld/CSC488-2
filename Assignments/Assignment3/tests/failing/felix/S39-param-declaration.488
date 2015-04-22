@@ -1,0 +1,5 @@
+begin
+    integer function func(integer x) begin
+        return (y)
+    end
+end

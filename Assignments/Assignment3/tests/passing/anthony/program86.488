@@ -1,0 +1,44 @@
+begin
+	procedure proc1
+	begin
+		integer function func1(integer arg1)
+		begin
+			put "!?"
+			return (10)
+		end
+
+		if !(false) then
+			put "world", skip
+		else
+			return
+		end
+		loop
+			exit when (!(false))
+			exit
+			put skip, "!?"
+		end
+	end
+
+	while (true) != (false) do
+		put "!?", "!?"
+		while false do
+			exit when (false)
+			exit
+			put 25, "world", skip
+		end
+		integer function func1(integer arg1)
+		begin
+			get arg1, arg1, arg1
+			return (func1(arg1))
+		end
+
+		exit when (false)
+		exit when (({
+			put skip, skip
+		yields
+			-(29)
+		}) < (func1(func1(func1(30)))))
+	end
+	boolean var1[-94..-28, 2], var4[80]
+end
+

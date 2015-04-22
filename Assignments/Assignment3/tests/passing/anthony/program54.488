@@ -1,0 +1,37 @@
+begin
+	boolean function func3(boolean arg2)
+	begin
+		begin
+			put -(46)
+			put ":D", skip, skip
+			return (!(func3(arg2)))
+		end
+		begin
+			put 98, ":D", "!?"
+		end
+		procedure proc1(boolean arg2, boolean arg4, integer arg3)
+		begin
+			put "world", "hello"
+			boolean var8, var1
+			var8 <= arg4
+		end
+
+		loop
+			return (arg2)
+			integer var2[-87..-30, -16..-12], var1[25]
+		end
+		if ({
+			return (!(arg2))
+		yields
+			81
+		}) >= (var2[var2[10, var2[5, 53]], var1[var1[71]]]) then
+			return (!(true))
+		else
+			get var1[var1[19]], var2[var2[39, 78], -(var1[78])], var2[38, var1[var2[var2[94, 60], 88]]]
+			get var2[var2[65, 98], -(-(var1[13]))], var2[(var2[15, 9]) * (var1[(38) + (45)]), -(var2[84, var2[38, 90]])]
+			get var1[16], var2[8, var2[12, 100]]
+		end
+	end
+
+end
+

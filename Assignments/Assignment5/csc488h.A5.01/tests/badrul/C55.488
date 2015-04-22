@@ -1,0 +1,8 @@
+% procedure with no args
+begin
+	procedure print_hello
+	begin
+		put "hello"
+	end
+	print_hello
+end

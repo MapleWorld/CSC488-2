@@ -1,0 +1,4 @@
+% print text string with skip
+begin
+	put "hello" , skip , "world"
+end

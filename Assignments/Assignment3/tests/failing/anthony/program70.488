@@ -1,0 +1,106 @@
+begin
+	if {
+		exit
+	yields
+		true
+	} then
+		return ({
+			return (true)
+		yields
+			58
+		})
+		exit when (!((51) / ({
+			return
+		yields
+			34
+		})))
+		return
+	else
+		if 50 then
+			return
+			return
+			return
+			put (70) < (false), skip, skip
+			exit when (!(71))
+		else
+			put ":D"
+			exit
+		end
+		boolean function func2(integer arg3)
+		begin
+			exit when (arg3[true])
+		end
+
+		loop
+			exit when (!(6))
+			exit
+			put skip, skip, "!?"
+			boolean var1, var2, var3[70]
+			put ":D", skip, false
+		end
+		loop
+			put ":D", "!?"
+			put "world"
+			var1 <= 35
+			put skip, "world", skip
+		end
+		begin
+			get var1[func2(true), -((47) < (false))]
+		end
+	end
+	integer function func2(boolean arg9, integer arg10, boolean arg11)
+	begin
+		boolean function func3(integer arg12, integer arg13, boolean arg14)
+		begin
+			exit
+			exit when (func2(53, var2[var3[(25) > (false)], -(func2(true))], !(arg12[(20) <= (true)])))
+			arg10[false, -(arg11[true])] <= false
+		end
+
+		put skip, {
+			exit
+		yields
+			func2(func2(func2(78, true, 5), true, arg10), false, arg10)
+		}, true
+	end
+
+	begin
+		exit
+		if 52 then
+			integer var1[64..32]
+			get var2
+			get var2[((var1) < (var3)) & (55), true], var1[false, func2(false)], var2[var3[false], var3]
+			var3[true] <= var1[func2(var2[false, var2[true]]), (func2(true)) = (77)]
+			boolean var1, var2[9, 74]
+		else
+			put (var1[true]) | (!(func2(8, true, func2(11, var3, 54)))), "world"
+			exit when (!(var1[false]))
+			put true
+		end
+		put var1[true, func2((var1[true]) <= ((1) < (false)))], skip, "world"
+		exit
+		exit
+	end
+	begin
+		integer var1[78..-53], var2[8, 6], var3[32..16, 29..-27]
+	end
+	if 46 then
+		integer var1[10..-52], var2
+		begin
+			put false, -(func2(false))
+			exit when (75)
+			put "world"
+		end
+		while {
+			exit when (var2)
+		yields
+			(true) & (var2[-(false)])
+		} do
+			exit when (!(!(!(var2))))
+			exit
+			exit
+		end
+		put skip, "world", ":D"
+	end
+end
+

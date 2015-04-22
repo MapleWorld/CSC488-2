@@ -1,0 +1,64 @@
+begin
+	while {
+		if false then
+			put "world", (54) + (-(0)), skip
+			put 83, -(65)
+			boolean var2, var4[81, 54]
+			var4[-((86) * (77)), 30] <= false
+			put 42, "!?", 78
+		end
+	yields
+		false
+	} do
+		if true then
+			exit
+		end
+		loop
+			put skip, "world", -(3)
+			exit
+			exit when (false)
+			put "!?", 63
+			put skip
+		end
+		exit
+		boolean var4[-55..-3], var1
+	end
+	procedure proc1(integer arg1, integer arg2)
+	begin
+		get arg2, arg1
+		if {
+			put skip, (arg1) - (arg1), arg2
+		yields
+			false
+		} then
+			put arg2
+			put arg1, 77, "!?"
+			var4[arg2] <= false
+			put ":D", skip, skip
+		end
+		while var1 do
+			put skip, skip, "!?"
+			integer var1[57, 36..50], var2[-66..63, 32..85]
+			put "hello", "world", arg1
+			integer var4[-78..89, 55], var5[75, -96..97]
+			get arg2
+		end
+		if {
+			boolean var1[-24..23, 0], var2
+		yields
+			!((var4[arg2, arg1]) < (90))
+		} then
+			return
+		else
+			integer var3[96], var6[53], var10[63]
+		end
+	end
+
+	while var4[50] do
+		integer var3[32]
+		get var3[-(22)]
+		boolean var2, var6, var7[10..56, 45]
+		proc1(var3[30], -(86))
+	end
+end
+

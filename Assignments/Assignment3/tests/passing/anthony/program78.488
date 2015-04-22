@@ -1,0 +1,22 @@
+begin
+	while false do
+		while true do
+			exit when (false)
+		end
+		exit
+	end
+	if {
+		procedure proc2(integer arg1, boolean arg4)
+		begin
+			get arg1, arg1, arg1
+			boolean var1[100, -26..67], var5
+			integer var2, var4[45]
+		end
+
+	yields
+		false
+	} then
+		boolean var2[19..79]
+	end
+end
+

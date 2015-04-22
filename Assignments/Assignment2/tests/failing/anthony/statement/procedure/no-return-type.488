@@ -1,0 +1,5 @@
+begin
+    function foo begin
+        return 3
+    end
+end

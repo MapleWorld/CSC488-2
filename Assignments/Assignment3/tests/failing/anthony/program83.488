@@ -1,0 +1,6 @@
+begin
+	put skip, "hello", skip
+	exit
+	exit
+end
+

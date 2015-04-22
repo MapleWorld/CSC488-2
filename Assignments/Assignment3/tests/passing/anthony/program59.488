@@ -1,0 +1,23 @@
+begin
+	boolean var2[54..69, 18], var1[15, 95..98]
+	put skip, ":D"
+	integer function func2(boolean arg1)
+	begin
+		while (-({
+			put skip, "!?"
+		yields
+			(37) / (7)
+		})) > (-({
+			return (-(44))
+		yields
+			(29) - (92)
+		})) do
+			put ":D", skip, skip
+			exit
+			exit when (true)
+			boolean var1[84], var4[64..81]
+		end
+	end
+
+end
+

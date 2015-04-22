@@ -1,0 +1,5 @@
+begin
+    integer function foo (integer bar, ) begin
+        return bar
+    end
+end

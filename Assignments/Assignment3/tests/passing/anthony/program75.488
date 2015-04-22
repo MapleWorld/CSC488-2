@@ -1,0 +1,44 @@
+begin
+	integer function func2
+	begin
+		if {
+			return (21)
+		yields
+			true
+		} then
+			integer var3
+		end
+		if {
+			return (var3)
+		yields
+			false
+		} then
+			var3 <= 52
+			integer var8[54], var1
+			put skip
+		end
+	end
+
+	procedure proc1(boolean arg3)
+	begin
+		procedure proc8(integer arg1, boolean arg2)
+		begin
+			boolean var2[52..68, -70..-61], var1[-35..4, -13..43]
+			get arg1, arg1
+		end
+
+		if !(!({
+			return
+		yields
+			arg3
+		})) then
+			put 99, "world", 92
+			return
+			return
+			return
+			proc8(-(func2), arg3)
+		end
+	end
+
+end
+

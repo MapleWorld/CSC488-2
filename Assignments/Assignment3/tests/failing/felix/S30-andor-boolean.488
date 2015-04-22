@@ -1,0 +1,4 @@
+begin
+    put true & 5
+    put 5 | true
+end

@@ -1,0 +1,7 @@
+begin
+    loop
+        put "loop", skip
+    end
+
+    exit
+end

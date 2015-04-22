@@ -1,0 +1,5 @@
+% int var <- double literal
+begin
+    integer x 
+    x <= 4.5
+end

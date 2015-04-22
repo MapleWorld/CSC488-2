@@ -1,0 +1,352 @@
+        {ProgramStart} 
+LABEL0:
+        PUSHMT
+        SETD 0
+        PUSH -32768
+        PUSH 8
+        DUPN
+        {Declaration} 
+        {integer a, b, c, d} 
+        {Declaration} 
+        {boolean p, q, r, s} 
+        {Declaration} 
+        {procedure P begin     integer e, f     if p then         ret...} 
+        {Declaration} 
+        {integer function F(integer m, boolean n) begin     if n then...} 
+        {Declaration} 
+        {procedure Q(boolean m, integer n, boolean p) begin     integ...} 
+        {Q((!(p)) | (q), F(F(b, p), !(q)), {     P     yields (p) != ...} 
+        {(!(p)) | (q)} 
+        {!(p)} 
+        {p} 
+        {Load variable: p} 
+        ADDR 0 4
+        LOAD
+        PUSH 0
+        EQ
+        PUSH LABEL1 {OR_NORMAL}
+        BF
+        PUSH 1
+        PUSH LABEL2 {OR_FINISHED}
+        BR
+LABEL1: {OR_NORMAL}
+        {q} 
+        {Load variable: q} 
+        ADDR 0 5
+        LOAD
+LABEL2: {OR_FINISHED}
+        {F(F(b, p), !(q))} 
+        PUSH -32768
+        {F(b, p)} 
+        PUSH -32768
+        {b} 
+        {Load variable: b} 
+        ADDR 0 1
+        LOAD
+        {p} 
+        {Load variable: p} 
+        ADDR 0 4
+        LOAD
+        PUSH LABEL3 {RETURNADDR}
+        PUSH LABEL4 {Function:F}
+        BR
+LABEL3: {RETURNADDR}
+        PUSH 2
+        POPN
+        {!(q)} 
+        {q} 
+        {Load variable: q} 
+        ADDR 0 5
+        LOAD
+        PUSH 0
+        EQ
+        PUSH LABEL5 {RETURNADDR}
+        PUSH LABEL4 {Function:F}
+        BR
+LABEL5: {RETURNADDR}
+        PUSH 2
+        POPN
+        {{     P     yields (p) != (q) } } 
+        {anon function start} 
+        {P} 
+        PUSH LABEL6 {RETURNADDR}
+        PUSH LABEL7 {Procedure:P}
+        BR
+LABEL6: {RETURNADDR}
+        PUSH 0
+        POPN
+        {(p) != (q)} 
+        {p} 
+        {Load variable: p} 
+        ADDR 0 4
+        LOAD
+        {q} 
+        {Load variable: q} 
+        ADDR 0 5
+        LOAD
+        EQ
+        PUSH 0
+        EQ
+        {anon function end} 
+        PUSH LABEL8 {RETURNADDR}
+        PUSH LABEL9 {Procedure:Q}
+        BR
+LABEL8: {RETURNADDR}
+        PUSH 3
+        POPN
+        HALT
+        {ProgramEnd} 
+LABEL7: {Procedure:P}
+        ADDR 1 0
+        PUSHMT
+        SETD 1
+        PUSH -32768
+        PUSH 2
+        DUPN
+        {StartBody} 
+        {Declaration} 
+        {integer e, f} 
+        {if p then     return end } 
+        {p} 
+        {Load variable: p} 
+        ADDR 0 4
+        LOAD
+        PUSH LABEL10 {ENDIF}
+        BF
+        {return} 
+        PUSHMT
+        ADDR 1 0
+        SUB
+        POPN
+        SETD 1
+        BR
+LABEL10: {ENDIF}
+        {e <= a} 
+        ADDR 1 0
+        {a} 
+        {Load variable: a} 
+        ADDR 0 0
+        LOAD
+        STORE
+        {return} 
+        PUSHMT
+        ADDR 1 0
+        SUB
+        POPN
+        SETD 1
+        BR
+        {Returning} 
+        PUSHMT
+        ADDR 1 0
+        SUB
+        POPN
+        SETD 1
+        BR
+        {RoutineEnd} 
+LABEL4: {Function:F}
+        ADDR 1 0
+        PUSHMT
+        SETD 1
+        PUSH -32768
+        PUSH 0
+        DUPN
+        {StartBody} 
+        {if n then     return ((m) + (b))  else     return ((c) - (m)...} 
+        {n} 
+        {Load variable: n} 
+        ADDR 1 -3
+        LOAD
+        PUSH LABEL11 {ELSE}
+        BF
+        {return ((m) + (b))} 
+        {(m) + (b)} 
+        {m} 
+        {Load variable: m} 
+        ADDR 1 -4
+        LOAD
+        {b} 
+        {Load variable: b} 
+        ADDR 0 1
+        LOAD
+        ADD
+        ADDR 1 -5
+        SWAP
+        STORE
+        PUSHMT
+        ADDR 1 0
+        SUB
+        POPN
+        SETD 1
+        BR
+        PUSH LABEL12 {ENDIF}
+        BR
+LABEL11: {ELSE}
+        {return ((c) - (m))} 
+        {(c) - (m)} 
+        {c} 
+        {Load variable: c} 
+        ADDR 0 2
+        LOAD
+        {m} 
+        {Load variable: m} 
+        ADDR 1 -4
+        LOAD
+        SUB
+        ADDR 1 -5
+        SWAP
+        STORE
+        PUSHMT
+        ADDR 1 0
+        SUB
+        POPN
+        SETD 1
+        BR
+LABEL12: {ENDIF}
+        {Returning} 
+        PUSHMT
+        ADDR 1 0
+        SUB
+        POPN
+        SETD 1
+        BR
+        {RoutineEnd} 
+LABEL9: {Procedure:Q}
+        ADDR 1 0
+        PUSHMT
+        SETD 1
+        PUSH -32768
+        PUSH 3
+        DUPN
+        {StartBody} 
+        {Declaration} 
+        {integer t, u, v} 
+        {Declaration} 
+        {boolean function G begin     integer w, x     return ({     ...} 
+        {put F(((t) - (n)) + (a), (!(G)) | (r)), skip} 
+        {F(((t) - (n)) + (a), (!(G)) | (r))} 
+        PUSH -32768
+        {((t) - (n)) + (a)} 
+        {(t) - (n)} 
+        {t} 
+        {Load variable: t} 
+        ADDR 1 0
+        LOAD
+        {n} 
+        {Load variable: n} 
+        ADDR 1 -4
+        LOAD
+        SUB
+        {a} 
+        {Load variable: a} 
+        ADDR 0 0
+        LOAD
+        ADD
+        {(!(G)) | (r)} 
+        {!(G)} 
+        {G} 
+        PUSH -32768
+        PUSH LABEL13 {RETURNADDR}
+        PUSH LABEL14 {Function:G}
+        BR
+LABEL13: {RETURNADDR}
+        PUSH 0
+        POPN
+        PUSH 0
+        EQ
+        PUSH LABEL15 {OR_NORMAL}
+        BF
+        PUSH 1
+        PUSH LABEL16 {OR_FINISHED}
+        BR
+LABEL15: {OR_NORMAL}
+        {r} 
+        {Load variable: r} 
+        ADDR 0 6
+        LOAD
+LABEL16: {OR_FINISHED}
+        PUSH LABEL17 {RETURNADDR}
+        PUSH LABEL4 {Function:F}
+        BR
+LABEL17: {RETURNADDR}
+        PUSH 2
+        POPN
+        PRINTI
+        PUSH 10
+        PRINTC
+        {Returning} 
+        PUSHMT
+        ADDR 1 0
+        SUB
+        POPN
+        SETD 1
+        BR
+        {RoutineEnd} 
+LABEL14: {Function:G}
+        ADDR 2 0
+        PUSHMT
+        SETD 2
+        PUSH -32768
+        PUSH 4
+        DUPN
+        {StartBody} 
+        {Declaration} 
+        {integer w, x} 
+        {return ({     boolean b     integer d     d <= c     P     y...} 
+        {{     boolean b     integer d     d <= c     P     yields ((...} 
+        {anon function start} 
+        {Declaration} 
+        {boolean b} 
+        {Declaration} 
+        {integer d} 
+        {d <= c} 
+        ADDR 2 3
+        {c} 
+        {Load variable: c} 
+        ADDR 0 2
+        LOAD
+        STORE
+        {P} 
+        PUSH LABEL18 {RETURNADDR}
+        PUSH LABEL7 {Procedure:P}
+        BR
+LABEL18: {RETURNADDR}
+        PUSH 0
+        POPN
+        {(((d) + (w)) - (v)) < (12)} 
+        {((d) + (w)) - (v)} 
+        {(d) + (w)} 
+        {d} 
+        {Load variable: d} 
+        ADDR 2 3
+        LOAD
+        {w} 
+        {Load variable: w} 
+        ADDR 2 0
+        LOAD
+        ADD
+        {v} 
+        {Load variable: v} 
+        ADDR 1 2
+        LOAD
+        SUB
+        {12} 
+        PUSH 12
+        LT
+        {anon function end} 
+        ADDR 2 -3
+        SWAP
+        STORE
+        PUSHMT
+        ADDR 2 0
+        SUB
+        POPN
+        SETD 2
+        BR
+        {Returning} 
+        PUSHMT
+        ADDR 2 0
+        SUB
+        POPN
+        SETD 2
+        BR
+        {RoutineEnd}

@@ -1,0 +1,3 @@
+begin
+    integer x[11, 10]
+end

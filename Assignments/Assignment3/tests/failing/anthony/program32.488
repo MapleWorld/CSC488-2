@@ -1,0 +1,70 @@
+begin
+	procedure proc1(boolean arg1, boolean arg2, boolean arg3)
+	begin
+		return (false)
+		exit when (!({
+			return (81)
+		yields
+			true
+		}))
+		integer function func1(boolean arg4)
+		begin
+			boolean var1, var2[100..90]
+			exit when (func1(24))
+			get arg3
+			exit
+			boolean var1, var2, var3[-67..-93, 9]
+		end
+
+		while !({
+			return (-(true))
+		yields
+			false
+		}) do
+			exit when (97)
+			put skip, skip, true
+			exit when (!(!((func1(90)) + (true))))
+			get arg3[-((20) >= (arg1[arg3]))]
+			proc1((!(func1(89))) * (true), 72, 86)
+		end
+		if 11 then
+			return
+			get arg2[false], arg1, arg3
+			put skip, true, skip
+			arg1[true] <= func1(76)
+		else
+			get arg2[true], arg2[false]
+			proc1(func1(89), func1(func1(93)), func1(17))
+		end
+	end
+
+	loop
+		exit when ({
+			put skip
+		yields
+			false
+		})
+		put "!?", (42) = (false), (51) >= (false)
+		while !(((77) * ((false) != (88))) * (-(false))) do
+			proc1(2, !(81), 6)
+			exit when (77)
+			exit when (52)
+			exit
+			integer var1, var2
+		end
+		if var1 then
+			proc1(50, (92) * ((var1[false, false]) = (false)), (35) / (false))
+		else
+			return (false)
+			proc1(32, !(5), 88)
+			return
+		end
+		integer function func2(boolean arg3, integer arg4)
+		begin
+			exit when (62)
+			put "world"
+		end
+
+	end
+end
+

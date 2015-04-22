@@ -1,0 +1,23 @@
+begin
+	if {
+		begin
+			exit when (!(!(98)))
+			exit
+		end
+	yields
+		-({
+			exit when (65)
+		yields
+			43
+		})
+	} then
+		boolean function func1(boolean arg1, integer arg2, boolean arg3)
+		begin
+			exit when (!(83))
+			put skip, arg3[func1(46, true, (arg2[true, true]) / ((4) < (true))), -(-((61) >= (false)))]
+			exit when (!(!(!(arg2[false, false]))))
+		end
+
+	end
+end
+

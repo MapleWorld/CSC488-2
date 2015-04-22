@@ -1,0 +1,45 @@
+begin
+	boolean function func1
+	begin
+		exit
+		while {
+			exit when (97)
+		yields
+			func1
+		} do
+			boolean var1[44], var2[-96..-98, 57..-63], var3
+			boolean var1[12..7], var2[41]
+			exit when (67)
+		end
+		exit when ({
+			exit when (69)
+		yields
+			-(func1)
+		})
+		procedure proc1(integer arg4, boolean arg5, integer arg6)
+		begin
+			exit when (!(36))
+			get var3[var1, false], var2[func1, false]
+			proc1(false, arg4[(13) < (false)], true)
+			proc1(true, 68, arg5)
+			boolean var1[66, 62], var2
+		end
+
+		if {
+			exit
+		yields
+			func1
+		} then
+			put skip
+			proc1(-(var1), 37, false)
+			put "!?", -(true), skip
+			proc1(false, 10, false)
+			exit when (92)
+		else
+			return
+			return (true)
+		end
+	end
+
+end
+

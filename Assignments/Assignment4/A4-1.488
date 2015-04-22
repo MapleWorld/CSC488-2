@@ -1,0 +1,316 @@
+%  Assignment 4 Sample Program 1		% 1-1
+begin						% 1-2
+   integer i, j, k, l, m			% 1-3
+   k <= (i+3) - j*k + k/l 			% 1-4
+   boolean p, q, r, s, t			% 1-5
+   p <= true					% 1-6
+   q <= false					% 1-7
+   r <= ! q | ( p | q ) | (s & ! p)		% 1-8
+   p <= ( i < j	) | ( k <= l ) | ( j = l )	% 1-9
+   s <= ( k ! = m ) & ( j >= k ) & ! ( r = s )	% 1-10
+   q <= ( r = s	 ) | ( !s != r )		% 1-11
+   integer A[7] , B[ -100..50 , -40..-30 ]	% 1-12
+   boolean C[ -7 .. -3 ], D[ 50, 20 ]		% 1-13
+   B[i+1, j-100 ] <= A[j-2]			% 1-14
+   C[-4] <= D[ i + 20 , k - 7 ]			% 1-15
+end						% 1-16
+
+% Local Variables:
+% i, j, k, l, m: 5
+% p, q, r, s, t: 5
+% A[7]: 7
+% B[-100..50, -40..-30]: 1500
+% C[-7 .. -3]: 4
+% D[50, 20]: 1000
+% Total: 2,521
+PUSHMT
+SETD 0
+PUSH UNDEFINED
+PUSH 2521
+DUPN
+
+% k <= (i + 3) - j * k + k / l
+        ADDR 0 2
+
+        % i + 3
+        ADDR 0 0
+        LOAD
+        PUSH 3
+        ADD
+
+        % j * k
+        ADDR 0 1
+        LOAD
+        ADDR 0 2
+        LOAD
+        MUL
+
+        % (i + 3) - j * k
+        SUB
+
+        % k / l
+        ADDR 0 2
+        LOAD
+        ADDR 0 3
+        LOAD
+        DIV
+
+        % (i + 3) - j * k + k / l
+        ADD
+
+        % k <= (i + 3) - j * k + k / l
+        STORE
+
+% p <= true
+        ADDR 0 5
+        PUSH MACHINE_TRUE
+        STORE
+
+% q <= false
+        ADDR 0 6
+        PUSH MACHINE_FALSE
+        STORE
+
+% r <= !q | (p | q) | (s & !p)
+        ADDR 0 7
+                % !q
+                ADDR 0 6
+                LOAD
+                PUSH MACHINE_FALSE
+                EQ
+
+                % !q | ...
+                PUSH else0
+                BF
+                PUSH MACHINE_TRUE
+                PUSH end0
+                BR
+                else0:
+                        % (p | q)
+                        ADDR 0 5
+                        LOAD
+                        PUSH else1
+                        BF
+                        PUSH MACHINE_TRUE
+                        PUSH end1
+                        BR
+                        else1:
+                        ADDR 0 6
+                        LOAD
+                        end1:
+
+                        % (p | q) | ...
+                        PUSH else2
+                        BF
+                        PUSH MACHINE_TRUE
+                        PUSH end2
+                        BR
+                        else2:
+                                % (s & !p)
+                                ADDR 0 8
+                                LOAD
+                                PUSH else3
+                                BF
+                                        % !p
+                                        ADDR 0 5
+                                        LOAD
+                                        PUSH MACHINE_FALSE
+                                        EQ
+                                PUSH end3
+                                BR
+                                else3:
+                                PUSH MACHINE_FALSE
+                                end3:
+                        end2:
+                end0:
+        STORE
+
+% p <= (i < j) | (k <= l) | (j = l)
+        ADDR 0 5
+                % (i < j)
+                ADDR 0 0
+                LOAD
+                ADDR 0 1
+                LOAD
+                LT
+
+                % (i < j) | ...
+                PUSH else4
+                BF
+                PUSH MACHINE_TRUE
+                PUSH end4
+                BR
+                else4:
+                        % (k <= l)
+                        ADDR 0 2
+                        LOAD
+                        ADDR 0 3
+                        LOAD
+                        SWAP
+                        LT
+                        PUSH MACHINE_FALSE
+                        EQ
+
+                        % (k <= l) | ...
+                        PUSH else5
+                        BF
+                        PUSH MACHINE_TRUE
+                        PUSH end5
+                        BR
+                        else5:
+                                % (j = l)
+                                ADDR 0 1
+                                LOAD
+                                ADDR 0 3
+                                LOAD
+                                EQ
+                        end5:
+                end4:
+        STORE
+
+% s <= (k != m) & (j >= k) & !(r = s)
+        ADDR 0 8
+                % (k != m)
+                ADDR 0 2
+                LOAD
+                ADDR 0 4
+                LOAD
+                EQ
+                PUSH MACHINE_FALSE
+                EQ
+
+                % (k != m) & ...
+                PUSH else6
+                BF
+                        % (j >= k)
+                        ADDR 0 1
+                        LOAD
+                        ADDR 0 2
+                        LOAD
+                        LT
+                        PUSH MACHINE_FALSE
+                        EQ
+
+                        % (j >= k) | ...
+                        PUSH else7
+                        BF
+                                % !(r = s)
+                                ADDR 0 7
+                                LOAD
+                                ADDR 0 8
+                                LOAD
+                                EQ
+                                PUSH MACHINE_FALSE
+                                EQ
+                        PUSH end7
+                        BR
+                        else7:
+                        PUSH MACHINE_FALSE
+                        end7:
+                PUSH end6
+                BR
+                else6:
+                PUSH MACHINE_FALSE
+                end6:
+        STORE
+
+% q <= (r = s) | (!s != r)
+        ADDR 0 6
+                % (r = s)
+                ADDR 0 7
+                LOAD
+                ADDR 0 8
+                LOAD
+                EQ
+
+                % (r = s) | ...
+                PUSH else8
+                BF
+                PUSH MACHINE_TRUE
+                PUSH end9
+                BR
+                else8:
+                        % !s
+                        ADDR 0 8
+                        LOAD
+                        PUSH MACHINE_FALSE
+                        EQ
+
+                        % (!s != r)
+                        ADDR 0 7
+                        LOAD
+                        ADDR 0 8
+                        LOAD
+                        EQ
+                        PUSH MACHINE_FALSE
+                        EQ
+                end9:
+        STORE
+
+% B[i + 1, j - 100] <= A[j - 2]
+        % (i + 1 + 100) * 10
+        ADDR 0 0
+        LOAD
+        PUSH 101
+        ADD
+        PUSH 10
+        MUL
+
+        % j - 100 + 40
+        ADDR 0 1
+        LOAD
+        PUSH 140
+        SUB
+
+        % (i + 1 + 100) * 10 + (j - 100 + 40)
+        PUSH 150
+        MUL
+        ADD
+
+        % B[i + 1, j - 100] <= ...
+        ADDR 0 17
+        ADD
+                % j - 2 (+ 0)
+                ADDR 0 2
+                LOAD
+                PUSH 2
+                SUB
+
+                % A[j - 2]
+                ADDR 0 10
+                ADD
+                LOAD
+        STORE
+
+% C[-4] <= D[i + 20, k - 7]
+        PUSH -4
+        PUSH 7
+        ADD
+        ADDR 0 1517
+        ADD
+                % (i + 20 (+ 0)) * 20
+                ADDR 0 0
+                LOAD
+                PUSH 20
+                ADD
+                PUSH 20
+                MUL
+
+                % k - 7 (+ 0)
+                ADDR 0 2
+                LOAD
+                PUSH 7
+                SUB
+
+                % (i + 20) * 20 + (k - 7)
+                PUSH 20
+                MUL
+                ADD
+
+                % D[i + 20, k - 7]
+                ADDR 0 1521
+                ADD
+                LOAD
+        STORE
+
+HALT

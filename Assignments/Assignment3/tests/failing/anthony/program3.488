@@ -1,0 +1,73 @@
+begin
+	loop
+		if !(9) then
+			exit when (19)
+			exit
+			integer var1[-55..-94, 7], var2[61]
+			var1 <= true
+		else
+			boolean var1, var2[22]
+			integer var1[-28..-49], var2[-8..-23], var3
+			exit when (var1[-(true), false])
+		end
+		while {
+			var1[(var1[true]) < (true)] <= true
+		yields
+			var1[false]
+		} do
+			put "hello"
+		end
+		begin
+			var2[var1[var2[var1, (true) = (21)], true], ((51) + (false)) != (true)] <= 1
+			var1[false] <= var2
+			get var2, var2[(var3[true, (18) <= (false)]) < (var2[-(false), -(false)]), (true) & (36)], var2
+		end
+	end
+	if ({
+		if var2 then
+			get var1
+			put skip
+			exit
+			var1[-(true), var1[true]] <= 43
+			boolean var1[79, 17..-79], var2[22]
+		end
+	yields
+		var1[(var2) < (var2)]
+	}) / ({
+		loop
+			put false, skip
+			var3[var1[false, false]] <= true
+			exit
+			var1[var1[var1]] <= 3
+			var2 <= var2
+		end
+	yields
+		47
+	}) then
+		integer function func3(boolean arg6, boolean arg7, integer arg8)
+		begin
+			exit when (var1)
+			var3[true, arg6[(var3) > (false)]] <= arg6
+		end
+
+	else
+		if 56 then
+			var2 <= true
+			get var2[(var2[false, var1[true]]) | (var1)]
+			exit when (!(var1))
+		end
+		procedure proc1
+		begin
+			integer var1[75, -42..-81]
+			exit when (48)
+		end
+
+		var2[{
+			proc1
+		yields
+			(12) * ((true) | (0))
+		}, false] <= false
+		exit when (86)
+	end
+end
+

@@ -1,0 +1,12 @@
+
+begin 
+	procedure q 
+	begin 
+		boolean function h ( boolean v , boolean u ) 
+		begin 
+			
+			begin 
+			end 
+		end 
+	end 
+end 

@@ -1,0 +1,52 @@
+begin
+	procedure proc1(boolean arg1)
+	begin
+		put -(({
+			return (true)
+		yields
+			-(false)
+		}) = (arg1[true])), ({
+			return
+		yields
+			true
+		}) != ({
+			arg1[arg1[false], arg1[true, false]] <= 81
+		yields
+			78
+		}), -({
+			return (60)
+		yields
+			48
+		})
+		exit
+		arg1[arg1[(false) | (!(49))]] <= 57
+		while (53) - ({
+			proc1(60)
+		yields
+			41
+		}) do
+			put ":D", skip
+			proc1((!((!(49)) / (-(true)))) / (arg1))
+			exit
+			put true
+			exit when (33)
+		end
+		begin
+			exit
+			integer var1[-94..-96, -60..-69]
+			exit when (!(var1[arg1[false, true], true]))
+			get arg1
+			exit
+		end
+	end
+
+	proc1(({
+		put skip, false
+	yields
+		true
+	}) * (false))
+	while 13 do
+		exit
+	end
+end
+

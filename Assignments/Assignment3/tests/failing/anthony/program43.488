@@ -1,0 +1,13 @@
+begin
+	boolean function func1
+	begin
+		while 64 do
+			put skip
+			exit
+		end
+		exit when (52)
+		exit
+	end
+
+end
+

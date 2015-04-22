@@ -1,0 +1,14 @@
+
+begin 
+	procedure z ( boolean x , integer t , boolean k , integer b , boolean y , boolean j , boolean w , boolean a ) 
+	begin 
+		if true | q then 
+			procedure z 
+			begin 
+			end else 
+			integer function u ( integer v ) 
+			begin 
+			end 
+		end 
+	end 
+end 

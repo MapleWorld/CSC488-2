@@ -1,0 +1,13 @@
+begin
+    integer function func (boolean x) begin
+        return (1)
+    end
+
+    put func
+
+    procedure proc (integer val) begin
+        put "hello"
+    end
+
+    proc
+end

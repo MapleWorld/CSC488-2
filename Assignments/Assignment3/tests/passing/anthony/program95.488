@@ -1,0 +1,17 @@
+begin
+	put "!?"
+	while ({
+		boolean var1[-12..18], var2[-16..29, 90]
+	yields
+		(26) / (91)
+	}) >= (-({
+		if true then
+			put 60, skip
+		end
+	yields
+		99
+	})) do
+		integer var1
+	end
+end
+

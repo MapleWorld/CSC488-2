@@ -1,0 +1,33 @@
+begin
+	loop
+		exit when (5)
+		boolean var1[24], var2[49]
+	end
+	begin
+		loop
+			exit when (76)
+		end
+		begin
+			exit when (59)
+			put skip, skip
+		end
+		integer function func1(boolean arg1, boolean arg2, integer arg3)
+		begin
+			boolean var1, var2[23], var3[80..-16]
+			boolean var1[86, 42..-32]
+		end
+
+		while 17 do
+			var2[true, false] <= 60
+			integer var1[-10..-87, -97..-99], var2[87..-83]
+			get var1, var2[var1[var1, var2]], var1
+			var2[(true) | (var1[false, true]), -((3) >= (true))] <= func1(var1[var2, var1[false]], 60, true)
+		end
+		procedure proc1
+		begin
+			exit
+		end
+
+	end
+end
+

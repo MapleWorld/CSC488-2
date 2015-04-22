@@ -1,0 +1,62 @@
+begin
+	put "world"
+	boolean function func4(integer arg2)
+	begin
+		if func4({
+			return (false)
+		yields
+			arg2
+		}) then
+			put skip
+			get arg2, arg2, arg2
+			return (func4(arg2))
+			return (!(func4(arg2)))
+		end
+		put skip, skip
+		get arg2
+		while func4({
+			return (false)
+		yields
+			8
+		}) do
+			put skip, ":D", skip
+			exit when (!(true))
+			integer var1[92], var3[7]
+			var3[var3[-(var1[7])]] <= 42
+			get var1[var3[3]]
+		end
+		if func4({
+			put skip
+		yields
+			var3[59]
+		}) then
+			integer var2[-4..44, 95]
+			get var2[(33) - (45), -((-(94)) / (72))], var1[95], var3[-(var1[-(53)])]
+			var3[-(75)] <= 47
+		end
+	end
+
+	boolean function func3(boolean arg2, integer arg1)
+	begin
+		if !({
+			return (arg2)
+		yields
+			true
+		}) then
+			put "world", skip, ":D"
+			return (true)
+			integer var1[76, 9..39], var2[70, 58..67], var3[56..85]
+			return (true)
+			return (true)
+		end
+	end
+
+	loop
+		exit
+		begin
+			boolean var3[-1..97]
+			integer var1, var4[-80..-39, 0], var2[3, 11]
+		end
+	end
+end
+

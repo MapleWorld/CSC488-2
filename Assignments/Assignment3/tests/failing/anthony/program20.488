@@ -1,0 +1,55 @@
+begin
+	exit when (!({
+		exit
+	yields
+		false
+	}))
+	if 70 then
+		return
+		boolean function func1(integer arg1)
+		begin
+			arg1[-(true), func1(func1(-(true)))] <= true
+			put false, "world"
+			put skip, "world"
+		end
+
+		procedure proc3
+		begin
+			exit when ((!(36)) + ((false) | (61)))
+			exit
+		end
+
+		if 12 then
+			exit
+			proc3
+			exit
+			proc3
+			proc3
+		end
+		return (func1(func1({
+			return
+		yields
+			!(64)
+		})))
+	else
+		if {
+			proc3
+		yields
+			false
+		} then
+			proc3
+			proc3
+		end
+	end
+	begin
+		if (!(!(99))) + (false) then
+			proc3
+			put -((60) <= (-(func1(true)))), skip
+		else
+			return (true)
+			put "world", "!?"
+			return
+		end
+	end
+end
+

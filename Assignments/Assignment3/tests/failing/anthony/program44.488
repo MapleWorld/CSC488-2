@@ -1,0 +1,5 @@
+begin
+	exit when (84)
+	put skip, ":D"
+end
+

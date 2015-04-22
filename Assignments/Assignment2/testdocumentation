@@ -1,0 +1,8 @@
+Our testing of the csc488.cup file consisted of 100 automatically generated
+programs to test syntax errors (a mixture of valid and invalid programs).
+We also hand made a bunch of tests to handle corner cases. Our syntactically
+correct programs from assignment 1 were also tested against the parser.
+
+The name of each program that we made briefly describes what is being tested,
+while the generated programs are named 1 to 100. Except for the generated
+tests, our tests are simple enough that their meaning can be grasped at a glance.

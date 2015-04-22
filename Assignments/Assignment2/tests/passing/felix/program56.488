@@ -1,0 +1,7 @@
+
+begin 
+	boolean function t 
+	begin 
+		f [ false ] < = false & ! 35 
+	end 
+end 

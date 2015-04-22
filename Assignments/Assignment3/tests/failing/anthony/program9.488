@@ -1,0 +1,50 @@
+begin
+	if !(0) then
+		begin
+			exit
+		end
+		integer function func2(integer arg4, integer arg5, boolean arg6)
+		begin
+			arg5[-(((72) + (arg6)) <= (true)), false] <= (false) & (func2(false, arg6[arg6[true, arg6]], (25) / (false)))
+			put arg6[false, arg6], "!?", true
+		end
+
+		while ({
+			integer var1[-35..-94, 90..1], var2[-38..-91], var3
+		yields
+			-(true)
+		}) + (false) do
+			exit when (55)
+		end
+		if 74 then
+			return (!(90))
+			exit
+			integer var1, var2, var3
+		else
+			var3 <= (9) >= (true)
+			put false, skip
+			boolean var1[9, -10..-79]
+		end
+		if func2(true, var1[false], var1[false, {
+			var1[true, false] <= 26
+		yields
+			var2[false, true]
+		}]) then
+			get var1
+			get var1[true, -(false)]
+			put "world", true, skip
+			exit
+		end
+	end
+	exit
+	begin
+		exit when ({
+			exit when (30)
+		yields
+			false
+		})
+		put skip, "!?"
+		get var1
+	end
+end
+

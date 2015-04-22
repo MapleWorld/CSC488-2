@@ -1,0 +1,5 @@
+begin
+    integer x
+    x <= 100
+    put x
+end

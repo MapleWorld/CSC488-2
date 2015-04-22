@@ -1,0 +1,5 @@
+% var type mismatch
+begin
+    integer x 
+    x <= ! true
+end

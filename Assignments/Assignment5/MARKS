@@ -1,0 +1,77 @@
+Mark: 97.5 / 100
+
+
+Documentation (20 / 20)
+-------------
+
+1. Covered your work well
+
+2. Detailed explanation on some concerns like your ideas on 'Entity' and 
+design in LexScope interface, good job!
+
+3. Your A4 and A5 are developed simultaneously, that is not a standard 
+approach. From your result, you have done a pretty good job in this way, 
+it would be better to share some of your thoughts on this :)
+
+
+Expressions (13 / 13)
+-----------
+
+  - Nice development of an IR including constructs for labels and comments!
+
+     * Great use of convenience macros like `emit_BT` that keep your 
+code generation very clear
+
+     * Probably should have referenced opcode constants like 
+`Machine.HALT` in your `codegen.ir.Snippet`, but that's okay
+
+  - Very readable
+
+
+Statements (13 / 13)
+----------
+
+  - For L-values in assignment statements, good distinction between the 
+value and the address of variables
+
+  - Fun micro-optimization of swapping true/false branches of a if 
+statement for each layer of outer NOT's in the conditional expression
+
+  - Nice uniform handling of both while and loop constructs
+
+  - Interesting observation about the state of the stack when executing 
+an `exit`
+
+
+Functions/Procedures (17 / 17)
+--------------------
+
+  - Great handling of a very tricky mechanism
+
+  - For something as delicate as the specific display offset numbers for 
+routine parameters (the for loop in method `decl_Routine` from 
+Generator.java), consider having an abundance of caution and including 
+lots of extra comments documenting your specific choices
+
+
+Testing (20 / 20)
+-------
+
+  - Very nice test runner, especially diff'ing the output for 
+differences, providing an input and checking for internal errors too!!
+  - Well organized, focused on the code generation spec numbers
+     * But it would be more illuminating if you at least added comments 
+for what you were testing in each case. Offhand I cannot remember what 
+C37 is...
+     * Alternatively, consider organizing your suite around the 
+individual language constructs under test
+
+
+Packaging (2 / 2)
+---------
+
+  - Submission was correctly packaged, and was compilable
+
+
+Official Testing (12.5 / 15)
+----------------

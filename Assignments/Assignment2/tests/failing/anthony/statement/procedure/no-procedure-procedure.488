@@ -1,0 +1,5 @@
+begin
+    wrong (integer hello) begin
+        return
+    end
+end

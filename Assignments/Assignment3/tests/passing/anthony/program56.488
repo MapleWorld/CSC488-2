@@ -1,0 +1,6 @@
+begin
+	boolean var1[40..98], var2, var5[89..92]
+	var2 <= false
+	var1[-(-(-(29)))] <= false
+end
+

@@ -1,0 +1,4 @@
+begin
+    procedure foo (integer foo boolean baz) begin
+    end
+end

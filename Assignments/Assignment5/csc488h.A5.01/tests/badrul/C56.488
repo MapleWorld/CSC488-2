@@ -1,0 +1,10 @@
+% procedure with no args
+begin
+	integer x
+	x <= 0
+	procedure print(integer a)
+	begin
+		put a
+	end
+	print(x)
+end

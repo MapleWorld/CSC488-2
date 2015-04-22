@@ -1,0 +1,72 @@
+begin
+	procedure proc1(boolean arg1, integer arg3, integer arg7)
+	begin
+		return
+		loop
+			return
+			exit when (!(false))
+			integer var1, var3[78], var4
+			return
+		end
+	end
+
+	proc1(false, -({
+		procedure proc1(integer arg2, boolean arg4)
+		begin
+			boolean var1[41], var3[17, 71], var2
+			var2 <= true
+			integer var4[-64..-28], var5[-1..55, -43..-31], var7[38..92]
+		end
+
+	yields
+		68
+	}), {
+		integer function func3(integer arg5, integer arg1)
+		begin
+			return (-(arg1))
+			return (60)
+			return (func3(17, arg5))
+			put 84, skip
+			put skip, 23, skip
+		end
+
+	yields
+		0
+	})
+	begin
+		if {
+			integer var4[95, 1], var2[29, -15..17], var3[14..33, 18]
+		yields
+			((var3[63, 43]) < ((41) * (14))) & (true)
+		} then
+			put 79, 45, skip
+		else
+			boolean var3[87, 91..99], var1[-13..1]
+		end
+		if false then
+			boolean var4[-48..14]
+		else
+			var4[-(63)] <= false
+			var1[5] <= true
+			put "world", skip
+			var4[45] <= true
+			put skip
+		end
+		while true do
+			var1[-(59)] <= (false) & (true)
+			put skip
+			exit when (false)
+			put skip, "hello"
+		end
+	end
+	proc1(false, 36, {
+		put "hello"
+	yields
+		{
+			put 31
+		yields
+			-(48)
+		}
+	})
+end
+

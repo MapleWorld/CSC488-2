@@ -1,0 +1,4 @@
+begin
+    procedure procedureBar (integer foobar, boolean arg2) begin
+    end
+end

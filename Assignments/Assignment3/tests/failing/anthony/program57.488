@@ -1,0 +1,53 @@
+begin
+	if {
+		begin
+			put (true) & (50), skip
+			boolean var1[64, 24], var2, var3[46]
+			put false, skip
+		end
+	yields
+		(false) = (95)
+	} then
+		if 83 then
+			exit when (58)
+			exit
+			exit
+		end
+		exit
+		return
+	else
+		if {
+			put skip
+		yields
+			false
+		} then
+			put skip, false, "!?"
+			integer var1
+		else
+			return
+			return
+			var1[false] <= true
+			return
+		end
+	end
+	loop
+		procedure proc1(integer arg1, integer arg2, integer arg3)
+		begin
+			return (!(99))
+			return
+			return
+		end
+
+		if var1[{
+			exit
+		yields
+			27
+		}, false] then
+			exit
+		else
+			proc1(true, -(false), (100) = (true))
+			return
+		end
+	end
+end
+

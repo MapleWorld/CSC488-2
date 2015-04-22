@@ -1,0 +1,5 @@
+begin
+    integer x[10, 10]
+    x[2, 2] <= 12
+    put x[2, 2]
+end

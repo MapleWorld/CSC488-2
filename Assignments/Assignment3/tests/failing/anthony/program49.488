@@ -1,0 +1,17 @@
+begin
+	exit when ({
+		loop
+			integer var1[34]
+			exit
+			exit when (var1)
+		end
+	yields
+		{
+			exit
+		yields
+			33
+		}
+	})
+	exit when (87)
+end
+

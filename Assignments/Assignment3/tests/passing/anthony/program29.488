@@ -1,0 +1,51 @@
+begin
+	loop
+		boolean var3, var4[14..70, 74..85]
+		boolean var5[0, 59..89], var6[-57..-5, 84], var2[4..40, 59]
+	end
+	loop
+		exit
+		exit
+		exit
+		exit
+		boolean var8
+	end
+	if false then
+		begin
+			put skip, 13, skip
+		end
+		put skip, 59
+		integer function func1(integer arg1)
+		begin
+			var3 <= var2[arg1, arg1]
+			get arg1, arg1, arg1
+			integer var2[31..79], var4[74], var3[45]
+			return (var3[-(var4[func1(41)])])
+		end
+
+	end
+	if {
+		put 9, "!?"
+	yields
+		var8
+	} then
+		begin
+			var5[func1(49), func1(-(func1(0)))] <= !(!(false))
+			var8 <= var2[func1(func1(-(31))), 78]
+			var4[func1((-(38)) - (58)), func1(-(64))] <= false
+			boolean var1[40..83, 20], var2
+		end
+		loop
+			boolean var1, var10[-71..61, 2], var7[47, 36]
+		end
+	else
+		begin
+			put skip, "world"
+			put skip, "world", 2
+			var6[((62) - (func1(74))) + (func1(-(52))), -(-(func1(18)))] <= var5[-(((20) * (14)) + (57)), 53]
+			put "hello"
+			put "world"
+		end
+	end
+end
+

@@ -1,0 +1,4 @@
+% bound check
+begin
+	integer y[1 .. 0]
+end

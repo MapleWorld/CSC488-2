@@ -1,0 +1,4 @@
+begin
+    integer x
+    integer y[x]
+end

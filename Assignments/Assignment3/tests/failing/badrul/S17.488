@@ -1,0 +1,7 @@
+% procedure returns 
+begin
+	procedure foo
+	begin
+        return (true)
+	end
+end

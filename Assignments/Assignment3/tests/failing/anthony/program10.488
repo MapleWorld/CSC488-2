@@ -1,0 +1,72 @@
+begin
+	exit when (!(!({
+		begin
+			exit when (28)
+			exit when (31)
+			exit
+			exit when (!(37))
+		end
+	yields
+		(true) & (17)
+	})))
+	loop
+		if {
+			put "hello", skip
+		yields
+			false
+		} then
+			exit
+		end
+	end
+	exit
+	loop
+		if !(((47) - (false)) / ((41) < ((84) < (true)))) then
+			return
+		else
+			put skip, (41) > ((98) < (-(false))), skip
+			exit when (32)
+			exit
+			exit when (61)
+			exit
+		end
+	end
+	if (66) / (true) then
+		if ({
+			exit when (!((49) - (false)))
+		yields
+			((81) + (false)) = ((48) > (false))
+		}) + (true) then
+			put "world", "world", true
+			exit
+			put ":D"
+			exit when (14)
+			put false, true
+		else
+			put -(false), skip, skip
+			return (!(22))
+		end
+		exit when (58)
+		begin
+			put skip
+			put skip
+			exit when (12)
+			exit when (27)
+		end
+		exit
+		boolean function func7(integer arg13, boolean arg14)
+		begin
+			integer var1, var2[-2..-48, -67..-68], var3[91, 44]
+		end
+
+	else
+		put skip, skip, skip
+		loop
+			exit when (35)
+		end
+		if 23 then
+			put -(-(true)), (15) >= (false)
+			put skip, skip
+		end
+	end
+end
+

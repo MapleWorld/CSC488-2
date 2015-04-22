@@ -1,0 +1,31 @@
+begin
+	while {
+		begin
+			put skip
+			boolean var2[85, 59], var5[40], var3[-30..23, 5..57]
+		end
+	yields
+		false
+	} do
+		loop
+			boolean var1[41, 87..89]
+			put 31, "hello", 96
+			exit
+			exit
+			var1[(-(88)) / (67), 4] <= !(!(var1[88, 56]))
+		end
+		if {
+			put "world", -(2), -(9)
+		yields
+			false
+		} then
+			var1[25, 100] <= true
+		end
+		boolean function func1(integer arg1)
+		begin
+			return (true)
+		end
+
+	end
+end
+

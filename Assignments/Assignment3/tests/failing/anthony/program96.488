@@ -1,0 +1,74 @@
+begin
+	integer var1[84, 97]
+	exit when ((var1) / (false))
+	exit
+	if var1[false, {
+		if 64 then
+			var1[true, true] <= (false) = (56)
+			exit
+			integer var1, var2[81..-51]
+			integer var1, var2[-9..-73]
+			put "world"
+		end
+	yields
+		var1[false, (0) <= (true)]
+	}] then
+		boolean function func1(integer arg1, integer arg2, integer arg3)
+		begin
+			arg1[func1((var1) <= (-(true)), true, true), -(false)] <= true
+			put skip, ":D", false
+			exit
+			exit when (!((37) * (false)))
+		end
+
+		procedure proc2(boolean arg6, integer arg7)
+		begin
+			put true, arg6[-((arg6[false]) & (42))]
+			proc2(arg7, false)
+			var1[func1(func1(arg6[false], arg6[arg6, false], -(true)), arg6, false)] <= (-(true)) = (var1)
+		end
+
+		while !({
+			integer var1[25..-45, 96], var2, var3[-70..-73, 92..15]
+		yields
+			false
+		}) do
+			exit when (var1[false, func1(false, false, true)])
+			put (!(!(13))) < (true), "hello"
+			var1[true] <= (!(50)) > (false)
+			exit when (22)
+		end
+		loop
+			exit when (var1)
+			boolean var1[-47..-57], var2[1..-90], var3[55]
+			exit
+			put ":D", false
+			integer var1[74, 77..-18], var2[-20..-96, 65], var3
+		end
+		get var3, var1[false]
+	else
+		while {
+			get var2[func1((81) = (true), true, false), func1(var2[false], func1(true, false, true), -(false))], var3[false], var3[var1]
+		yields
+			(var3[false, var1[false]]) <= ((var1[true, true]) < (func1(false, true, false)))
+		} do
+			exit
+			put var3, skip
+			proc2(!(!(var2[true])), (37) <= (var2[false, -(var2[true])]))
+			get var3[-(func1(func1(false, true, false), var2[var2], var2[true]))], var1[func1(-(func1(false, true, true)), false, func1(true, true, true)), var1], var3[false]
+		end
+		integer function func1(boolean arg1, boolean arg2)
+		begin
+			var3 <= 69
+			var1[true] <= func1(true, false, func1(var3[arg1[true, false]], func1(func1(false, true, true), func1(true, true, true), false), false))
+			var3[false] <= func1(func1(var3[true], false, arg1[false]), -(-(func1(true, true, false))), func1(var1[false], false, arg2[false, false]))
+			exit
+			get arg1[true, false], arg2[true, true]
+		end
+
+	end
+	begin
+		exit
+	end
+end
+

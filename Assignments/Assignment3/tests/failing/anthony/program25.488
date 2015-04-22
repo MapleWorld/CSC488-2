@@ -1,0 +1,46 @@
+begin
+	loop
+		procedure proc1(integer arg1)
+		begin
+			return (true)
+			return
+			proc1(false)
+			return
+			return (55)
+		end
+
+		if !(({
+			boolean var1[64..20, 54..-32]
+		yields
+			true
+		}) * ({
+			exit
+		yields
+			!(36)
+		})) then
+			exit when (54)
+			put "!?"
+		end
+		exit when (({
+			proc1((42) <= (true))
+		yields
+			(91) > (false)
+		}) / (false))
+		put false
+		if ({
+			exit when ((54) / (true))
+		yields
+			-((22) != (false))
+		}) / ({
+			boolean var1[6..-64, 41]
+		yields
+			!((50) * (true))
+		}) then
+			exit
+			put ":D"
+			put "hello", "hello", "hello"
+			put "hello", "!?", (68) < (false)
+		end
+	end
+end
+

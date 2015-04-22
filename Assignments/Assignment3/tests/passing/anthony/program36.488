@@ -1,0 +1,77 @@
+begin
+	begin
+		procedure proc1(boolean arg1, integer arg2, boolean arg3)
+		begin
+			return
+		end
+
+		while false do
+			boolean var2, var1, var3[51, 40]
+			var2 <= false
+			proc1(false, 39, var3[-(78), 10])
+			put ":D", 93, skip
+			var3[-(1), 86] <= var3[29, 48]
+		end
+	end
+	if false then
+		loop
+			exit
+		end
+	end
+	integer var1, var3, var6[50..98, 53]
+	boolean function func3(integer arg4, integer arg1, boolean arg2)
+	begin
+		begin
+			return (false)
+			boolean var2
+			get var6[var3, (var3) + (1)]
+			return (false)
+		end
+		if func3(10, ({
+			var1 <= 11
+		yields
+			var1
+		}) - (var6[4, 79]), func3((89) / (89), var3, {
+			return ((arg1) > (var3))
+		yields
+			false
+		})) then
+			return (false)
+		end
+		put ":D", {
+			return (!(arg2))
+		yields
+			40
+		}
+		while func3({
+			return (arg2)
+		yields
+			-(37)
+		}, {
+			return (false)
+		yields
+			arg1
+		}, func3({
+			return (!(true))
+		yields
+			93
+		}, arg1, func3(arg1, -(35), true))) do
+			var3 <= 96
+			put "!?"
+			put skip, skip, "!?"
+			get var6[97, -(var6[-(66), -(var3)])], var3, arg4
+		end
+		integer var3[6], var2, var4
+	end
+
+	begin
+		begin
+			var1 <= var1
+			var3 <= var6[19, var6[-(7), 63]]
+			get var3
+			get var1, var6[28, var1]
+		end
+		boolean var1[100, -36..15], var2[-96..-1]
+	end
+end
+

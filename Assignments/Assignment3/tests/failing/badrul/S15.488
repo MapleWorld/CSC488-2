@@ -1,0 +1,7 @@
+% illegal short circuit: AST error
+begin
+	boolean function foo (boolean x)
+	begin
+		return (x | 0)
+	end
+end

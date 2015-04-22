@@ -1,0 +1,88 @@
+begin
+	if (18) - (true) then
+		begin
+			exit when (28)
+			boolean var1[17..14], var2
+			exit
+			return (84)
+		end
+		put skip
+		while {
+			return (99)
+		yields
+			true
+		} do
+			boolean var1[22], var2[35, 77]
+			return
+			return (true)
+			var2[true, ((39) > (false)) != (5)] <= 14
+			return (true)
+		end
+	else
+		if {
+			put skip
+		yields
+			false
+		} then
+			return
+			get var1[false], var2, var1[var2, true]
+			exit
+			get var1
+			exit when (!(!(85)))
+		else
+			var1[-(var1[true, true]), (var2[false]) != (!((65) / (var1)))] <= 7
+		end
+		while 76 do
+			put var1[true, true], "hello", "world"
+			var1 <= 0
+			exit
+		end
+	end
+	put false
+	if ({
+		procedure proc5(boolean arg8, integer arg9)
+		begin
+			proc5(17, false)
+			get arg8
+			exit when (arg9)
+			boolean var1[16, 20]
+		end
+
+	yields
+		{
+			exit
+		yields
+			51
+		}
+	}) + (var2[{
+		while 34 do
+			put ":D"
+			exit
+			boolean var1[-67..-83], var2[53..-66, -52..-73], var3[-75..-98]
+			get var3[false, var3], var2, var2
+			exit
+		end
+	yields
+		(93) + (false)
+	}, -(var1[true, true])]) then
+		exit
+		put skip, skip
+		loop
+			put false, skip, skip
+		end
+		begin
+			exit
+		end
+		if 86 then
+			boolean var1[48], var2[-5..-39, -94..-94]
+			exit when (46)
+			get var1[var1[(!(81)) >= (true)], true], var1[true, false]
+			get var1[-(var1), true], var2[(88) < (true), -(var1[-(false), (61) <= (var2)])], var1[-(var2[false]), true]
+			exit
+		else
+			exit when (53)
+			get var1[(53) = (true)]
+		end
+	end
+end
+

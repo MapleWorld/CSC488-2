@@ -1,0 +1,38 @@
+begin
+	boolean function func1(integer arg1, integer arg3)
+	begin
+		if false then
+			boolean var1[58]
+			boolean var2, var3, var5[35, 55..59]
+			var1[arg3] <= !(true)
+		else
+			integer var4[-97..40, 7]
+			get arg1
+			integer var6
+			integer var7[38]
+		end
+		begin
+			boolean var1[61, 53]
+			get var7[arg1], var6
+			var7[40] <= var6
+			var2 <= true
+		end
+		var1[21] <= !(!({
+			return (var1[37])
+		yields
+			true
+		}))
+		if func1(var7[var7[var4[25, 77]]], {
+			return (false)
+		yields
+			arg3
+		}) then
+			return (var2)
+		else
+			put skip, 5
+			var3 <= false
+		end
+	end
+
+end
+

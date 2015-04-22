@@ -1,0 +1,5 @@
+begin
+	put "hello"
+	exit when (13)
+end
+

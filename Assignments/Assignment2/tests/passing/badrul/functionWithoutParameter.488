@@ -1,0 +1,7 @@
+% function without parameters should be parsed successfully
+begin
+	boolean function foo
+	begin
+		return True
+	end
+end

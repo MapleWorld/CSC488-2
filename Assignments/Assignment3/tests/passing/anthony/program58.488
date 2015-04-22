@@ -1,0 +1,32 @@
+begin
+	procedure proc1
+	begin
+		return
+	end
+
+	integer function func2(integer arg1)
+	begin
+		begin
+			boolean var1[96], var3[65], var2[-60..5]
+			return (arg1)
+			return (17)
+			return (arg1)
+			get arg1, arg1
+		end
+	end
+
+	put {
+		procedure proc2(integer arg2, integer arg1, boolean arg3)
+		begin
+			put arg2, 80
+		end
+
+	yields
+		{
+			put skip
+		yields
+			47
+		}
+	}, ":D"
+end
+

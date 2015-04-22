@@ -1,0 +1,7 @@
+% Author: Vishrant Vasavada
+% Info: Program that tests array declaration with missing type
+% Error: Line 6
+
+begin
+	a[2]
+end

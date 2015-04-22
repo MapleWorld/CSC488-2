@@ -1,0 +1,76 @@
+begin
+	put skip
+	procedure proc1(integer arg1, boolean arg3)
+	begin
+		integer function func1(integer arg4, boolean arg1, integer arg5)
+		begin
+			return (arg5)
+			return (32)
+			integer var2[-98..-76, 30], var1[27..37, 21]
+			var1[func1(var1[(9) / (51), 9], !(true), (func1(58, true, 96)) - (80)), (96) - (100)] <= var1[arg5, 92]
+		end
+
+		put ":D", {
+			put "hello", skip
+		yields
+			47
+		}, "hello"
+		get arg1
+		if false then
+			put 66, "hello"
+			get arg1, arg1
+			get arg1, arg1, arg1
+			get arg1, arg1
+			get arg1, arg1, arg1
+		else
+			put skip
+			integer var1[19]
+			get var1[79], arg1
+			get arg1
+			var1[68] <= (22) - (arg1)
+		end
+	end
+
+	put "!?"
+	if {
+		boolean var1
+	yields
+		!((7) <= (85))
+	} then
+		procedure proc3(boolean arg1)
+		begin
+			boolean var1, var3, var6[37..74]
+			var3 <= (15) = (38)
+			put 17, 26, "hello"
+			put "world"
+			var3 <= false
+		end
+
+		procedure proc5
+		begin
+			return
+		end
+
+		boolean function func2(integer arg3)
+		begin
+			put -(arg3), arg3, skip
+			boolean var1, var3[0], var2[61]
+			return (!(var1))
+		end
+
+		loop
+			exit
+		end
+		if ({
+			integer var2[13, 30]
+		yields
+			-(45)
+		}) < (17) then
+			put "world"
+			put "!?", skip, (44) * (12)
+			put "!?", skip
+			proc3(false)
+		end
+	end
+end
+

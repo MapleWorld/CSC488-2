@@ -1,0 +1,324 @@
+% Assignment 4 Sample Program 3                         % 3-1
+begin                                                   % 3-2
+   integer a, b, c, d                                   % 3-3
+   boolean p, q, r, s                                   % 3-4
+   procedure P                                          % 3-5
+      begin                                             % 3-6
+         integer e, f                                   % 3-7
+         if p then  return  end                         % 3-8
+         e <= a                                         % 3-9
+     return                                             % 3-10
+      end  % P                                          % 3-11
+  integer function F( integer m, boolean n )            % 3-12
+      begin                                             % 3-13
+         if n then  return ( m + b )                    % 3-14
+         else  return ( c - m )   end                   % 3-15
+      end  % F                                          % 3-16
+  procedure Q( boolean m , integer n , boolean p )      % 3-17
+    begin                                               % 3-18
+      integer t, u, v                                   % 3-19
+      boolean  function G                               % 3-20
+          begin                                         % 3-21
+             integer w, x                               % 3-22
+             return (                                   % 3-23
+                { boolean b integer d  d<= c P          % 3-24
+                      yields  d + w - v  < 12  } )      % 3-25
+          end  % G                                      % 3-26
+      put F( t - n + a  , ! G | r ) , skip              % 3-27
+  end  %Q                                               % 3-28
+  Q( ! p | q , F( F( b, p ), !q ) ,                     % 3-29
+        { P yields p != q } )                           % 3-30
+end                                                     % 3-31
+
+PUSHMT
+SETD 0
+PUSH UNDEFINED
+PUSH 8
+DUPN
+
+% !p | q
+ADDR 0 4
+LOAD
+PUSH MACHINE_FALSE
+EQ
+PUSH else0
+BF
+PUSH MACHINE_TRUE
+PUSH end0
+BR
+else0:
+ADDR 0 5
+LOAD
+end0:
+
+% F(F(b, p), !q)
+PUSH UNDEFINED
+
+% F(b, p)
+PUSH UNDEFINED
+ADDR 0 1
+LOAD
+ADDR 0 4
+LOAD
+PUSH return0
+PUSH F
+BR
+return0:
+PUSH 2
+POPN
+
+% !q
+ADDR 0 5
+LOAD
+PUSH MACHINE_FALSE
+EQ
+
+PUSH return1
+PUSH F
+BR
+return1:
+PUSH 2
+POPN
+
+% { P yields p != q }
+PUSH return2
+PUSH P
+BR
+return2:
+PUSH 0
+POPN
+ADDR 0 4
+LOAD
+ADDR 0 5
+LOAD
+EQ
+PUSH MACHINE_FALSE
+EQ
+
+% Actual call to Q
+PUSH return3
+PUSH Q
+BR
+return3:
+PUSH 3
+POPN
+
+HALT
+
+% P
+ADDR 1 0
+PUSHMT
+SETD 1
+PUSH UNDEFINED
+PUSH 2
+DUPN
+
+% if p ...
+ADDR 0 4
+LOAD end2
+BF
+    PUSHMT
+    ADDR 1 0
+    SUB
+    POPN
+    SETD 1
+    BR
+end2:
+
+% e <= a
+ADDR 1 0
+LOAD
+ADDR 0 0
+LOAD
+STORE
+
+% return
+PUSHMT
+ADDR 1 0
+SUB
+POPN
+SETD 1
+BR
+
+% Exit P
+PUSHMT
+ADDR 1 0
+SUB
+POPN
+SETD 1
+BR
+
+% F
+ADDR 1 0
+PUSHMT
+SETD 1
+PUSH UNDEFINED
+PUSH 0
+DUPN
+
+% if n ...
+ADDR 1 -3
+LOAD
+PUSH else3
+BF
+    ADDR 1 -4
+    LOAD
+    ADDR 0 1
+    LOAD
+    ADD
+    ADDR 1 -5
+    SWAP
+    STORE
+    PUSHMT
+    ADDR 1 0
+    SUB
+    POPN
+    SETD 1
+    BR
+PUSH end3
+BR
+else3:
+    ADDR 0 2
+    LOAD
+    ADDR 1 -4
+    LOAD
+    SUB
+    ADDR 1 -5
+    SWAP
+    STORE
+    PUSHMT
+    ADDR 1 0
+    SUB
+    POPN
+    SETD 1
+    BR
+
+% Exit F
+PUSH 'E'
+PRINTC
+PUSH 'R'
+PRINTC
+PUSH 'R'
+PRINTC
+PUSH 'O'
+PRINTC
+PUSH 'R'
+PRINTC
+HALT
+
+% Q
+ADDR 1 0
+PUSHMT
+SETD 1
+PUSH UNDEFINED
+PUSH 3
+DUPN
+
+PUSH UNDEFINED
+
+% t - n + a
+ADDR 1 0
+LOAD
+ADDR 1 -4
+LOAD
+SUB
+ADDR 0 0
+LOAD
+ADD
+
+% !G | r
+PUSH UNDEFINED
+PUSH return4
+PUSH G
+BR
+return4:
+PUSH 0
+POPN
+PUSH MACHINE_FALSE
+EQ
+PUSH else1
+BF
+PUSH MACHINE_TRUE
+PUSH end1
+BR
+else1:
+ADDR 0 6
+LOAD
+
+PUSH return5
+PUSH F
+BR
+return5:
+PUSH 2
+POPN
+
+PRINTI
+
+PUSH '\n'
+PRINTC
+
+% Exit Q
+PUSHMT
+ADDR 1 0
+SUB
+POPN
+SETD 1
+BR
+
+% G
+ADDR 2 0
+PUSHMT
+SETD 2
+PUSH UNDEFINED
+PUSH 4
+DUPN
+
+% d <= c
+ADDR 2 3
+ADDR 0 2
+LOAD
+STORE
+
+% P
+PUSH return6
+PUSH P
+BR
+return6:
+PUSH 0
+POPN
+
+% d + w - v < 12
+ADDR 2 3
+LOAD
+ADDR 2 0
+LOAD
+ADD
+ADDR 1 2
+LOAD
+SUB
+PUSH 12
+LT
+
+% return ...
+ADDR 2 -3
+SWAP
+STORE
+PUSHMT
+ADDR 2 0
+SUB
+POPN
+SETD 2
+BR
+
+% EXIT G
+PUSH 'E'
+PRINTC
+PUSH 'R'
+PRINTC
+PUSH 'R'
+PRINTC
+PUSH 'O'
+PRINTC
+PUSH 'R'
+PRINTC
+HALT

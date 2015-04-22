@@ -1,0 +1,41 @@
+begin
+	integer function func2(boolean arg1, integer arg2, integer arg3)
+	begin
+		get arg2, arg2
+		return (-(arg2))
+		put {
+			return (arg2)
+		yields
+			arg3
+		}
+		if {
+			put ":D", skip, skip
+		yields
+			false
+		} then
+			return (arg2)
+			return (arg3)
+			boolean var1[79..98], var4[87, -63..31]
+			integer var5, var2[24..32]
+		else
+			get arg3, var5, arg2
+			boolean var6, var7[38, 15], var8[-18..64, 50]
+			put arg2
+			var4[95, 30] <= var1[func2(true, 52, func2(true, (var5) + (78), 66))]
+			put skip, (func2(false, func2(false, var2[83], 18), 40)) - (func2((true) & (!(true)), func2(!(true), func2(false, 95, 82), var5), func2(false, var2[69], 1)))
+		end
+		if var7[func2({
+			integer var2[44], var1[-3..36, 16]
+		yields
+			var4[92, 23]
+		}, var5, 16), {
+			integer var1
+		yields
+			arg3
+		}] then
+			put skip
+		end
+	end
+
+end
+

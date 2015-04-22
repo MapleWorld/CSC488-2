@@ -1,0 +1,6 @@
+begin
+    procedure procedureFoo begin
+    end
+    procedure barQuux begin
+    end
+end

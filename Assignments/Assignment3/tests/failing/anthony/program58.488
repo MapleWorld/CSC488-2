@@ -1,0 +1,58 @@
+begin
+	procedure proc1(integer arg1, integer arg2)
+	begin
+		loop
+			exit when (3)
+			arg2[false, true] <= false
+			proc1(true, true)
+		end
+	end
+
+	exit when ({
+		procedure proc2(integer arg3, integer arg4, boolean arg5)
+		begin
+			proc1(-(-(arg5)), (!(arg3)) <= (true))
+			return (-(false))
+			exit
+			return
+		end
+
+	yields
+		true
+	})
+	put ":D"
+	procedure proc3(boolean arg6, integer arg7, integer arg8)
+	begin
+		proc3((91) - ((20) >= (false)), {
+			proc3(!(arg7), false, false)
+		yields
+			82
+		}, -((arg6[false, true]) | (((20) + (arg6)) * ((11) <= (true)))))
+		begin
+			return (!(19))
+			proc3(100, ((true) != ((53) * ((60) <= (false)))) != (arg8), true)
+			exit when (16)
+			return (arg8)
+		end
+		return
+	end
+
+	exit when (!({
+		if {
+			proc3(2, -(false), -(false))
+		yields
+			-(true)
+		} then
+			exit when (85)
+			exit
+			proc3(!(49), (88) < (true), false)
+		end
+	yields
+		{
+			proc3(!(96), -(false), true)
+		yields
+			(17) * (true)
+		}
+	}))
+end
+

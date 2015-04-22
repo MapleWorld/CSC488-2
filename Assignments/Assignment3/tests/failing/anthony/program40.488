@@ -1,0 +1,115 @@
+begin
+	begin
+		begin
+			put skip, "!?", ":D"
+			exit when (100)
+		end
+		exit
+		begin
+			put ":D", false
+			exit when (!((41) + ((true) & (!(62)))))
+		end
+		while {
+			exit
+		yields
+			true
+		} do
+			exit
+			exit
+			exit when (14)
+			exit
+		end
+		begin
+			exit when (18)
+			exit when (86)
+		end
+	end
+	loop
+		if 1 then
+			return (true)
+		else
+			exit when (!(88))
+			exit when (!(17))
+			exit when ((35) - (false))
+			put "world", false, ":D"
+		end
+		exit
+		loop
+			exit
+			exit
+			exit when (94)
+		end
+		put skip
+	end
+	if 53 then
+		exit
+		exit
+	else
+		begin
+			return (-(false))
+		end
+		return (false)
+		integer function func4(integer arg10, boolean arg11)
+		begin
+			exit when (func4(false, 58))
+		end
+
+	end
+	if {
+		loop
+			integer var1[11], var2[61]
+			put "!?"
+			var2[-(true), (false) = (32)] <= (72) > ((true) | (var2[false]))
+			put "!?"
+			var2[-((true) | (75))] <= true
+		end
+	yields
+		false
+	} then
+		if {
+			exit when (15)
+		yields
+			false
+		} then
+			boolean var1
+			exit
+			boolean var1[37]
+			put skip, skip, "hello"
+		else
+			return
+			return (false)
+		end
+		loop
+			exit when (53)
+			boolean var1[-24..-62]
+			var1[false, (41) >= (false)] <= func4(-(true), func4(true, 86))
+			get var1, var1[true]
+		end
+		exit when ({
+			exit when (15)
+		yields
+			-(var1[var1[false], true])
+		})
+		boolean function func2(boolean arg4, integer arg5)
+		begin
+			boolean var1[67, -2..-54], var2[94..83], var3
+			put skip
+			put skip, skip
+		end
+
+		procedure proc3(integer arg4, integer arg5, integer arg6)
+		begin
+			exit
+			get var1[(!(arg6[var1])) <= (var1[true, var1[var1, true]]), (true) & (arg5[false, false])], var1[true, -(func2(59, -(true)))], var1[((func4(true, 22)) + (func2(1, false))) < ((func4(false, 36)) < (true)), true]
+			get var1[-(var1)]
+		end
+
+	else
+		loop
+			return
+			return
+		end
+	end
+	put skip
+end
+

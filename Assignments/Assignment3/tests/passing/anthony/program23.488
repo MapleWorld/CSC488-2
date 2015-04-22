@@ -1,0 +1,79 @@
+begin
+	boolean function func3(integer arg3, boolean arg4)
+	begin
+		while false do
+			get arg3
+			put skip, 94
+		end
+		loop
+			exit when (true)
+			put "world", 99
+			boolean var1[80]
+			boolean var4, var2
+		end
+		loop
+			return (arg4)
+			return (false)
+			return (true)
+		end
+		if false then
+			put "hello", ":D", "world"
+			return (true)
+			return (var2)
+			return (false)
+			put skip
+		else
+			boolean var6[26..61, -69..40], var3, var7
+			var7 <= true
+			var4 <= false
+			put "hello"
+			return (true)
+		end
+	end
+
+	boolean function func2(integer arg2)
+	begin
+		procedure proc3(boolean arg3, integer arg1)
+		begin
+			put arg1, arg2
+			put "world"
+			get arg1
+		end
+
+		return (false)
+		begin
+			put skip
+		end
+		proc3(!({
+			return (true)
+		yields
+			(39) <= (6)
+		}), 94)
+	end
+
+	put -(28), skip
+	integer function func1(integer arg1)
+	begin
+		if {
+			return (81)
+		yields
+			(58) >= (arg1)
+		} then
+			get arg1, arg1, arg1
+			put skip
+			put 38, "hello"
+			put (arg1) / (-(func1(5)))
+		end
+		while func3(arg1, func3(-(func1(57)), false)) do
+			exit when (false)
+			exit
+			put 11, "hello"
+		end
+		begin
+			return (-(arg1))
+			return (arg1)
+		end
+	end
+
+end
+

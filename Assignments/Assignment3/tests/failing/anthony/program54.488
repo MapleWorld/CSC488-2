@@ -1,0 +1,28 @@
+begin
+	begin
+		if !(98) then
+			exit when ((99) + ((false) & (!((83) - (true)))))
+			exit when (!(!(45)))
+			exit
+		end
+		if !({
+			exit when (!(!(22)))
+		yields
+			true
+		}) then
+			integer var1[74, 66..-60], var2[41..10, 78], var3[59]
+			return
+			exit when (var2[(0) < (false), false])
+		else
+			put true, true, ":D"
+			var1[true, ((65) / (true)) >= (false)] <= true
+		end
+		integer var1[-96..-99], var2[12]
+		exit when ({
+			exit
+		yields
+			true
+		})
+	end
+end
+

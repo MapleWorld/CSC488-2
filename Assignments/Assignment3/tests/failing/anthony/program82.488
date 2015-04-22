@@ -1,0 +1,57 @@
+begin
+	exit
+	loop
+		boolean function func1(integer arg1, boolean arg2)
+		begin
+			exit
+			exit
+			exit when (54)
+			exit when (arg1)
+			exit
+		end
+
+	end
+	if !({
+		put skip, func1(-(false), 52)
+	yields
+		{
+			exit when (!(18))
+		yields
+			47
+		}
+	}) then
+		if 98 then
+			exit when (!(92))
+			exit when ((!(26)) - (true))
+			integer var1[30, -86..-93], var2
+		else
+			put skip, "hello"
+			put func1(false, 97), skip
+			boolean var1[31, 5], var2[50..-48, 53..-74], var3[66]
+		end
+		if {
+			get var1[var2, true], var3
+		yields
+			(var1) < ((25) != (var3[false]))
+		} then
+			exit
+			get var1[true], var2[var1, -(-(var1))], var3
+			get var2[var1[func1(var3[true, false], !(89))], -(true)]
+			var1[var2[(var1[true, true]) <= (func1(false, 0)), false], var1] <= var2[var3[func1(var3, var2)]]
+			return (!(81))
+		else
+			exit
+			return (-(-(false)))
+			var2[var2[true], var3[func1(false, 26)]] <= true
+			exit when (93)
+		end
+		return
+	else
+		if var1 then
+			integer var1[4..-40, 78]
+			exit
+		end
+		exit
+	end
+end
+

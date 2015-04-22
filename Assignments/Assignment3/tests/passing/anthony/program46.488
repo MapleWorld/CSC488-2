@@ -1,0 +1,12 @@
+begin
+	loop
+		exit when (false)
+		while !(true) do
+			exit when (true)
+			put "hello", skip, "hello"
+			exit
+			exit
+		end
+	end
+end
+

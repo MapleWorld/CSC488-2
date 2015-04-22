@@ -1,0 +1,7 @@
+begin
+    procedure procedureFoo (boolean arg) begin
+        return
+    end
+    procedure procedureBar (boolean arg) begin
+    end
+end

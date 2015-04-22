@@ -1,0 +1,10 @@
+
+begin 
+	integer function x 
+	begin 
+		integer function s 
+		begin 
+			boolean y 
+		end 
+	end 
+end 

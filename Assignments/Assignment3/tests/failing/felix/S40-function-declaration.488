@@ -1,0 +1,3 @@
+begin
+    put func(100)
+end

@@ -1,0 +1,102 @@
+begin
+	integer function g begin
+		return(4)
+	end
+	integer function f begin
+		return(g)
+	end
+	integer function add (integer a, integer b) begin
+		return (a+b)
+	end
+	integer function sub (integer a, integer b) begin
+		return (a-b)
+	end
+	integer function fib (integer x) begin
+		if x > 1 then
+			return (add(fib(sub(x,1)), fib(sub(x,2))))
+		else
+			if x = 1 then
+				return (1)
+			else
+				return (0)
+			end
+		end
+	end
+
+	% note this does not work for 0 -_-
+	procedure printlargefib (integer n) begin
+		if n = 0 then put 0 return end
+		integer x[0..1, 1..100]
+		integer maxidx maxidx <= 100
+		integer counter, s, index
+		index <= 1
+		while index < maxidx do
+			x[0, index] <= 0
+			x[1, index] <= 0
+			index <= index + 1
+		end
+		x[1, 1] <= 1
+		counter <= 1
+		s <= 1
+		loop
+			exit when counter >= n
+
+			s <= 1 - s
+
+			integer temp
+			temp <= 0
+
+			index <= 1
+			while index < maxidx do
+				temp <= x[s, index] + x[1 - s, index] + temp
+				x[s, index] <= temp - temp/10*10
+				temp <= temp/10
+				index <= index + 1
+			end
+
+			counter <= counter + 1
+		end
+
+		boolean startoutput startoutput <= false
+		index <= maxidx - 1
+		while index > 0 do
+			if x[s, index] > 0 then startoutput <= true end
+			if startoutput then put x[s, index] end
+			index <= index - 1
+		end
+	end
+
+	procedure printfibs (integer upto) begin
+		integer counter
+		counter <= 0
+		while counter <= upto do
+			put "> the ", counter, "th Fibonacci number is "
+			printlargefib(counter)
+			put skip
+			counter <= {integer t t<= counter yields t+1}
+		end
+	end
+
+	integer x
+	x <= 1
+	put "text ", x, skip
+	x <= 2
+	put "text ", x, skip
+	x <= 3
+	put "text ", x, skip
+	x <= - x / 2 + 3 * 4
+	put "text ", x, skip
+
+	integer repeats
+	put "up to how many Fibonacci numbers? "
+	get repeats
+	if 0 <= repeats & repeats <= 400 then
+		printfibs(repeats)
+	else
+		put "require: 0 <= number < 22", skip
+	end
+
+	put "text ", f, skip
+
+
+end

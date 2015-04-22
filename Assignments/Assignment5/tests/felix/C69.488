@@ -1,0 +1,8 @@
+begin
+    if 5 = 5 then
+        put 5
+    end
+    if true = false then
+        put "true"
+    end
+end

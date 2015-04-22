@@ -1,0 +1,61 @@
+begin
+	procedure proc1(boolean arg2)
+	begin
+		put skip, -(-({
+			return
+		yields
+			82
+		}))
+	end
+
+	proc1({
+		procedure proc2(integer arg1, integer arg3)
+		begin
+			put "hello"
+			boolean var3[48..72, 14], var4[66]
+			get arg3, arg1
+		end
+
+	yields
+		{
+			integer var1[2..53], var3[10], var2[56]
+		yields
+			false
+		}
+	})
+	boolean var1, var2[9, -77..-73], var3
+	begin
+		var3 <= true
+		if true then
+			integer var5[21..60, -10..54]
+		end
+		begin
+			boolean var1[55, 88]
+			var1[((12) * (var5[97, 5])) * ((var5[52, 14]) * (95)), var5[-(-(91)), var5[-(23), var5[66, 43]]]] <= false
+			put skip, skip, 1
+			get var5[47, var5[84, 47]], var5[67, var5[41, -(var5[90, 13])]]
+			get var5[var5[-((50) / (65)), var5[75, (47) + (93)]], 83], var5[var5[(38) - (62), 47], (46) / (var5[var5[34, 72], 13])], var5[var5[var5[var5[81, 10], -(7)], var5[-(86), var5[6, 57]]], (var5[-(68), var5[97, 74]]) * (46)]
+		end
+		boolean function func1(boolean arg3, boolean arg2, boolean arg1)
+		begin
+			return (true)
+		end
+
+		integer function func2(integer arg1)
+		begin
+			return (arg1)
+			return (func2(func2(-(var5[26, 100]))))
+		end
+
+	end
+	var1 <= {
+		put "!?", skip, skip
+	yields
+		{
+			var3 <= false
+		yields
+			true
+		}
+	}
+end
+

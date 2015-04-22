@@ -1,0 +1,7 @@
+
+begin 
+	boolean function a ( boolean k , integer a , boolean k , boolean v , integer v , boolean n , boolean l , integer m ) 
+	begin 
+		exit when true > l 
+	end 
+end 

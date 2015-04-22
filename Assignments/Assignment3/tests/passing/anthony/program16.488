@@ -1,0 +1,58 @@
+begin
+	while true do
+		if {
+			boolean var1, var4[43..69, 64..69]
+		yields
+			!(false)
+		} then
+			put 34, 27
+			exit when (false)
+			exit when (false)
+			boolean var2[66, 28..53], var1, var3[73..80, -48..72]
+			var3[12, (73) + (47)] <= var3[26, 7]
+		end
+		begin
+			boolean var1[3..90, 96], var2[45..82, 32], var5
+		end
+		boolean function func3(boolean arg1, integer arg3)
+		begin
+			return ((-(arg3)) >= (arg3))
+			return (var1)
+			return (arg1)
+			return (false)
+		end
+
+	end
+	var1 <= func3(!(true), 42)
+	put skip, skip
+	procedure proc2(integer arg1)
+	begin
+		put {
+			return
+		yields
+			21
+		}
+		while var3[{
+			put (arg1) * (-(33)), skip
+		yields
+			arg1
+		}, {
+			return
+		yields
+			(arg1) - ((94) - (85))
+		}] do
+			get arg1, arg1, arg1
+			put skip, arg1, arg1
+			put "!?", "hello", ":D"
+			get arg1, arg1, arg1
+			put skip, "world"
+		end
+		while !(var2[66, arg1]) do
+			exit
+			get arg1
+			var2[arg1, 20] <= true
+		end
+	end
+
+end
+

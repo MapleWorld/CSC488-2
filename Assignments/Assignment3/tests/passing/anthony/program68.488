@@ -1,0 +1,14 @@
+begin
+	boolean function func1(integer arg2, integer arg1, boolean arg3)
+	begin
+		begin
+			return (false)
+			return (func1(arg1, (69) * (arg2), func1(arg1, arg1, !(func1(arg1, arg1, false)))))
+			return (false)
+			return (true)
+			put 10, skip
+		end
+	end
+
+end
+

@@ -1,0 +1,53 @@
+begin
+	loop
+		integer var1[-83..35, 8..75]
+		while {
+			get var1[var1[66, 76], 79], var1[var1[var1[26, 12], var1[4, 15]], var1[var1[75, 67], var1[77, 40]]], var1[(69) - (var1[75, 28]), 96]
+		yields
+			false
+		} do
+			get var1[26, (53) - (var1[30, 36])]
+		end
+		put {
+			var1[var1[var1[67, 61], 59], 17] <= (var1[var1[69, 7], 71]) + (var1[41, var1[57, 41]])
+		yields
+			13
+		}, skip, 47
+		procedure proc2
+		begin
+			return
+		end
+
+		exit when ((57) != (var1[-((28) / (56)), -(46)]))
+	end
+	boolean function func1(boolean arg3)
+	begin
+		loop
+			return (false)
+			return (!(func1(!(false))))
+			exit when (func1(true))
+		end
+		put "world", "hello", var1[62, {
+			put (90) + (var1[45, 18]), 14, -(-(78))
+		yields
+			var1[-(49), 35]
+		}]
+	end
+
+	var1[{
+		put ":D"
+	yields
+		78
+	}, 21] <= (var1[(68) * (43), {
+		while func1(false) do
+			put -(67), "hello"
+		end
+	yields
+		78
+	}]) / ({
+		get var1[45, var1[22, 34]]
+	yields
+		50
+	})
+end
+

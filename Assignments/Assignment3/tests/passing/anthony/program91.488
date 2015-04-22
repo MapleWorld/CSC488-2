@@ -1,0 +1,52 @@
+begin
+	boolean function func1(boolean arg2)
+	begin
+		if false then
+			put ":D", ":D"
+			put skip
+		end
+		if func1(({
+			return (true)
+		yields
+			(45) * (61)
+		}) > ({
+			integer var2, var3, var1[-20..91]
+		yields
+			71
+		})) then
+			return (!(arg2))
+			return (!(false))
+		end
+		loop
+			integer var1[22]
+			return (func1(false))
+		end
+		var1[var1[{
+			return (true)
+		yields
+			95
+		}]] <= {
+			get var1[80]
+		yields
+			-(61)
+		}
+		get var1[{
+			boolean var1[32]
+		yields
+			(34) / (-(41))
+		}], var1[98]
+	end
+
+	boolean function func2(integer arg5, boolean arg1, integer arg4)
+	begin
+		get arg5, arg4
+		return (arg1)
+		while false do
+			put skip, "hello"
+			integer var2[8, 70], var5[84], var3[-28..43]
+			var3[16] <= 37
+		end
+	end
+
+end
+

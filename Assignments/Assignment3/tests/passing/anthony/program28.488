@@ -1,0 +1,79 @@
+begin
+	integer function func1
+	begin
+		loop
+			return (40)
+			return (-(15))
+			put func1, 78, func1
+			exit
+		end
+		return (func1)
+		if false then
+			put "hello"
+			integer var1[-56..7]
+			integer var3[43, 58]
+			get var3[-(func1), var1[18]], var3[65, func1], var1[var3[var3[(27) - (12), 7], 65]]
+		end
+		if false then
+			var1[-(func1)] <= func1
+			put -(15)
+			var3[func1, func1] <= func1
+			get var3[13, func1], var3[-(79), 69]
+			integer var4[-92..-45, 32..94], var8[37], var6
+		else
+			get var3[func1, (var6) - (3)]
+			var1[func1] <= func1
+		end
+	end
+
+	boolean function func3(integer arg2, integer arg1, boolean arg4)
+	begin
+		begin
+			get arg1, arg2, arg2
+			integer var1
+			put skip, var1, ":D"
+			put "!?", (30) + (var1), (86) + (var1)
+			integer var3[73]
+		end
+		procedure proc5(integer arg4, integer arg1, boolean arg3)
+		begin
+			integer var1[98], var3[31, -46..62]
+			get var3[func1, 77], var1[arg1], var3[85, func1]
+			return
+			put "hello"
+		end
+
+		while (func1) > (-({
+			return (false)
+		yields
+			func1
+		})) do
+			exit when (arg4)
+			get arg1
+		end
+	end
+
+	procedure proc2(integer arg1, integer arg2)
+	begin
+		begin
+			return
+			get arg1
+			put arg1, -(func1), skip
+		end
+		if false then
+			integer var1[78..89, 71], var5, var2[82..87, 90]
+			return
+		else
+			integer var6[71, 56], var3[68..93], var7
+			integer var4
+			return
+		end
+		var5 <= {
+			get var2[func1, var3[-(7)]], var1[0, -(func1)]
+		yields
+			-(-(52))
+		}
+	end
+
+end
+

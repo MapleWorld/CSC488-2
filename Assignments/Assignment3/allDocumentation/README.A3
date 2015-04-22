@@ -1,0 +1,5 @@
+Anthony Vandikas: Implemented the test case generator, AST generation, the symbol table, and semantic analysis.
+Felix Lu: Created failing test cases to test each semantic checking rule individually, test documentation.
+Tian Ze(Peter) Chen: Code inspection, create some test case.
+Vishrant Vasavada: Code inspection and design documentation.
+Badrul Chowdhury: Performed rigorous function, procedure, variable type-checking fail tests.

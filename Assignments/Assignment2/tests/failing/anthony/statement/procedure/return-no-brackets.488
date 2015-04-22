@@ -1,0 +1,5 @@
+begin
+    integer function wrong (integer hello) begin
+        return hello + 3
+    end
+end

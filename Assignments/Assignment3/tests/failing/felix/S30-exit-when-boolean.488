@@ -1,0 +1,6 @@
+begin
+    loop
+        put "hello", skip
+        exit when 100
+    end
+end

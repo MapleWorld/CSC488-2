@@ -1,0 +1,11 @@
+
+begin 
+	if q ( j , false , w , 100 ) then 
+		return ( 
+		{ 
+			
+			begin 
+			end yields r 
+		} < - true + false ) 
+	end 
+end 

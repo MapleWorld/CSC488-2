@@ -1,0 +1,5 @@
+begin
+    while false do
+        exit when
+    end
+end

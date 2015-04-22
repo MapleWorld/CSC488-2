@@ -1,0 +1,7 @@
+begin
+    integer function func (boolean x, integer y) begin
+        return (1)
+    end
+
+    put func(false)
+end

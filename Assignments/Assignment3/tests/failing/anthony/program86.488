@@ -1,0 +1,60 @@
+begin
+	if 80 then
+		while !({
+			put false
+		yields
+			false
+		}) do
+			put (84) <= (true), false, skip
+		end
+	else
+		loop
+			exit when (!((64) + ((false) & (58))))
+			return
+		end
+		exit when ({
+			return
+		yields
+			(!(27)) < ((true) | (73))
+		})
+		if {
+			exit when (19)
+		yields
+			-(true)
+		} then
+			exit
+			exit
+		end
+	end
+	put false, "!?", skip
+	procedure proc4(integer arg7)
+	begin
+		arg7 <= {
+			proc4(true)
+		yields
+			70
+		}
+		loop
+			return
+			return (arg7)
+			return (true)
+		end
+		return
+	end
+
+	proc4(false)
+	proc4({
+		loop
+			proc4(false)
+			proc4(false)
+			exit when (51)
+		end
+	yields
+		({
+			exit
+		yields
+			true
+		}) + (false)
+	})
+end
+

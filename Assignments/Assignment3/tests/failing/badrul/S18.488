@@ -1,0 +1,7 @@
+% procedure tries to print boolean
+begin
+	procedure foo (boolean x)
+	begin
+        put x
+	end
+end

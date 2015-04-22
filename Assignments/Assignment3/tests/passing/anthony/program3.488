@@ -1,0 +1,7 @@
+begin
+	loop
+		put skip
+	end
+	put "world"
+end
+

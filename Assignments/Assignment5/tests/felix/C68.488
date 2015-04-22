@@ -1,0 +1,7 @@
+begin
+    procedure test (integer x) begin
+        put x
+    end
+
+    test(100)
+end

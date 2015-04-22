@@ -1,0 +1,55 @@
+begin
+	if (false) | (true) then
+		while false do
+			integer var2, var1[54, 68]
+			exit when (false)
+			integer var6[22..96, 30..83], var5[90..90], var4[89..90, 27]
+			var2 <= (-(3)) + (var5[var5[var4[19, 92]]])
+			exit
+		end
+		loop
+			boolean var8[12..25, -78..69], var7[81..87]
+			put "hello", var4[var4[25, 70], var6[60, 8]], skip
+		end
+		begin
+			get var5[var6[var2, var1[37, var1[58, 81]]]], var5[-(57)]
+			put skip, skip
+			var1[9, -(var2)] <= 51
+		end
+	end
+	get var4[var5[{
+		begin
+			integer var1[15], var4
+			put "hello"
+			integer var2[83..91, 10], var8, var3
+			integer var5[-76..-51, 86]
+			var4 <= var2[11, 91]
+		end
+	yields
+		48
+	}], {
+		get var6[44, 93]
+	yields
+		var1[34, 38]
+	}], var5[-(33)], var1[36, -(var6[(58) - (92), (70) + (20)])]
+	if var7[40] then
+		integer var11[27], var12[-14..58]
+		get var11[{
+			var11[var1[13, 57]] <= -(var6[97, 51])
+		yields
+			var1[var2, var6[5, 23]]
+		}], var6[(59) - (21), {
+			put skip, 53, "hello"
+		yields
+			61
+		}]
+		begin
+			var4[(var5[34]) * (-(-(var2))), var12[76]] <= -((-(50)) + (var4[89, -(54)]))
+			integer var1[45]
+			var1[(93) - (var1[var1[80]])] <= 10
+			get var6[var5[78], var1[76]], var1[var1[var1[40]]], var12[var2]
+			put skip, skip
+		end
+	end
+end
+

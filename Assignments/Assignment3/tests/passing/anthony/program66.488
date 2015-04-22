@@ -1,0 +1,51 @@
+begin
+	integer function func1(integer arg1, boolean arg3, boolean arg2)
+	begin
+		procedure proc4(boolean arg4, integer arg5, integer arg1)
+		begin
+			boolean var3[11], var4, var1
+			integer var5[93..95]
+			put "!?", 82
+		end
+
+		loop
+			return (-(arg1))
+		end
+		begin
+			boolean var4
+			return (44)
+		end
+		begin
+			integer var1[21..76], var2[87..91]
+			get var2[var2[(-(54)) * (33)]], arg1, var2[func1(func1((82) / (arg1), (63) > (80), (43) > (54)), arg3, true)]
+			integer var6, var4
+			var6 <= arg1
+		end
+		procedure proc3(integer arg3, integer arg1)
+		begin
+			return
+			return
+			return
+			get arg1
+		end
+
+	end
+
+	put func1(func1(func1(func1(36, true, true), true, true), true, {
+		put skip, "hello", skip
+	yields
+		!(false)
+	}), true, true)
+	while true do
+		put "world", skip, -(func1({
+			put "world", func1(86, false, true), -(11)
+		yields
+			-(86)
+		}, true, {
+			boolean var1[-88..19, 61..70], var3[43], var4
+		yields
+			var4
+		}))
+	end
+end
+

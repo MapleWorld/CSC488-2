@@ -1,0 +1,97 @@
+begin
+	boolean function func1(boolean arg1)
+	begin
+		if {
+			integer var1, var2[4, 94..-84], var3[-55..-89]
+		yields
+			func1(!(89))
+		} then
+			arg1[arg1[func1(88), arg1[func1(52)]], (true) != (93)] <= 24
+			integer var1[-26..-70, 17]
+		end
+		get arg1[{
+			var1 <= arg1[-(true)]
+		yields
+			var1[(false) & (61)]
+		}, arg1[true]]
+	end
+
+	procedure proc1(boolean arg1)
+	begin
+		exit when (!({
+			exit
+		yields
+			arg1[false]
+		}))
+		if {
+			get arg1[true], arg1
+		yields
+			(45) > (-(func1(5)))
+		} then
+			proc1(!((75) / (arg1[func1(99)])))
+		end
+		begin
+			get arg1, arg1[func1(60)], arg1
+			exit
+		end
+		arg1[{
+			proc1(!(5))
+		yields
+			!(6)
+		}, true] <= {
+			proc1(45)
+		yields
+			true
+		}
+		loop
+			boolean var1[98]
+			exit when (22)
+		end
+	end
+
+	if !({
+		loop
+			put func1(8)
+			put func1(43)
+		end
+	yields
+		func1(84)
+	}) then
+		exit
+	end
+	procedure proc1(boolean arg4, boolean arg5, integer arg6)
+	begin
+		loop
+			exit when (arg6[false, func1(!(arg6))])
+			exit when (arg6[arg4, func1(98)])
+			proc1(!(13))
+			arg4[(65) < (true), (true) & (arg6[-(false), (false) != (32)])] <= (!(arg6[func1(arg6), (true) != (99)])) * (true)
+		end
+	end
+
+	if {
+		proc1((!(88)) - (-(func1(16))), !(68), func1(88))
+	yields
+		func1(21)
+	} then
+		while 46 do
+			put false, func1(!(61))
+		end
+		exit when ({
+			exit when (17)
+		yields
+			func1(31)
+		})
+		if 61 then
+			proc1(67, (56) / (-(func1(39))), false)
+			exit when (!(!(14)))
+			put skip
+			boolean var1[19], var2[-2..-36, 14]
+			exit
+		else
+			return
+			return (var1)
+		end
+	end
+end
+

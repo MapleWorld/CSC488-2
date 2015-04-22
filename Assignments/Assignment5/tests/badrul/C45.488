@@ -1,0 +1,10 @@
+% infinite loop
+begin
+	integer x
+	x <= 0
+	loop
+		exit when x = 2
+		x <= x + 1
+	end
+	put x
+end

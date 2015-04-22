@@ -1,0 +1,46 @@
+begin
+	put skip
+	exit when ({
+		procedure proc1(integer arg1, integer arg2, integer arg3)
+		begin
+			arg2 <= false
+		end
+
+	yields
+		true
+	})
+	if {
+		exit when (75)
+	yields
+		{
+			exit
+		yields
+			!(8)
+		}
+	} then
+		exit when ((!((93) / ((72) >= (false)))) * ({
+			exit
+		yields
+			73
+		}))
+		while {
+			boolean var1[55..-11, 30]
+		yields
+			true
+		} do
+			boolean var1[7, 16..-61], var2[58, -90..-97], var3[-88..-97, 54]
+			exit when (84)
+			get var1
+		end
+		boolean function func1(boolean arg1)
+		begin
+			exit
+			exit when (81)
+			arg1 <= 34
+			exit when (97)
+			exit when (30)
+		end
+
+	end
+end
+

@@ -1,0 +1,13 @@
+begin
+	procedure returnInteger(integer x)
+	begin
+		put x
+		return
+	end
+
+	integer i
+	get i
+
+	returnInteger(i)
+
+end

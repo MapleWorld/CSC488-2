@@ -1,0 +1,20 @@
+begin
+	if !((50) <= ({
+		begin
+			put "world", "!?", skip
+			put "!?", skip, (4) * (15)
+			put 81, skip
+		end
+	yields
+		95
+	})) then
+		put skip, 8
+		begin
+			put skip
+			put skip
+			integer var3[79..82, 48..78]
+		end
+		put skip, skip
+	end
+end
+

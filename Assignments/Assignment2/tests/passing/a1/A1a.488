@@ -1,0 +1,48 @@
+% Author: Anthony Vandikas
+% Info: A program that uses all arithmetic, logical and comparison operators.
+
+begin
+    integer x, y
+
+    % Addition, Multiplication
+    x <= 1 + 3 * 2 + 4
+    put x, " should be 11", skip
+
+    % Subtraction, Division, Negation
+    y <= 4 - 7 / --3 + -11
+    put y
+    put " should be -9", skip
+
+    % Greater-than, Equals
+    boolean z
+    z <= (x > y) = false
+
+    % Negation
+    if !z then
+        % (note that !((x > y) = false) = x > y)
+        put "!((x > y) = false)", skip
+    end
+
+    % Less-than-equals
+    boolean w
+    w <= x <= y
+
+    % Not-equals
+    if w != z then
+        put "(x <= y) != (x > y)", skip
+    else
+        put "(x <= y) = (x > y) (!!!!!!)", skip
+    end
+
+    % Less-than, Greater-than-equals
+    boolean u, v
+    u <= (x < y) = false
+    v <= x >= y
+
+    % And, Or
+    if (u & v) = (!(!u | !v)) then
+        put "DeMorgan's seems to hold", skip
+    end
+
+    put "That's all folks!"
+end

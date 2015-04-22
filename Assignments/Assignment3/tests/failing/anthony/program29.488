@@ -1,0 +1,24 @@
+begin
+	if (24) / (-(-(true))) then
+		integer function func1(boolean arg1, boolean arg2)
+		begin
+			exit
+			exit
+			boolean var1[-58..-81, 30], var2[48], var3[-69..-98, 2]
+			put skip, "world", false
+		end
+
+		begin
+			put false, false
+		end
+		begin
+			put "hello", false, skip
+		end
+		begin
+			put true, skip
+			exit when (10)
+		end
+		integer var1[64]
+	end
+end
+

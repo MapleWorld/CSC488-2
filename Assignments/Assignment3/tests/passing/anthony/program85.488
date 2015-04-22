@@ -1,0 +1,40 @@
+begin
+	procedure proc2
+	begin
+		while false do
+			exit
+			put 56, "world", 77
+		end
+		if {
+			return
+		yields
+			(-(-(54))) < (54)
+		} then
+			integer var1, var2[-17..82]
+			return
+			get var2[var1]
+		end
+	end
+
+	begin
+		procedure proc2(integer arg1, integer arg4, integer arg2)
+		begin
+			boolean var2[4..75]
+			return
+			put skip, skip, arg4
+		end
+
+		if {
+			put skip, skip, "hello"
+		yields
+			true
+		} then
+			put 0, "world"
+			integer var2[89], var1, var3
+			proc2(83, var3, var2[var1])
+			put -(var3), skip, skip
+			get var1, var2[83]
+		end
+	end
+end
+

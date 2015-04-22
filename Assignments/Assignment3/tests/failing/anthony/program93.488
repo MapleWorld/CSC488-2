@@ -1,0 +1,26 @@
+begin
+	put (-((90) > (false))) != ({
+		loop
+			exit
+		end
+	yields
+		{
+			exit when (9)
+		yields
+			80
+		}
+	})
+	loop
+		if 27 then
+			exit
+			exit
+		else
+			put skip
+			exit when (69)
+			exit when (7)
+			exit
+			exit
+		end
+	end
+end
+

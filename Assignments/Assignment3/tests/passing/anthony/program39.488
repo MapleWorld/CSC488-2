@@ -1,0 +1,58 @@
+begin
+	loop
+		integer var1[48, 96..96]
+		loop
+			exit
+			var1[100, -(var1[var1[50, 60], 72])] <= 28
+			boolean var4[-5..11]
+			get var1[98, 74], var1[33, var1[var1[(70) * (30), -(3)], 70]], var1[-(var1[var1[66, 74], (64) / (16)]), var1[-(-(45)), (var1[39, 73]) + (var1[13, 54])]]
+		end
+		var4[{
+			var4[-(40)] <= true
+		yields
+			var1[(90) - (79), var1[0, 25]]
+		}] <= true
+	end
+	begin
+		get var1[var1[{
+			put 80
+		yields
+			46
+		}, ((64) * (73)) + (47)], {
+			var1[var1[57, 43], 97] <= 78
+		yields
+			46
+		}]
+		if var4[74] then
+			var1[-(var1[var1[77, 29], 41]), 90] <= var1[-(71), 1]
+			boolean var2[51..76]
+		end
+	end
+	while var4[{
+		put {
+			get var1[35, 45], var1[44, 35]
+		yields
+			-(12)
+		}, {
+			boolean var3
+		yields
+			var1[25, 39]
+		}
+	yields
+		var1[6, var1[30, 24]]
+	}] do
+		exit when (var4[var1[{
+			var1[79, 78] <= 40
+		yields
+			35
+		}, 37]])
+		begin
+			put -(var1[var1[-(44), -(42)], var1[-(95), var1[41, 96]]]), "!?", var1[40, 74]
+			var1[-(-(var1[64, 29])), 95] <= 42
+			get var1[var1[77, var1[(40) * (24), var1[61, 80]]], 57], var1[-(10), 90], var1[var1[var1[-(50), var1[6, 1]], -(var1[58, 6])], 60]
+			var1[3, var1[(var1[24, 86]) + (var1[64, 0]), 50]] <= 100
+		end
+		put 70, skip, 64
+	end
+end
+

@@ -1,0 +1,3 @@
+begin
+    put {integer x x <= 100 yields x}
+end

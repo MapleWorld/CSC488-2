@@ -1,0 +1,7 @@
+Tian Ze(Peter) Chen:
+	Copy the A4 intermediate representation and machine code generator to A5 directory.
+	Added some branching and code size optimization.
+Vishrant Vasavada: Created tests for functions and procedures and declarations.
+Felix Lu: Test cases for expressions and variables.
+Badrul Chowdhury: Test cases for STATEMENTS and PARAMETER AND ARGUMENTS. 
+Anthony Vandikas: Updated testing script, wrote documentation.

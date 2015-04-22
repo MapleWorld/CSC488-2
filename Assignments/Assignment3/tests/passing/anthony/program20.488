@@ -1,0 +1,76 @@
+begin
+	begin
+		put skip, {
+			boolean var2[-86..55]
+		yields
+			83
+		}
+		begin
+			put skip
+		end
+	end
+	while false do
+		procedure proc1
+		begin
+			boolean var3[19], var1[63..95, 22], var6[-62..73]
+			var6[8] <= false
+			put skip, "world"
+			var3[41] <= (-(64)) != ((48) + ((93) - (42)))
+		end
+
+		if {
+			boolean var1[19]
+		yields
+			false
+		} then
+			put "!?", 82, skip
+			exit when (!(!(true)))
+			proc1
+			exit when (true)
+		else
+			exit
+			boolean var1[10..26], var2[-83..1, 62..100], var5[81, 23]
+		end
+		proc1
+		procedure proc2(boolean arg1, integer arg2)
+		begin
+			get arg2, arg2
+			return
+			put skip
+			put 1, "!?"
+			return
+		end
+
+	end
+	if !(var2[{
+		begin
+			var5[80, 15] <= (true) != (false)
+		end
+	yields
+		41
+	}, {
+		if false then
+			put 100, "hello"
+		else
+			var2[93, 23] <= true
+		end
+	yields
+		55
+	}]) then
+		proc2(!(false), (56) / ({
+			var1[6] <= false
+		yields
+			-(-(78))
+		}))
+		var5[{
+			put 53, 65
+		yields
+			40
+		}, 55] <= var1[{
+			put skip, ":D"
+		yields
+			(22) * ((21) + (78))
+		}]
+	end
+end
+

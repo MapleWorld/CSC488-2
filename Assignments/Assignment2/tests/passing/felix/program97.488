@@ -1,0 +1,10 @@
+
+begin 
+	boolean function i 
+	begin 
+		boolean function r ( integer f , integer e ) 
+		begin 
+			boolean k 
+		end 
+	end 
+end 

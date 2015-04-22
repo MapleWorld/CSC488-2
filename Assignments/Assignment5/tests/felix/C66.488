@@ -1,0 +1,5 @@
+begin
+    if true & true then
+        put "1000"
+    end
+end

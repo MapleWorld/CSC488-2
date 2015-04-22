@@ -1,0 +1,5 @@
+% variable type mismatch
+begin
+    boolean x 
+    x <= ! 5
+end

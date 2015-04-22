@@ -1,0 +1,56 @@
+begin
+	procedure proc1
+	begin
+		if {
+			exit when ((100) - (-(true)))
+		yields
+			false
+		} then
+			boolean var1, var2[86, 71], var3[61]
+			put skip, ":D", false
+			exit when (1)
+			get var2[false], var2[false], var2[-(true)]
+		else
+			proc1
+			exit when (!(76))
+			proc1
+			exit when (55)
+			exit
+		end
+		exit
+		get var2[false], var3, var1[(!(96)) > ((18) > (var2[false]))]
+	end
+
+	exit when (({
+		if 42 then
+			proc1
+			put "!?", "hello", skip
+		else
+			return
+			exit when (12)
+		end
+	yields
+		-(-(false))
+	}) / ({
+		while {
+			exit when (!(29))
+		yields
+			-(false)
+		} do
+			exit when (89)
+		end
+	yields
+		!(!(6))
+	}))
+	put ":D"
+	integer var1, var2[90..-28, 16..-48], var3[87]
+	begin
+		loop
+			proc1
+		end
+		exit
+		var3[(!(var1[false])) != ((true) & (var1)), true] <= false
+		proc1
+	end
+end
+

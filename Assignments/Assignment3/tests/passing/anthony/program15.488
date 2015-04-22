@@ -1,0 +1,125 @@
+begin
+	procedure proc1(integer arg2, integer arg1)
+	begin
+		integer function func5
+		begin
+			return (arg1)
+			return (arg1)
+			boolean var3[-42..17]
+			boolean var2, var1[20..95], var4[93, 7..46]
+		end
+
+		begin
+			get arg2, arg1
+			get arg2, arg1
+			boolean var3[-45..44, -37..-25], var4[45, 15], var6[34, -86..26]
+			integer var1[79, -91..-50], var2
+			put skip
+		end
+		procedure proc1(integer arg1, boolean arg5, boolean arg2)
+		begin
+			get arg1, arg1, arg1
+			put "world"
+			get arg1
+			integer var3, var2[49, 84], var5[10]
+		end
+
+		boolean var1[64], var2, var3
+	end
+
+	procedure proc3(boolean arg1, integer arg4)
+	begin
+		while (({
+			integer var2, var1[24]
+		yields
+			arg1
+		}) & (true)) = (false) do
+			integer var1[62, -45..27]
+			exit when (true)
+			get arg4, var1[var1[42, -(-(38))], 75], var1[var1[-(-(44)), (arg4) / (0)], 52]
+		end
+		boolean function func1
+		begin
+			put skip
+			return (arg1)
+			return (false)
+		end
+
+		get arg4, var1[arg4, var1[-(arg4), 84]]
+		if func1 then
+			put "!?", skip, -(58)
+			get var1[-(var1[(13) + (72), 99]), 85], var1[44, -(41)], arg4
+			put "hello", skip, 36
+			get arg4
+		else
+			integer var2[-7..50, 37], var3[27..54, 87], var4[-45..74, 8]
+			var2[-(var3[var4[8, 48], 62]), ((var2[23, 7]) + (10)) / (24)] <= var3[(arg4) - (var3[47, 100]), (var4[68, 61]) / (var4[67, 69])]
+			get var4[-(60), 68]
+			return
+		end
+	end
+
+	if {
+		integer var1[-66..73, 89..98], var2
+	yields
+		!(!(false))
+	} then
+		procedure proc6(integer arg3, integer arg5, boolean arg1)
+		begin
+			put skip, skip, "world"
+			put 61, ":D", "hello"
+			return
+			return
+		end
+
+		while !({
+			put "hello", "!?", "hello"
+		yields
+			(-(7)) >= (-(56))
+		}) do
+			proc3(true, 59)
+			exit when ((true) | (true))
+			proc6(15, 1, !(false))
+		end
+	end
+	integer function func4(boolean arg3)
+	begin
+		procedure proc1(integer arg2)
+		begin
+			return
+			return
+		end
+
+		begin
+			integer var3[55]
+			put "world", "world"
+			return (64)
+			put var3[var3[func4(arg3)]], skip, "!?"
+		end
+		boolean function func1(boolean arg1)
+		begin
+			return (true)
+		end
+
+		while func1(({
+			return (func4(false))
+		yields
+			(47) != (87)
+		}) != (false)) do
+			return (-(-(97)))
+			return (-(37))
+			exit
+		end
+		while func1(func1({
+			return (98)
+		yields
+			!(arg3)
+		})) do
+			boolean var3[94, 47..67], var2[54], var4
+			boolean var5[83], var1[93..99, 72], var8[29..67, 13]
+			boolean var6, var9[6, 42]
+		end
+	end
+
+end
+

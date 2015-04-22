@@ -1,0 +1,5 @@
+begin
+    boolean function functionFoo (boolean arg) begin
+        return (false)
+    end
+end

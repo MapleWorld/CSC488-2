@@ -1,0 +1,47 @@
+begin
+	put "hello"
+	while !(65) do
+		while 63 do
+			exit when (24)
+		end
+		put "world", skip, {
+			exit when (63)
+		yields
+			43
+		}
+	end
+	while {
+		exit when ({
+			exit
+		yields
+			false
+		})
+	yields
+		false
+	} do
+		while (71) - ({
+			boolean var1[38]
+		yields
+			(72) + (-(true))
+		}) do
+			exit when (96)
+			put "world", "world", false
+		end
+		put skip
+		put skip, {
+			exit
+		yields
+			!(87)
+		}
+		put true, false, skip
+		procedure proc1(boolean arg2, integer arg3, boolean arg4)
+		begin
+			return (arg3[true, arg2[false, true]])
+			arg4[-(false), arg2[arg2]] <= arg3[(arg3[(15) <= (false)]) > (arg4[-(false), true]), ((!(51)) = (true)) != (arg3[-(false)])]
+			return
+			put skip
+		end
+
+	end
+end
+

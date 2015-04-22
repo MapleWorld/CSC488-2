@@ -1,0 +1,85 @@
+begin
+	procedure proc1(integer arg1, boolean arg3)
+	begin
+		procedure proc3(boolean arg4, integer arg1)
+		begin
+			get arg1
+		end
+
+		return
+		if arg3 then
+			return
+			get arg1
+			put "world", 41, skip
+			return
+			return
+		else
+			put skip
+			return
+			proc3(arg3, (31) + (arg1))
+		end
+		get arg1
+	end
+
+	loop
+		while !(false) do
+			exit
+			exit when (false)
+			exit
+			exit
+		end
+	end
+	integer function func2(integer arg7, boolean arg1, boolean arg2)
+	begin
+		begin
+			return (77)
+			return (98)
+			return (arg7)
+			return (arg7)
+		end
+		if true then
+			return (87)
+			return (arg7)
+		else
+			return (60)
+			boolean var1[-11..1]
+			boolean var2[44, 77], var3[43, 23]
+			get arg7, arg7
+		end
+		put func2({
+			boolean var2[43..68], var1[41, 67], var8[-29..98]
+		yields
+			func2(39, false, false)
+		}, var2[{
+			return (arg7)
+		yields
+			98
+		}, {
+			boolean var4[74..93, 86..96]
+		yields
+			arg7
+		}], {
+			var3[arg7, 62] <= false
+		yields
+			true
+		}), skip, {
+			return (31)
+		yields
+			func2(arg7, var2[71, func2(arg7, true, true)], true)
+		}
+		put 98, func2(92, var1[func2((arg7) + (76), (18) != (arg7), false)], (var3[arg7, arg7]) != ({
+			return (arg7)
+		yields
+			(0) != (7)
+		}))
+	end
+
+	proc1(-({
+		loop
+			boolean var1[36], var2
+		end
+	yields
+		86
+	}), true)
+end
+

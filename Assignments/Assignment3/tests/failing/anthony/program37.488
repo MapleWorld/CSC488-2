@@ -1,0 +1,44 @@
+begin
+	loop
+		begin
+			exit
+			exit
+			exit
+		end
+		boolean function func1
+		begin
+			exit when (11)
+			put false, skip, "world"
+		end
+
+	end
+	while 86 do
+		integer var1[-47..-60], var2[7, 44]
+		exit when ((var1[(44) != (func1), {
+			exit
+		yields
+			(15) - (false)
+		}]) + ((true) | (17)))
+		loop
+			exit
+			var2 <= func1
+			put skip, "world", func1
+			exit
+			boolean var1[47], var2
+		end
+		loop
+			exit
+			var2[func1, func1] <= (61) > (true)
+			get var1[(false) | (var2)], var1, var2[func1, (var2[false, false]) <= (false)]
+			var1 <= (var1[func1]) - (var2[-(var2[false]), false])
+		end
+		procedure proc1(boolean arg4, boolean arg5)
+		begin
+			get var2[var2[(func1) | (var2), -(true)]], arg4[arg5, false]
+			put ":D", (var1[false, false]) = (false)
+			var2 <= true
+		end
+
+	end
+end
+

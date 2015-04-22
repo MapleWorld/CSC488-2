@@ -1,0 +1,4 @@
+begin
+    put 5 + 5, skip
+    put 11 + -5
+end

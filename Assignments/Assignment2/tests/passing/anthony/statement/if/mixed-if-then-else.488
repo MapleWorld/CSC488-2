@@ -1,0 +1,23 @@
+begin
+    boolean b
+    b <= true
+
+    if b then
+        b <= false
+        if b then
+            begin end
+        end
+    else
+        begin end
+    end
+
+    if b then
+        b <= false
+        if b then
+            begin end
+        else
+            begin end
+        end
+    end
+end
+

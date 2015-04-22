@@ -1,0 +1,10 @@
+% calling function with parameter(s)
+begin
+	integer x
+	x <= 0
+	integer function add1(integer a)
+	begin
+		return (a+1)
+	end
+	put add1(x)
+end

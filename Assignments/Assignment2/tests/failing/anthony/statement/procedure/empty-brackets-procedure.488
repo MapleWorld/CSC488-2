@@ -1,0 +1,4 @@
+begin
+    procedure foo () begin
+    end
+end

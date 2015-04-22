@@ -1,0 +1,75 @@
+begin
+	begin
+		while !(true) do
+			boolean var4[22], var2, var1[64..89, 99]
+			integer var3[27], var5[40, 64..92], var7[18]
+		end
+		integer var8[-85..49]
+		get var8[{
+			get var7[-(39)]
+		yields
+			(-(58)) * (53)
+		}], var8[98], var7[73]
+		var2 <= {
+			var7[83] <= -(48)
+		yields
+			true
+		}
+		var5[var8[57], {
+			put "hello", "hello"
+		yields
+			(var5[96, 2]) / (var5[7, 92])
+		}] <= 1
+	end
+	if true then
+		procedure proc1
+		begin
+			put 29, skip, 98
+		end
+
+		proc1
+		proc1
+		while (-({
+			boolean var1[39, 62], var4[69..100]
+		yields
+			4
+		})) != (19) do
+			proc1
+		end
+	end
+	integer function func2(boolean arg1, integer arg2, integer arg3)
+	begin
+		if !(({
+			get arg2, arg2, arg3
+		yields
+			false
+		}) & ({
+			return (57)
+		yields
+			arg1
+		})) then
+			return (29)
+			get arg2
+		end
+		begin
+			return (arg3)
+			boolean var1[83..86], var2[-32..2]
+			return (-(arg2))
+			return (-(arg3))
+			return (arg2)
+		end
+		put 79, skip, ":D"
+	end
+
+	if !(true) then
+		procedure proc2(boolean arg4, boolean arg1, boolean arg3)
+		begin
+			put func2(false, func2(true, 28, -(func2(true, 93, 30))), (74) / (func2(arg3, func2(false, 52, 90), 99)))
+			put skip, "world", func2(false, 65, 89)
+			put "hello", "world", "hello"
+		end
+
+		proc1
+	end
+end
+

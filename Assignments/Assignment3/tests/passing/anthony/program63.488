@@ -1,0 +1,98 @@
+begin
+	if {
+		loop
+			exit when (true)
+			boolean var1[-43..67, 33], var2
+			boolean var3[49, 62..62]
+		end
+	yields
+		({
+			var2 <= (true) = (var2)
+		yields
+			89
+		}) > (-(-(50)))
+	} then
+		integer function func5(integer arg1, integer arg2, integer arg3)
+		begin
+			return (-(arg2))
+			put skip, skip
+			boolean var1, var2[99, 69..96]
+		end
+
+		begin
+			put skip
+		end
+		procedure proc2
+		begin
+			put skip, func5(58, 63, 18), "hello"
+			put 66, skip, skip
+			put skip, "world", "hello"
+			boolean var2[72..91]
+		end
+
+		loop
+			exit
+			put "!?"
+		end
+		put {
+			integer var1[23]
+		yields
+			var1[-(func5(61, 23, 96))]
+		}, "!?", func5(((95) * (-(1))) / (26), {
+			integer var2[-66..-48]
+		yields
+			var2[func5(38, 35, 89)]
+		}, func5({
+			boolean var1[47, 79], var5[20, 64..77]
+		yields
+			func5(49, 15, 35)
+		}, func5((35) * (48), func5(1, 47, 6), 83), {
+			integer var1[2..64, -8..62], var2[-8..84, -68..-32]
+		yields
+			90
+		}))
+	else
+		if false then
+			put "hello"
+		end
+		put skip, 74, "hello"
+		if {
+			integer var2[35, 13..51]
+		yields
+			true
+		} then
+			proc2
+			put func5(61, func5(77, (-(62)) / (50), func5(4, func5(98, 35, 3), func5(71, 78, 74))), 79), skip, "!?"
+			integer var3
+			get var3
+		end
+		procedure proc5(boolean arg1)
+		begin
+			get var3, var3
+			var3 <= (31) + (16)
+			put skip, skip
+			get var3, var3, var3
+		end
+
+		begin
+			boolean var1[68..73], var2[98, 67..93]
+			get var3, var3, var3
+		end
+	end
+	boolean function func1(integer arg2)
+	begin
+		boolean var1, var4[-4..25]
+		if !(var4[{
+			return (false)
+		yields
+			func5(var3, arg2, 35)
+		}]) then
+			put ":D"
+			var1 <= false
+			var1 <= (func1(func5(func5(78, 26, var3), func5(49, arg2, 72), 64))) != (true)
+			put ":D", arg2, skip
+		end
+	end
+
+end
+

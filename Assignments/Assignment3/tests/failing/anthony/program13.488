@@ -1,0 +1,82 @@
+begin
+	procedure proc1(boolean arg1)
+	begin
+		begin
+			return
+			return
+		end
+		if {
+			return
+		yields
+			arg1[true, arg1]
+		} then
+			put arg1[false, false], (70) >= (-(-(arg1)))
+			return
+			return (false)
+			return (false)
+			exit when (((82) / (true)) * (arg1[false, true]))
+		end
+		loop
+			return (2)
+		end
+		while {
+			get arg1
+		yields
+			arg1[true, arg1[arg1, true]]
+		} do
+			proc1(!(50))
+			exit
+		end
+		get arg1[arg1[{
+			return
+		yields
+			93
+		}]]
+	end
+
+	exit when (31)
+	if 33 then
+		put "!?"
+		while 90 do
+			proc1((!(23)) + (-(false)))
+		end
+		return
+		proc1({
+			return
+		yields
+			false
+		})
+	else
+		begin
+			exit
+			exit
+			put -((true) | (!(!(63)))), "hello"
+		end
+		put ":D", skip
+		begin
+			integer var1, var2, var3
+			var1[true, true] <= true
+			proc1(!(16))
+			proc1(var2[-((true) = (23))])
+			exit
+		end
+		procedure proc1(integer arg1)
+		begin
+			exit
+			put skip
+		end
+
+		if {
+			integer var1, var2[39, 36], var3[-61..-81]
+		yields
+			(!(38)) > (false)
+		} then
+			proc1((!(98)) < (true))
+			integer var1, var2[50]
+			proc1(true)
+			exit
+		end
+	end
+	proc1(69)
+end
+

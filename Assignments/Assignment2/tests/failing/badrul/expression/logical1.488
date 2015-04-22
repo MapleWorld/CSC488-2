@@ -1,0 +1,5 @@
+% missing boolean literal
+begin
+    boolean x
+    x <= 
+end

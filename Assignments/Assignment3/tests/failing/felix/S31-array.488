@@ -1,0 +1,6 @@
+begin
+    integer x[1,10]
+    integer y[5]
+    put x[true]
+    put y[false]
+end

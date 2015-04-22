@@ -1,0 +1,5 @@
+begin
+    boolean b
+    b <= false
+    if then begin end end
+end

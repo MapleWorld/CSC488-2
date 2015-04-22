@@ -1,0 +1,45 @@
+begin
+	while 19 do
+		procedure proc1(boolean arg1)
+		begin
+			exit
+			exit when ((!(95)) + (arg1))
+			integer var1, var2
+			exit when (73)
+		end
+
+		if !(!(57)) then
+			exit
+			put false
+			put skip
+			exit when (78)
+			put "world", "world"
+		end
+	end
+	if (({
+		if 71 then
+			integer var1[38..-74]
+			return
+		else
+			proc1(43)
+			proc1(50)
+		end
+	yields
+		true
+	}) + ({
+		put skip
+	yields
+		!(40)
+	})) * (false) then
+		exit
+	end
+	proc1({
+		while !(5) do
+			exit when ((!(93)) - (-(true)))
+			proc1(88)
+		end
+	yields
+		true
+	})
+end
+

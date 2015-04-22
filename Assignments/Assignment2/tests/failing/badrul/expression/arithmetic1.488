@@ -1,0 +1,5 @@
+% unary minus with unary plus
+begin
+    integer x
+    x <= -+5
+end

@@ -1,0 +1,46 @@
+begin
+	loop
+		if 98 then
+			put true
+			put "world", skip
+		end
+		put skip, false, skip
+		exit
+		procedure proc2(integer arg2, boolean arg3)
+		begin
+			return
+		end
+
+	end
+	exit when (1)
+	exit
+	loop
+		exit when (!({
+			put skip, "!?"
+		yields
+			(89) >= (true)
+		}))
+		while {
+			exit when (38)
+		yields
+			(((63) * (false)) = (-(true))) | (1)
+		} do
+			integer var1[-76..-93], var2[-97..-99]
+		end
+		begin
+			exit
+			exit when (!(7))
+			proc2(false, var2[true])
+			proc2(false, var1[-(true), false])
+		end
+		exit
+		begin
+			boolean var1[-63..-65], var2[26, -21..-68], var3[22, -76..-95]
+			get var1[(true) & (!(96))], var1[(false) & (88)], var3[var3]
+			proc2(var1[true, (!(var1)) > (false)], 29)
+			proc2(false, 77)
+		end
+	end
+	put skip
+end
+

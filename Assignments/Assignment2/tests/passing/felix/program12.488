@@ -1,0 +1,14 @@
+
+begin 
+	procedure l ( boolean k , boolean v , integer t , integer a , integer e , boolean z , boolean x , boolean i ) 
+	begin 
+		while 
+		{ 
+			exit yields c 
+		} do 
+			while b do 
+				v 
+			end 
+		end 
+	end 
+end 

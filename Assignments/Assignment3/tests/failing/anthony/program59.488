@@ -1,0 +1,45 @@
+begin
+	if ({
+		put true, {
+			exit when (!(83))
+		yields
+			!(47)
+		}
+	yields
+		false
+	}) * ({
+		boolean function func1
+		begin
+			integer var1[32..-62], var2[-90..-95], var3[71..-10, 76]
+			put skip, true, skip
+		end
+
+	yields
+		69
+	}) then
+		loop
+			put -(true)
+		end
+	else
+		integer var1[42]
+		integer function func1(integer arg1, integer arg2)
+		begin
+			exit
+		end
+
+		begin
+			var1 <= true
+			exit
+			exit when (var1[(var1[-(true), false]) < (true), (false) != (func1(false, true))])
+		end
+		exit
+		exit when ((func1(false, {
+			put "hello"
+		yields
+			func1(false, false)
+		})) + (false))
+	end
+	exit when (func1(-(false), true))
+	put skip, ((true) = (func1(false, (false) != (61)))) & (!(func1(true, (37) > (true)))), skip
+end
+

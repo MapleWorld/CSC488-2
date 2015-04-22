@@ -1,0 +1,6 @@
+begin
+    integer function func begin
+        integer x
+        x <= 5
+    end
+end

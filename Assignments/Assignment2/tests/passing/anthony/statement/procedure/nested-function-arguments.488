@@ -1,0 +1,18 @@
+begin
+    boolean function hello (boolean name) begin
+        integer function world begin
+            return (42)
+        end
+        boolean function high (integer five) begin
+            return (name)
+        end
+    end
+
+    boolean function yo begin
+        boolean function gabba (boolean gabba) begin
+            return (false)
+        end
+
+        return (true)
+    end
+end

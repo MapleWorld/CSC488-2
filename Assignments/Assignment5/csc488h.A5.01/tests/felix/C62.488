@@ -1,0 +1,4 @@
+begin
+    put 100 - 10, skip
+    put -10 - -10
+end

@@ -1,0 +1,4 @@
+begin
+	put -(26), "world"
+end
+

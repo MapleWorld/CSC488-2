@@ -1,0 +1,75 @@
+begin
+	integer function func1(boolean arg1, boolean arg2, integer arg3)
+	begin
+		return (func1({
+			return (45)
+		yields
+			true
+		}, true, {
+			integer var2[-60..-17], var1, var3[-80..97, -7..60]
+		yields
+			77
+		}))
+	end
+
+	integer function func3(integer arg4, boolean arg1, integer arg2)
+	begin
+		if (func3(arg2, arg1, {
+			integer var1[-72..-38]
+		yields
+			22
+		})) = (2) then
+			return (81)
+		else
+			integer var1[52..80], var2
+			integer var3[30], var5
+			put var5
+		end
+		var2 <= {
+			return (54)
+		yields
+			98
+		}
+		put skip, skip, func1(true, arg1, 7)
+	end
+
+	while false do
+		loop
+			exit
+			exit
+			put -(-(21)), skip, skip
+			put skip, skip, skip
+			put skip, 56
+		end
+		procedure proc3(integer arg1, integer arg5, boolean arg6)
+		begin
+			put arg1, ":D", skip
+			put skip, skip
+			put func3(func3(func3(func3(41, false, arg1), arg6, arg5), arg6, (func3(60, arg6, 91)) + (arg5)), (arg1) >= ((49) * (arg1)), 70), skip
+		end
+
+		boolean var1, var4
+		boolean function func2(integer arg1)
+		begin
+			return (!(true))
+		end
+
+		put func1(true, func2(-(75)), func3({
+			boolean var3, var1[-26..30, 21]
+		yields
+			-(32)
+		}, var4, {
+			var4 <= (53) >= (31)
+		yields
+			29
+		})), skip, ":D"
+	end
+	loop
+		var1 <= func2(func1(var4, func2(func3(29, var1, 48)), {
+			var1 <= true
+		yields
+			37
+		}))
+	end
+end
+

@@ -1,0 +1,86 @@
+begin
+	procedure proc1(integer arg1, integer arg2)
+	begin
+		if 88 then
+			proc1(true, false)
+			boolean var1, var2[69, 91], var3[87, 49]
+			exit
+		else
+			return
+			return
+			proc1(true, var3[false, var1[true]])
+			get var3, var2[false], var1
+		end
+		if {
+			proc1(true, false)
+		yields
+			false
+		} then
+			proc1(false, var3[(38) != (false), (37) > (var3[false, (false) != (29)])])
+			exit when (!(11))
+			get var1, var3
+			put skip, true
+		end
+		exit when (88)
+		if ({
+			get var2[(true) != (arg2)]
+		yields
+			-((7) <= (false))
+		}) * ({
+			get var2, var2
+		yields
+			49
+		}) then
+			proc1(false, -(-(var1)))
+			boolean var1[-55..-79, -60..-61], var2[94, 84], var3[-69..-69, 81..22]
+		end
+		boolean var1[-97..-98], var2[41..-27, -65..-83], var3
+	end
+
+	proc1(-({
+		if {
+			exit when (!(18))
+		yields
+			-(false)
+		} then
+			boolean var1[4..-39, 66], var2
+			put skip, "hello", "world"
+		end
+	yields
+		{
+			proc1(true, false)
+		yields
+			-(true)
+		}
+	}), {
+		procedure proc1
+		begin
+			exit when (!(63))
+			return (!(!(87)))
+			proc1(-((32) >= (true)), (65) <= (false))
+			exit
+		end
+
+	yields
+		{
+			proc1(true, -(true))
+		yields
+			(70) <= (false)
+		}
+	})
+	proc1({
+		loop
+			integer var1
+			exit when (var1)
+			exit when (28)
+		end
+	yields
+		{
+			boolean var1[55..-28, 30..19], var2[-64..-76, 65], var3
+		yields
+			(58) >= ((true) = (44))
+		}
+	}, true)
+	boolean var1, var2[45..-80], var3[99, 44]
+end
+

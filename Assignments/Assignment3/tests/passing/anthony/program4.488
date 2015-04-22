@@ -1,0 +1,45 @@
+begin
+	put skip, {
+		put "world", ":D", "!?"
+	yields
+		31
+	}
+	integer var1[92..93, 85..89], var3, var2[72]
+	begin
+		var3 <= (var1[19, {
+			get var1[85, 99], var3, var2[var3]
+		yields
+			63
+		}]) / (39)
+		get var2[76], var2[var1[-(49), 99]]
+	end
+	integer function func2(boolean arg3, integer arg1)
+	begin
+		if {
+			return (86)
+		yields
+			true
+		} then
+			var3 <= 49
+			boolean var2
+			get arg1, var1[57, func2(var2, func2(true, arg1))], var1[68, func2(true, var3)]
+			return (var1[func2(!(arg3), 53), func2(false, func2(false, func2(arg3, var3)))])
+		end
+		return (-({
+			return (33)
+		yields
+			func2(arg3, func2(false, 70))
+		}))
+	end
+
+	loop
+		put "!?", "world", skip
+		var1[func2(false, 77), {
+			var3 <= func2(!(false), 75)
+		yields
+			func2((37) < (52), var2[98])
+		}] <= 28
+		put -(var3), "!?"
+	end
+end
+

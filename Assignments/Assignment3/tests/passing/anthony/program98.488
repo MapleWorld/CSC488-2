@@ -1,0 +1,52 @@
+begin
+	boolean function func2(integer arg2, integer arg1)
+	begin
+		loop
+			exit when (func2(arg2, arg2))
+			exit
+			exit
+			integer var2[24], var3[13], var4
+		end
+		while ((34) * ({
+			boolean var2
+		yields
+			-(arg1)
+		})) = (-({
+			return (false)
+		yields
+			99
+		})) do
+			exit
+			exit
+			exit when (true)
+			get var3[(var2[0]) / (-((arg1) + (25)))]
+			put -(var3[91]), 4
+		end
+		if false then
+			var3[arg2] <= 76
+		end
+	end
+
+	while true do
+		while func2(23, -(-((32) + (50)))) do
+			exit when (true)
+			boolean var2[-74..68], var5
+		end
+		integer function func6(boolean arg2, integer arg1)
+		begin
+			return (46)
+			put func6(func2(func6(true, (arg1) * (arg1)), -(arg1)), func6(false, -(-(arg1)))), "hello"
+			return (29)
+		end
+
+		procedure proc1(integer arg5, integer arg6)
+		begin
+			put "!?"
+			return
+			put 46
+			put "world", "hello", skip
+		end
+
+	end
+end
+

@@ -1,0 +1,95 @@
+begin
+	if (47) + ({
+		integer var1, var2[29, 94..27]
+	yields
+		69
+	}) then
+		while 14 do
+			put "world", skip, skip
+			exit
+		end
+		if 39 then
+			return (83)
+		else
+			exit when (96)
+			exit
+		end
+	end
+	loop
+		loop
+			exit
+			put false, skip, skip
+			put skip, skip, skip
+		end
+	end
+	loop
+		if 61 then
+			exit
+			exit
+			exit when (!(17))
+			put "hello", skip, (true) & (10)
+			integer var1[65, 14..-89]
+		else
+			exit when (var1[(true) = (86), -(false)])
+		end
+		put skip, true
+		integer function func1(boolean arg1)
+		begin
+			exit
+			get arg1[false, (func1(func1(17))) != (true)], arg1, arg1[false, true]
+			exit when (72)
+		end
+
+		procedure proc2(boolean arg3)
+		begin
+			integer var1[98..24], var2
+			proc2(var1[true, -(-(-(false)))])
+			put skip, ":D"
+		end
+
+		loop
+			proc2(!(func1(func1(28))))
+			proc2(49)
+			exit
+		end
+	end
+	procedure proc1(integer arg1, boolean arg2, boolean arg3)
+	begin
+		procedure proc2(integer arg4, boolean arg5)
+		begin
+			exit
+			exit when (arg1)
+			exit when (54)
+			proc1(true, 97, 51)
+		end
+
+	end
+
+	while {
+		if !(func1(var1[false, false])) then
+			exit when (93)
+			exit
+			var1[true] <= false
+			exit when (55)
+		end
+	yields
+		(20) >= ((true) != (func1(80)))
+	} do
+		if func1(41) then
+			exit
+			exit when (39)
+			var1 <= true
+			exit when (25)
+		end
+		if (func1(35)) * (true) then
+			exit
+			return (false)
+			exit
+			return
+			return
+		else
+			exit
+		end
+	end
+end
+

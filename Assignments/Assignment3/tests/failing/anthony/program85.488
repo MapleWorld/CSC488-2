@@ -1,0 +1,41 @@
+begin
+	if {
+		if ((18) * (false)) - (true) then
+			integer var1[6..-17], var2[27..-80], var3[17..13]
+			exit when (!((var1[false]) * (true)))
+			put skip
+		else
+			return (40)
+			return (var1[((62) + (false)) <= (false)])
+			return (var1[true])
+			exit
+		end
+	yields
+		(11) <= (false)
+	} then
+		while 15 do
+			exit when (83)
+		end
+		loop
+			put ":D", skip
+			exit
+			exit
+			put false, (false) = ((!(66)) + (-((true) | (74))))
+			put "world", "hello", skip
+		end
+		exit
+		loop
+			exit
+		end
+		while {
+			put -(false), "world"
+		yields
+			true
+		} do
+			put "!?"
+			put skip, -((!(93)) >= (false)), "!?"
+			boolean var1[54, 14]
+		end
+	end
+end
+

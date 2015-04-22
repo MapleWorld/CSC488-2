@@ -1,0 +1,13 @@
+begin
+    while true do
+        loop
+            begin end
+        end
+    end
+
+    loop
+        while false do
+            begin end
+        end
+    end
+end

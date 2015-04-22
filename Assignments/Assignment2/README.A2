@@ -1,0 +1,16 @@
+Felix Lu: Implemented a version of the cup grammar file, test cases 
+(manual and generated), shell scripts.
+
+Vishrant Vasavada: Implemented a version of cup grammar file and 
+failing test cases.
+
+Tian Ze(Peter) Chen: Implemented a version of cup grammar file and 
+basic code for a program generator. His is the grammar file that we
+submitted.
+
+Anthony Vandikas: Wrote test cases covering everything except 
+expressions, fixed bugs in the grammar and generator, and updated 
+RUNALLSCRIPTS.sh to scan directories recursively.
+
+Badrul Chowdhury: Implemented a version of cup grammar and wrote test 
+cases to fail when parsing expressions.

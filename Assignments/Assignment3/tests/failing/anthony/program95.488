@@ -1,0 +1,50 @@
+begin
+	procedure proc1(integer arg1)
+	begin
+		begin
+			return
+			return
+			exit
+		end
+		while {
+			exit
+		yields
+			false
+		} do
+			exit
+			arg1 <= true
+			put false, false
+			exit
+		end
+		proc1(true)
+		boolean var1
+	end
+
+	while 25 do
+		proc1({
+			exit
+		yields
+			!(37)
+		})
+		while (100) * ((77) < ((58) > (true))) do
+			proc1(false)
+			boolean var1[89], var2[22..-24, -78..-90], var3
+		end
+		boolean var1, var2[79..-90], var3
+		procedure proc1(boolean arg1, integer arg2)
+		begin
+			exit
+			integer var1[7, 57], var2[91], var3
+			exit when ((41) - ((!(76)) > ((var2[var2]) <= (true))))
+		end
+
+		while {
+			get var1[(50) != (true)], var1, var2[false, var3[true, (40) < (true)]]
+		yields
+			var1
+		} do
+			exit
+		end
+	end
+end
+

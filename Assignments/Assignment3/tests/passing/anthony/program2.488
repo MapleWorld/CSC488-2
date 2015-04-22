@@ -1,0 +1,70 @@
+begin
+	loop
+		loop
+			exit
+		end
+		begin
+			integer var1[86..98, 43], var5
+			var1[var5, -(-(3))] <= var5
+			get var5
+			integer var7[49], var2[34]
+		end
+		exit when ({
+			integer var2[70], var1
+		yields
+			false
+		})
+	end
+	boolean var1[68..92], var4[-14..19, 90]
+	loop
+		loop
+			boolean var3
+			exit when (var1[(7) * (53)])
+		end
+		while var3 do
+			exit
+			exit when (var1[41])
+		end
+		boolean function func1(boolean arg3, boolean arg2, integer arg4)
+		begin
+			return (!(true))
+		end
+
+	end
+	begin
+		begin
+			put ":D"
+			put ":D"
+			put skip, 28
+		end
+		while func1(func1(var4[66, -(15)], var1[-(58)], -(83)), true, 42) do
+			exit
+			integer var2[95..99, 40..80], var1[75..96, 77..79], var3[2..46]
+			exit
+			var3[-(42)] <= 10
+			put ":D", var2[81, var3[-(var3[95])]]
+		end
+		loop
+			boolean var6[93]
+			var1[68, var3[84]] <= 68
+		end
+	end
+	while var1[-(23)] do
+		exit
+		integer function func2(boolean arg2, integer arg7, integer arg1)
+		begin
+			return (func2(false, -(94), func2(false, -(func2(false, 82, arg7)), 3)))
+			return (arg1)
+			get arg7, arg1, arg7
+			return (arg1)
+		end
+
+		exit when (!({
+			integer var4[-20..19, 99..99], var1[55, -51..78]
+		yields
+			(var1[90, 43]) < (-(14))
+		}))
+		boolean var2
+	end
+end
+

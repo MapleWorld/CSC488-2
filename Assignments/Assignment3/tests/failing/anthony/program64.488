@@ -1,0 +1,62 @@
+begin
+	put true
+	loop
+		integer function func1(boolean arg1, integer arg2)
+		begin
+			get arg1, arg1[false], arg1
+		end
+
+	end
+	if 66 then
+		if !(func1({
+			exit
+		yields
+			true
+		}, (76) < (false))) then
+			exit when (func1(func1(10, false), false))
+			exit
+		end
+		if {
+			exit when (4)
+		yields
+			true
+		} then
+			put "world", ((-((5) >= (true))) != (70)) != (43)
+			exit when (21)
+			exit
+			exit
+			exit when (func1(63, true))
+		end
+		procedure proc3
+		begin
+			exit
+			exit
+			exit
+			return (14)
+		end
+
+		procedure proc4(integer arg6, integer arg7)
+		begin
+			arg7 <= false
+		end
+
+	end
+	procedure proc5
+	begin
+		boolean function func2(boolean arg8, integer arg9, boolean arg10)
+		begin
+			exit
+			exit when (func1(40, arg8))
+		end
+
+		loop
+			proc5
+			put true, "!?"
+			exit when (70)
+			proc4(true, true)
+		end
+	end
+
+	put skip
+end
+

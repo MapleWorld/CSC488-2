@@ -1,0 +1,37 @@
+begin
+	integer function func4(boolean arg2)
+	begin
+		while (!({
+			return (81)
+		yields
+			true
+		})) & (false) do
+			exit when (false)
+			integer var2, var1
+			exit when (true)
+			get var2
+		end
+		put skip, func4({
+			return (59)
+		yields
+			false
+		}), "!?"
+		put skip, func4(false)
+	end
+
+	integer function func2(boolean arg1, integer arg2)
+	begin
+		if ({
+			return (-(func2(arg1, 86)))
+		yields
+			-(97)
+		}) < (arg2) then
+			return (func4(false))
+		else
+			return (func4(!(false)))
+			return (-(arg2))
+		end
+	end
+
+end
+

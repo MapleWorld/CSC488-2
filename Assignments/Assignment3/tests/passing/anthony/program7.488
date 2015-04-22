@@ -1,0 +1,44 @@
+begin
+	put skip
+	while {
+		if true then
+			integer var1[2], var2[70..96]
+			var1[-(var2[26])] <= -(77)
+			var1[var1[91]] <= -(var1[-(65)])
+			put skip, skip
+			put skip, ":D", skip
+		end
+	yields
+		true
+	} do
+		put skip
+		integer function func4(integer arg1, integer arg4)
+		begin
+			return (31)
+			boolean var2[2, 0]
+			boolean var3[14]
+			return (42)
+			integer var8, var1[-22..-20], var4
+		end
+
+	end
+	while false do
+		if true then
+			exit
+			exit when (false)
+			exit
+			put "world", skip, -(func4(func4(-(10), func4(49, 66)), func4(60, (98) - (23))))
+		end
+		loop
+			exit when (false)
+			integer var1[81, 67..84], var7
+			integer var2, var3[82, 2], var4[47..87, -73..-2]
+		end
+		loop
+			boolean var5[-44..-37, 58..95]
+			exit when (true)
+			put skip, "!?", "world"
+		end
+	end
+end
+

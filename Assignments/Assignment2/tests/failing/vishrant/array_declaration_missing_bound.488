@@ -1,0 +1,11 @@
+% Author: Vishrant Vasavada
+% Info: Program that tests array declaration with missing bounds
+% Error: Line 6
+
+begin
+	integer a[]
+	a[1] <= 1
+end
+
+
+

@@ -1,0 +1,73 @@
+begin
+	boolean function func2(integer arg1)
+	begin
+		if func2({
+			return (false)
+		yields
+			26
+		}) then
+			boolean var3, var1[46, 67]
+			get arg1, arg1
+			boolean var2
+		end
+		if true then
+			get arg1, arg1, arg1
+			var1[62, 38] <= false
+			integer var5[40], var7[91, 18]
+			get var5[var5[18]], var7[arg1, 49], arg1
+		else
+			boolean var4, var6[12, 48], var9[-57..54, 12]
+			boolean var8[81, -13..85], var11[87]
+			boolean var10[44], var13[50], var16[-17..82, 35..47]
+			put var7[34, 0], skip
+		end
+		return (({
+			integer var1, var2[2, 2], var3[45]
+		yields
+			false
+		}) | (false))
+	end
+
+	begin
+		if func2((100) * ((82) + ((1) + (9)))) then
+			put skip, 41, ":D"
+			put skip, -(10), "world"
+			integer var2, var1[-47..15, -42..90], var3
+			put skip
+		end
+		integer function func1
+		begin
+			var1[var2, var3] <= var3
+			return (-(func1))
+		end
+
+	end
+	procedure proc2(integer arg4, boolean arg1, integer arg2)
+	begin
+		procedure proc1(integer arg1)
+		begin
+			put arg2, skip, skip
+			return
+		end
+
+	end
+
+	begin
+		while true do
+			exit
+			exit when (false)
+		end
+	end
+	procedure proc3(integer arg2)
+	begin
+		begin
+			return
+			put skip, 82, arg2
+		end
+		loop
+			get arg2, arg2, arg2
+		end
+	end
+
+end
+

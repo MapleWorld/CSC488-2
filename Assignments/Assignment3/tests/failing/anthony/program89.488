@@ -1,0 +1,68 @@
+begin
+	loop
+		exit
+		exit
+		integer var1[96..-28], var2[17], var3[95, 51]
+	end
+	procedure proc1(boolean arg1, integer arg2, integer arg3)
+	begin
+		proc1(37, ((93) > (arg1)) & ({
+			return (false)
+		yields
+			true
+		}), -(arg1[{
+			return (arg1[false])
+		yields
+			90
+		}]))
+		procedure proc3(boolean arg4)
+		begin
+			get arg4[true]
+			boolean var1[42]
+			exit
+			exit
+			put arg4[false, var1[true]]
+		end
+
+	end
+
+	loop
+		begin
+			proc1(var2[true, (-(true)) & (var2)], (false) | (var1), true)
+			exit
+			proc1(21, -(false), true)
+			exit
+			var3 <= -(true)
+		end
+		var1 <= (30) > (false)
+		proc1(3, {
+			exit when (!(10))
+		yields
+			(40) * ((!(69)) != (false))
+		}, true)
+		exit
+		proc1(89, false, false)
+	end
+	if var3 then
+		exit
+	end
+	if 32 then
+		integer function func4(integer arg8, integer arg9)
+		begin
+			proc1((38) * (true), true, (24) >= (true))
+		end
+
+		if !(96) then
+			exit
+			var1[false, true] <= false
+			exit when (func4(true, true))
+		else
+			put skip, skip
+			exit when (var1[true, true])
+			proc1(var1[true, false], (17) = (false), false)
+			var2[-(true), false] <= (68) < (-(true))
+			proc1(36, -(true), true)
+		end
+	end
+end
+

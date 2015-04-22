@@ -1,0 +1,59 @@
+Mark: 100 / 100
+
+
+Package and Submission (5 / 5)
+----------------------
+
+  - Correct file/directory structure
+  - RUNALLTESTS.sh worked correctly
+
+
+Grammar Quality/Readability (40 / 40)
+---------------------------
+
+  - No build errors for Cup parser generation step
+  - Implemented all statement and expression constructs
+  - Respected all precedence rules, including the non-associativity of 
+the Boolean comparisons
+  - Terse (no comments)  but well structured
+
+
+Documentation (20 / 20)
+-------------
+
+  - README.A2 documents who did what
+  - Very thorough grammar design writeup, great explanation of strategy 
+for transforming the ambiguous language spec into LALR form, as well as 
+your approach to encoding operator precedence. Well done!!
+  - Explanation of testing regime was underwhelming, especially given 
+how thorough the test suite was
+
+
+Testing (25 / 25)
+-------
+
+  - Extremely extensive test suite, with both passing and failing cases
+  - Very nice implementation of random test case generation! Do you 
+think you can extend this in the future to generate semantically correct 
+test cases? What about executable ones?
+
+
+Official Testing (10 / 10)
+----------------
+
+empty.488 (0.5 / 0.5)
+expressions.488 (1.0 / 1.0)
+funprocdeclarations.488 (1.0 / 1.0)
+harder.488 (2.0 / 2.0)
+scopes.488 (1.0 / 1.0)
+statements.488 (1.5 / 1.5)
+vardeclarations.488 (1.0 / 1.0)
+
+error01.488 (0.25 / 0.25)
+error02.488 (0.25 / 0.25)
+error03.488 (0.25 / 0.25)
+error04.488 (0.25 / 0.25)
+error05.488 (0.25 / 0.25)
+error06.488 (0.25 / 0.25)
+error07.488 (0.25 / 0.25)
+error08.488 (0.25 / 0.25)

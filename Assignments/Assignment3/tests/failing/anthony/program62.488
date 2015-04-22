@@ -1,0 +1,43 @@
+begin
+	integer var1, var2[-38..-74, -66..-69]
+	integer var1
+	while var1[-(false), {
+		begin
+			var1[true] <= false
+			var1[-(false)] <= -(false)
+		end
+	yields
+		44
+	}] do
+		exit when ((var1[false, (2) >= (false)]) * (true))
+		exit when (var1[({
+			var1[false, false] <= true
+		yields
+			var1[false, true]
+		}) | (80)])
+		loop
+			boolean var1, var2[6], var3[42, 60]
+		end
+		if 87 then
+			put ":D", "!?", true
+			get var3[true, false], var3[var2], var2[true]
+			get var3, var2[(((28) * (var2)) / (false)) != ((var1) != (var2[true, true]))]
+			exit when (62)
+		end
+	end
+	put ":D", ":D"
+	if !({
+		begin
+			boolean var1[9]
+			get var1
+			var3[-(true), false] <= !(var1)
+			exit
+			exit when (var1)
+		end
+	yields
+		false
+	}) then
+		exit
+	end
+end
+

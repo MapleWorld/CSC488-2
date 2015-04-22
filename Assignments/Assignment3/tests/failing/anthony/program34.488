@@ -1,0 +1,37 @@
+begin
+	exit
+	procedure proc1(integer arg1, integer arg2, boolean arg3)
+	begin
+		put "world", skip, arg3[true, {
+			integer var1[-96..-100], var2[100, 23..-23], var3[-50..-64, -40..-88]
+		yields
+			92
+		}]
+		exit
+	end
+
+	procedure proc1(boolean arg1)
+	begin
+		exit when ({
+			exit
+		yields
+			(arg1) != ((63) / (false))
+		})
+	end
+
+	begin
+		exit
+		exit when ({
+			put (64) <= (false)
+		yields
+			true
+		})
+		exit when (!(!((34) - (false))))
+		begin
+			exit
+			exit
+			exit when (66)
+		end
+	end
+end
+

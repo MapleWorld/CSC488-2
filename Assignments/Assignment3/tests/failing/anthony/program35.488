@@ -1,0 +1,20 @@
+begin
+	exit
+	begin
+		exit
+		exit
+		while {
+			exit when (93)
+		yields
+			-(true)
+		} do
+			put true, (7) <= (true), false
+			put (78) >= (true), true
+			put "world", skip, ":D"
+			exit
+			put true, skip, false
+		end
+		exit when (39)
+	end
+end
+

@@ -1,0 +1,6 @@
+% Author: Felix Lu
+begin
+    procedure invalid(integer x, integer y)
+        put "should not get here"
+    end
+end

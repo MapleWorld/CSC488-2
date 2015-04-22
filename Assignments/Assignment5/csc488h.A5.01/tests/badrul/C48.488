@@ -1,0 +1,10 @@
+% break out of loop
+begin
+	boolean x
+	x <= true
+	while x
+	do
+		exit
+	end
+	put "successful break"
+end

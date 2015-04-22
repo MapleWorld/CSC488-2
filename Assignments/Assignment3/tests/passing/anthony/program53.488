@@ -1,0 +1,88 @@
+begin
+	loop
+		put skip
+		put 62
+		integer var1[40, -46..-8]
+		begin
+			get var1[((var1[38, 7]) * (var1[37, 8])) - (var1[-(1), 50]), (82) + (3)], var1[var1[var1[var1[36, 33], 54], -(var1[55, 33])], 77], var1[79, var1[42, var1[(43) / (28), (9) / (55)]]]
+			var1[var1[100, var1[73, var1[30, 39]]], 26] <= var1[(((3) / (5)) - (var1[1, 13])) - (96), (1) / ((var1[28, 74]) / ((60) / (51)))]
+			get var1[((var1[38, 26]) - (var1[1, 25])) - (59), 96], var1[var1[var1[var1[7, 98], var1[1, 97]], var1[67, var1[55, 30]]], var1[54, 42]], var1[(-(var1[20, 44])) * (92), (15) / (var1[35, -(10)])]
+			put ":D", skip, skip
+			var1[77, 43] <= 82
+		end
+		begin
+			var1[11, -(var1[var1[78, 12], var1[89, 10]])] <= var1[96, var1[var1[var1[5, 76], 94], 54]]
+			integer var2[30..66], var3[-97..38, 77], var5
+		end
+	end
+	while true do
+		loop
+			exit
+			put skip, skip, "world"
+			var1[(46) * (var1[63, 15]), 96] <= var1[64, -((var1[43, 12]) + (49))]
+		end
+		begin
+			put (var1[(49) * (var1[61, 58]), 65]) - ((54) + (-(46))), (var1[var1[var1[69, 71], var1[24, 57]], (46) * (var1[36, 48])]) - ((-(38)) / (70))
+		end
+		if {
+			boolean var1[24]
+		yields
+			!(!(var1[50]))
+		} then
+			boolean var3[32..34, 22]
+			get var1[78, var1[98, -(76)]], var1[var1[(4) * (var1[100, 8]), var1[49, var1[59, 96]]], (32) - (var1[var1[63, 50], 20])]
+			exit when (false)
+		end
+	end
+	while (var1[-(-(92)), var1[var1[26, 28], 95]]) <= (32) do
+		var1[(var1[var1[52, 9], var1[42, 52]]) - (-(61)), {
+			integer var5, var3[2..75], var1[27]
+		yields
+			var5
+		}] <= var1[-(var1[-(75), var1[90, 60]]), {
+			get var1[42, 40], var1[(5) / (36), -(4)]
+		yields
+			21
+		}]
+		get var1[80, var1[-(var1[18, 5]), var1[var1[43, 30], -(35)]]]
+		get var1[-(73), var1[(var1[19, 56]) * (var1[0, 90]), {
+			integer var1[58, 40], var2[56, 4..62], var3[56..99, 97..100]
+		yields
+			10
+		}]], var1[79, var1[var1[27, 2], 48]], var1[89, (49) - (65)]
+	end
+	put "hello"
+	if !(({
+		integer function func1(boolean arg1)
+		begin
+			return (31)
+		end
+
+	yields
+		true
+	}) | ((false) & ((false) | (true)))) then
+		var1[var1[57, 35], 1] <= var1[56, var1[79, (var1[16, 4]) - (47)]]
+		boolean var2
+		while {
+			integer var1
+		yields
+			var2
+		} do
+			get var1[74, var1[var1[53, 18], var1[var1[88, 98], var1[38, 13]]]], var1[-(-(var1[33, 40])), 14]
+		end
+		begin
+			var3[var1[-(var1[13, 53]), -(42)], ((94) / (var1[71, 97])) + (var1[-(67), (59) * (22)])] <= (-(var1[var1[93, 87], var1[97, 30]])) > (var1[var1[-(7), 82], -(var1[37, 88])])
+		end
+	else
+		var2 <= var3[(var1[var1[0, 80], var1[24, 80]]) + ({
+			put skip, "world"
+		yields
+			var1[39, 31]
+		}), var1[{
+			put skip, 61
+		yields
+			21
+		}, var1[4, var1[20, 14]]]]
+	end
+end
+

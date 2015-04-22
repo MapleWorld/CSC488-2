@@ -1,0 +1,9 @@
+begin
+    if 400 <= 500 then
+        put "400 <= 500"
+    end
+    put skip
+    if 500 <= 500 then
+        put "500 <= 500"
+    end
+end

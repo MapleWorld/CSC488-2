@@ -1,0 +1,236 @@
+package compiler488.parser;
+
+import java_cup.runtime.*;
+import compiler488.ast.*;
+import compiler488.ast.decl.*;
+import compiler488.ast.expn.*;
+import compiler488.ast.stmt.*;
+import compiler488.ast.type.*;
+
+action code {:
+    class Bound {
+        public Integer lower;
+        public Integer upper;
+
+        public Bound(Integer lower, Integer upper) {
+            this.lower = lower;
+            this.upper = upper;
+        }
+    }
+:}
+
+parser code {:
+    String lastError;
+
+    public void report_error(String message, Object info) {
+        String st = "Error";
+
+        if (info instanceof java_cup.runtime.Symbol) {
+            java_cup.runtime.Symbol s = ((java_cup.runtime.Symbol)info);
+
+            if (s.left >= 0) {
+                st += " in line " + (s.left + 1);
+                if (s.right >= 0)
+                    st += ", column " + (s.right + 1);
+            } else
+               st += " at end of input " ;
+        }
+        st += ": " + message;
+        System.err.println(st);
+        lastError = st;
+    }
+
+    public void report_fatal_error(String message, Object info) {
+        report_error(message, info);
+    }
+:};
+
+init with {:
+:};
+
+terminal AND, OR, NOT, TRUE, FALSE;
+terminal BOOLEAN, INTEGER, FUNCTION, PROCEDURE;
+terminal BEGIN, DO, ELSE, END, EXIT;
+terminal IF, RETURN, LOOP, PUT, GET;
+terminal THEN, WHILE, SKIP, YIELDS, WHEN;
+
+terminal L_PAREN, R_PAREN, L_SQUARE, R_SQUARE, L_CURLEY, R_CURLEY;
+terminal EQUAL, GREATER, LESS, COMMA, DOT;
+terminal PLUS, MINUS, TIMES, DIVIDE;
+
+terminal String IDENT;
+terminal Integer INTCONST;
+terminal String TEXTCONST;
+
+nonterminal Integer generalBound;
+nonterminal Bound bound;
+nonterminal Program program;
+nonterminal Scope scope;
+nonterminal Stmt statement;
+nonterminal ASTList<Stmt> statements;
+nonterminal ASTList<Expn> arguments, inputs;
+nonterminal ASTList<Printable> outputs;
+nonterminal ASTList<DeclarationPart> variablenames;
+nonterminal DeclarationPart variabledef;
+nonterminal Expn expr_, expr0, expr1, expr2, expr3, expr4, expr5, expr6, expression, output, variable;
+nonterminal ScalarDecl parameter;
+nonterminal ASTList<ScalarDecl> parameters;
+nonterminal Type type;
+
+start with program;
+
+program
+ ::= scope:s                                                      {: RESULT = new Program(s); :}
+   ;
+
+scope
+ ::= BEGIN:b statements:s END                                     {: RESULT = new Scope(bleft, bright, s); :}
+   | BEGIN:b END                                                  {: RESULT = new Scope(bleft, bright); :}
+   ;
+
+type
+ ::= INTEGER:i                                                    {: RESULT = new IntegerType(ileft, iright); :}
+   | BOOLEAN:b                                                    {: RESULT = new BooleanType(bleft, bright); :}
+   ;
+
+generalBound
+ ::= INTCONST:i                                                   {: RESULT = i; :}
+   | MINUS INTCONST:i                                             {: RESULT = -i; :}
+   ;
+
+bound
+ ::= INTCONST:i                                                   {: RESULT = new Bound(0, i); :}
+   | generalBound:x DOT DOT generalBound:y                        {: RESULT = new Bound(x, y); :}
+   ;
+
+statements
+ ::= statement:s                                                  {: RESULT = new ASTList(s); :}
+   | statements:ss statement:s                                    {: RESULT = ss.append(s); :}
+   ;
+
+statement
+ ::= variable:v LESS:l EQUAL expression:e                         {: RESULT = new AssignStmt(lleft, lright, v, e); :}
+   | IF:i expression:e THEN statements:s END                      {: RESULT = new IfStmt(ileft, iright, e, s); :}
+   | IF:i expression:e THEN statements:x ELSE statements:y END    {: RESULT = new IfStmt(ileft, iright, e, x, y); :}
+   | WHILE:w expression:e DO statements:s END                     {: RESULT = new WhileDoStmt(wleft, wright, e, s); :}
+   | LOOP:l statements:s END                                      {: RESULT = new LoopStmt(lleft, lright, s); :}
+   | EXIT:e                                                       {: RESULT = new ExitStmt(eleft, eright); :}
+   | EXIT:e WHEN expression:x                                     {: RESULT = new ExitStmt(eleft, eright, x); :}
+   | RETURN:r L_PAREN expression:e R_PAREN                        {: RESULT = new ReturnStmt(rleft, rright, e); :}
+   | RETURN:r                                                     {: RESULT = new ReturnStmt(rleft, rright); :}
+   | PUT:p outputs:o                                              {: RESULT = new PutStmt(pleft, pright, o); :}
+   | GET:g inputs:i                                               {: RESULT = new GetStmt(gleft, gright, i); :}
+   | IDENT:i                                                      {: RESULT = new ProcedureCallStmt(ileft, iright, i); :}
+   | IDENT:i L_PAREN arguments:a R_PAREN                          {: RESULT = new ProcedureCallStmt(ileft, iright, i, a); :}
+   | scope:s                                                      {: RESULT = s; :}
+   | type:t variablenames:v                                       {: RESULT = new MultiDeclarations(t, v); :}
+   | type:t FUNCTION IDENT:i scope:s                              {: RESULT = new RoutineDecl(ileft, iright, i, t, s); :}
+   | type:t FUNCTION IDENT:i L_PAREN parameters:p R_PAREN scope:s {: RESULT = new RoutineDecl(ileft, iright, i, t, p, s); :}
+   | PROCEDURE:p IDENT:i scope:s                                  {: RESULT = new RoutineDecl(pleft, pright, i, s); :}
+   | PROCEDURE:p IDENT:i L_PAREN parameters:a R_PAREN scope:s     {: RESULT = new RoutineDecl(pleft, pright, i, a, s); :}
+   ;
+
+variablenames
+ ::= variabledef:v                                                {: RESULT = new ASTList(v); :}
+   | variablenames:vs COMMA variabledef:v                         {: RESULT = vs.append(v); :}
+   ;
+
+variabledef
+ ::= IDENT:i                                                      {: RESULT = new ScalarDeclPart(ileft, iright, i); :}
+   | IDENT:i L_SQUARE bound:b R_SQUARE                            {: RESULT = new ArrayDeclPart(ileft, iright, i, b.lower, b.upper); :}
+   | IDENT:i L_SQUARE bound:x COMMA bound:y R_SQUARE              {: RESULT = new ArrayDeclPart(ileft, iright, i, x.lower, x.upper, y.lower, y.upper); :}
+   ;
+
+outputs
+ ::= output:o                                                     {: RESULT = new ASTList(o); :}
+   | outputs:os COMMA output:o                                    {: RESULT = os.append(o); :}
+   ;
+
+output
+ ::= expression:e                                                 {: RESULT = e; :}
+   | TEXTCONST:t                                                  {: RESULT = new TextConstExpn(tleft, tright, t); :}
+   | SKIP:s                                                       {: RESULT = new SkipConstExpn(sleft, sright); :}
+   ;
+
+inputs
+ ::= variable:v                                                   {: RESULT = new ASTList(v); :}
+   | inputs:i COMMA variable:v                                    {: RESULT = i.append(v); :}
+   ;
+
+arguments
+ ::= expression:e                                                 {: RESULT = new ASTList(e); :}
+   | arguments:a COMMA expression:e                               {: RESULT = a.append(e); :}
+   ;
+
+parameters
+ ::= parameter:p                                                  {: RESULT = new ASTList(p); :}
+   | parameters:ps COMMA parameter:p                              {: RESULT = ps.append(p); :}
+   ;
+
+parameter
+ ::= type:t IDENT:i                                               {: RESULT = new ScalarDecl(ileft, iright, i, t); :}
+   ;
+
+variable
+ ::= IDENT:i                                                      {: RESULT = new IdentExpn(ileft, iright, i); :}
+   | IDENT:i L_SQUARE expression:x R_SQUARE                       {: RESULT = new SubsExpn(ileft, iright, i, x); :}
+   | IDENT:i L_SQUARE expression:x COMMA expression:y R_SQUARE    {: RESULT = new SubsExpn(ileft, iright, i, x, y); :}
+   ;
+
+expression
+ ::= expr6:e                                                      {: RESULT = e; :}
+   ;
+
+expr6
+ ::= expr5:e                                                      {: RESULT = e; :}
+   | expr6:x OR:o expr5:y                                         {: RESULT = new BoolExpn(oleft, oright, BoolExpn.OP_OR, x, y); :}
+   ;
+
+expr5
+ ::= expr4:e                                                      {: RESULT = e; :}
+   | expr5:x AND:a expr4:y                                        {: RESULT = new BoolExpn(aleft, aright, BoolExpn.OP_AND, x, y); :}
+   ;
+
+expr4
+ ::= expr3:e                                                      {: RESULT = e; :}
+   | NOT:n expr4:e                                                {: RESULT = new NotExpn(nleft, nright, e); :}
+   ;
+
+expr3
+ ::= expr2:e                                                      {: RESULT = e; :}
+   | expr2:x EQUAL:e expr2:y                                      {: RESULT = new EqualsExpn(eleft, eright, EqualsExpn.OP_EQUAL, x, y); :}
+   | expr2:x NOT:n EQUAL expr2:y                                  {: RESULT = new EqualsExpn(nleft, nright, EqualsExpn.OP_NOT_EQUAL, x, y); :}
+   | expr2:x LESS:l expr2:y                                       {: RESULT = new CompareExpn(lleft, lright, CompareExpn.OP_LESS, x, y); :}
+   | expr2:x LESS:l EQUAL expr2:y                                 {: RESULT = new CompareExpn(lleft, lright, CompareExpn.OP_LESS_EQUAL, x, y); :}
+   | expr2:x GREATER:g expr2:y                                    {: RESULT = new CompareExpn(gleft, gright, CompareExpn.OP_GREATER, x, y); :}
+   | expr2:x GREATER:g EQUAL expr2:y                              {: RESULT = new CompareExpn(gleft, gright, CompareExpn.OP_GREATER_EQUAL, x, y); :}
+   ;
+
+expr2
+ ::= expr1:e                                                      {: RESULT = e; :}
+   | expr2:x PLUS:p expr1:y                                       {: RESULT = new ArithExpn(pleft, pright, ArithExpn.OP_PLUS, x, y); :}
+   | expr2:x MINUS:m expr1:y                                      {: RESULT = new ArithExpn(mleft, mright, ArithExpn.OP_MINUS, x, y); :}
+   ;
+
+expr1
+ ::= expr0:e                                                      {: RESULT = e; :}
+   | expr1:x TIMES:t expr0:y                                      {: RESULT = new ArithExpn(tleft, tright, ArithExpn.OP_TIMES, x, y); :}
+   | expr1:x DIVIDE:d expr0:y                                     {: RESULT = new ArithExpn(dleft, dright, ArithExpn.OP_DIVIDE, x, y); :}
+   ;
+
+expr0
+ ::= expr_:e                                                      {: RESULT = e; :}
+   | MINUS:m expr0:e                                              {: RESULT = new UnaryMinusExpn(mleft, mright, e); :}
+   ;
+
+expr_
+ ::= INTCONST:i                                                   {: RESULT = new IntConstExpn(ileft, iright, i); :}
+   | TRUE:t                                                       {: RESULT = new BoolConstExpn(tleft, tright, true); :}
+   | FALSE:f                                                      {: RESULT = new BoolConstExpn(fleft, fright, false); :}
+   | L_PAREN expression:e R_PAREN                                 {: RESULT = e; :}
+   | L_CURLEY:l statements:s YIELDS expression:e R_CURLEY         {: RESULT = new AnonFuncExpn(lleft, lright, s, e); :}
+   | IDENT:i L_PAREN arguments:a R_PAREN                          {: RESULT = new FunctionCallExpn(ileft, iright, i, a); :}
+   | IDENT:i                                                      {: RESULT = new IdentExpn(ileft, iright, i); :}
+   | IDENT:i L_SQUARE expression:x R_SQUARE                       {: RESULT = new SubsExpn(ileft, iright, i, x); :}
+   | IDENT:i L_SQUARE expression:x COMMA expression:y R_SQUARE    {: RESULT = new SubsExpn(ileft, iright, i, x, y); :}
+   ;

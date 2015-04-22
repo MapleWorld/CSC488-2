@@ -1,0 +1,8 @@
+% Author: Vishrant Vasavada
+% Info: Program that tests array declaration with missing general bound
+% Error: Line 6
+
+begin
+	integer a[1 .. ]
+	a[1] <= 2
+end

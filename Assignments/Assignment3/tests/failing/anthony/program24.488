@@ -1,0 +1,29 @@
+begin
+	if {
+		if {
+			put skip, "hello", "world"
+		yields
+			true
+		} then
+			integer var1
+			exit
+			exit
+		else
+			var1[-(false), false] <= false
+			exit when (!(var1[true, false]))
+			exit
+		end
+	yields
+		-(false)
+	} then
+		while {
+			exit when (!(66))
+		yields
+			false
+		} do
+			boolean var1[-19..-98, 100..63], var2, var3[-43..-45, 69]
+			exit when (99)
+		end
+	end
+end
+

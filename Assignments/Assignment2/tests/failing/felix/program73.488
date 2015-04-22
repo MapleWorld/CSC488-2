@@ -1,0 +1,7 @@
+
+begin 
+	procedure s ( integer t , integer s , boolean a , integer p , boolean o , integer l , integer g , boolean d ) 
+	begin 
+		exit when l > ! h 
+	end 
+end 

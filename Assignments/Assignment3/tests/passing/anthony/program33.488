@@ -1,0 +1,51 @@
+begin
+	put skip
+	loop
+		if false then
+			boolean var1, var5[5]
+			exit
+			exit when (true)
+			exit when (true)
+			put -(81)
+		end
+		if true then
+			put ":D"
+			exit
+		end
+	end
+	var5[-(44)] <= !(({
+		loop
+			integer var2[34, 28], var1[4, 29]
+			exit
+		end
+	yields
+		false
+	}) | (var1))
+	while var1 do
+		if false then
+			put skip
+			var1 <= true
+			boolean var2[38, -88..-45]
+			boolean var6, var4[11..37, 18..73], var3
+			exit when ((var2[58, 50]) | (!(!(var3))))
+		end
+		if var6 then
+			put 5, skip, skip
+			integer var11
+			exit when (var1)
+			exit
+		end
+	end
+	var5[var11] <= {
+		boolean function func1(integer arg3, boolean arg1)
+		begin
+			return (arg1)
+			return (arg1)
+			integer var1, var2[49..49, 77]
+		end
+
+	yields
+		func1(16, false)
+	}
+end
+

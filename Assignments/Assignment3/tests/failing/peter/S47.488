@@ -1,0 +1,18 @@
+% check if we can detect some error with variable type
+% and some other silly thing
+% Note, this should give at least 10 different errors
+%     I need a better script to check this
+begin
+	boolean function foo begin return (true) end
+	integer x, y[0..0], z[0..0, 1..1]
+	x <= true
+	x[0] <= true
+	x[0, 1] <= true
+	y <= true
+	y[0] <= true
+	y[0, 1] <= true
+	z <= true
+	z[0] <= true
+	z[0, 1] <= true
+	foo <= true
+end

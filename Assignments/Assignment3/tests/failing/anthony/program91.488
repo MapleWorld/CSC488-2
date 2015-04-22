@@ -1,0 +1,19 @@
+begin
+	integer function func1(boolean arg1)
+	begin
+		arg1 <= 5
+		if {
+			get arg1[false, arg1[true, false]]
+		yields
+			-(false)
+		} then
+			put ":D"
+			return
+		else
+			exit
+			put "!?"
+		end
+	end
+
+end
+

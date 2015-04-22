@@ -1,0 +1,5 @@
+begin
+    integer x
+    get x
+    put x, skip, "That's all folks!"
+end

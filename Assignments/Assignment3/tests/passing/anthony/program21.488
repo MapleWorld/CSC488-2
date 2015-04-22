@@ -1,0 +1,4 @@
+begin
+	integer var1[2], var2
+end
+

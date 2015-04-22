@@ -1,0 +1,59 @@
+begin
+	loop
+		exit
+		exit when ({
+			put skip
+		yields
+			false
+		})
+		begin
+			put (-(true)) & (47)
+			put skip, skip
+		end
+		integer function func3(integer arg5)
+		begin
+			arg5[((-(true)) | (56)) | (func3(false)), (!((arg5) / (true))) < (false)] <= false
+			exit
+			exit when ((func3(false)) * ((arg5) != (((53) - (false)) < (-(false)))))
+		end
+
+		procedure proc1(boolean arg6)
+		begin
+			return (func3(false))
+			return
+			exit when (func3(true))
+		end
+
+	end
+	proc1(89)
+	procedure proc2(boolean arg7, boolean arg8)
+	begin
+		arg8[false, false] <= {
+			exit
+		yields
+			arg8[false, false]
+		}
+		exit
+		if {
+			boolean var1[10], var2[1]
+		yields
+			arg8[true, arg7[(50) <= (false)]]
+		} then
+			proc1(99)
+			arg8 <= func3(true)
+			integer var1[-84..-90], var2[-100..-100]
+			exit
+		end
+	end
+
+	proc1({
+		procedure proc1
+		begin
+			return (func3(-(true)))
+		end
+
+	yields
+		false
+	})
+end
+

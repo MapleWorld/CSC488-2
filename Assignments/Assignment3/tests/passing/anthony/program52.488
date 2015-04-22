@@ -1,0 +1,27 @@
+begin
+	while {
+		begin
+			boolean var1, var2, var3
+			boolean var4
+			put 43, "!?"
+			var3 <= !(((90) - (76)) > (16))
+		end
+	yields
+		{
+			put "world"
+		yields
+			!(true)
+		}
+	} do
+		procedure proc1
+		begin
+			boolean var1[86, 72], var3[-74..57], var2[78]
+			put "hello", 65, skip
+			return
+			return
+			return
+		end
+
+	end
+end
+

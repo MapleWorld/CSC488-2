@@ -1,0 +1,29 @@
+% Author: Felix Lu
+begin
+    integer x, y[1..5]
+
+    put skip, skip, skip
+
+    get x
+
+    procedure test begin
+        put "lol"
+
+    end
+
+    procedure test2(integer x, integer y) begin
+        put x, y
+    end
+
+    integer function func(integer x) begin
+        put x + 1
+    end
+
+    integer function func2 begin
+    end
+
+    test
+    func(3)
+    func2
+    test2(1,2)
+end

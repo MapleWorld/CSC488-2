@@ -1,0 +1,4 @@
+% print text string
+begin
+	put "hello world"
+end

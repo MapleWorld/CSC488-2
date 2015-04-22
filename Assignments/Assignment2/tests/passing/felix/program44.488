@@ -1,0 +1,7 @@
+
+begin 
+	boolean function x ( integer f , integer s , boolean d , boolean m , boolean v , integer l , boolean e , integer h ) 
+	begin 
+		exit when j / - true 
+	end 
+end 

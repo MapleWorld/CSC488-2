@@ -1,0 +1,8 @@
+begin
+    boolean function functionFoo begin
+        return (true)
+    end
+    integer function barQuux begin
+        return (10)
+    end
+end

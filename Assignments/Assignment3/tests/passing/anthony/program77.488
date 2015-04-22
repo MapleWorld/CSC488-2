@@ -1,0 +1,54 @@
+begin
+	procedure proc1(integer arg1, boolean arg2)
+	begin
+		put -(arg1)
+		put ({
+			put arg1, "hello"
+		yields
+			arg1
+		}) - (-({
+			return
+		yields
+			-(75)
+		}))
+		if true then
+			boolean var1[65, 47], var2[69], var4[-74..1]
+			return
+			return
+			return
+			get arg1
+		else
+			put arg1, ":D"
+			return
+			return
+		end
+	end
+
+	loop
+		boolean function func3(boolean arg1)
+		begin
+			return (true)
+			return (true)
+			integer var1
+		end
+
+		put ((79) + (4)) + ({
+			boolean var4[85, -31..91], var1[0], var2
+		yields
+			(46) / (-(24))
+		}), "!?", "!?"
+		begin
+			boolean var8, var2[51..79]
+			var2[-(3)] <= var2[9]
+			put -(-(51)), "!?", "!?"
+		end
+	end
+	begin
+		loop
+			exit when (true)
+			exit
+			exit
+		end
+	end
+end
+

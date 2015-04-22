@@ -1,0 +1,7 @@
+begin
+	begin
+		integer i
+		i < = 3
+		put i
+	end
+end

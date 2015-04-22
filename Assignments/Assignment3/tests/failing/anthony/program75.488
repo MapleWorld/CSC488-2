@@ -1,0 +1,95 @@
+begin
+	begin
+		if {
+			exit
+		yields
+			false
+		} then
+			exit
+			put "hello", true, false
+			boolean var1
+		end
+	end
+	while {
+		if 71 then
+			exit when (2)
+			return
+			return
+			return (84)
+		else
+			put skip, skip
+			exit
+		end
+	yields
+		{
+			exit when (83)
+		yields
+			22
+		}
+	} do
+		integer function func2
+		begin
+			exit
+			put true, false
+		end
+
+		begin
+			exit
+			exit when (func2)
+			put true, "!?"
+		end
+		procedure proc3(integer arg9, boolean arg10, integer arg11)
+		begin
+			arg11[-(false)] <= true
+			exit when (71)
+		end
+
+		proc3(false, func2, false)
+	end
+	while 25 do
+		begin
+			put skip, skip
+			exit
+			put true, skip, skip
+		end
+		put skip
+		begin
+			boolean var1[86, -53..-70]
+		end
+		begin
+			put true
+			proc3(true, (4) * (true), (true) = (func2))
+			put skip, false, true
+			boolean var1, var2[59..-86], var3
+		end
+		procedure proc1(boolean arg1)
+		begin
+			put "hello", skip
+		end
+
+	end
+	exit when ({
+		integer var1[100, 51], var2
+	yields
+		-(false)
+	})
+	proc3(-(false), !(71), {
+		if {
+			put skip
+		yields
+			true
+		} then
+			proc1(2)
+			exit
+			exit
+		else
+			exit when (func2)
+			exit
+			put "!?", skip, skip
+			proc3(true, 72, true)
+		end
+	yields
+		58
+	})
+end
+

@@ -1,0 +1,134 @@
+begin
+	exit when (({
+		exit
+	yields
+		true
+	}) * (true))
+	begin
+		put "hello"
+		loop
+			exit when (70)
+			exit
+			put "world", "hello"
+			exit when (44)
+		end
+		while 42 do
+			exit when ((97) + ((1) > ((true) | (91))))
+			put true, false, -(true)
+			exit when (6)
+			integer var1[36], var2
+		end
+	end
+	exit when ({
+		loop
+			exit
+			boolean var1[52, 24], var2[45], var3
+		end
+	yields
+		false
+	})
+	integer function func1(integer arg1)
+	begin
+		if !(34) then
+			return (39)
+			exit when (func1(true))
+			arg1 <= false
+		else
+			put "!?", skip
+			put false, "!?", true
+			put "hello"
+		end
+	end
+
+	if (96) - (false) then
+		if func1((57) = ({
+			exit when (func1(false))
+		yields
+			(70) * (true)
+		})) then
+			integer var1, var2[48..37, 88..62]
+			exit
+			exit
+			exit
+			var2[true, true] <= -(-(false))
+		end
+		if (68) / (-(true)) then
+			return (false)
+			return
+			return
+			put true, skip
+			var2 <= -(-(true))
+		else
+			var2[false] <= (false) != (42)
+			exit
+			put ":D", "hello", skip
+		end
+		put {
+			exit
+		yields
+			!(95)
+		}
+		if var2[true, (var1[false]) <= ((func1(false)) >= (true))] then
+			put skip, skip, "hello"
+		else
+			boolean var1[10, -75..-90], var2[85]
+			put "!?", "world", "world"
+			var1 <= (((36) + (true)) / (false)) != (true)
+			exit
+		end
+		procedure proc1(boolean arg1, integer arg2)
+		begin
+			return
+			return
+			proc1(62, false)
+		end
+
+	else
+		var1[{
+			return (71)
+		yields
+			29
+		}] <= var1[{
+			put true, false, ":D"
+		yields
+			49
+		}, {
+			return (func1(var2))
+		yields
+			var1[-(var2)]
+		}]
+		begin
+			var2[false] <= var1[(true) | (var1[true]), true]
+			put skip, var1[true, true]
+			exit
+		end
+		if !(func1({
+			return (39)
+		yields
+			func1(false)
+		})) then
+			get var1[var2[var2]]
+			get var2[false, true], var1, var1
+			put "!?"
+		end
+		put false, var2[{
+			exit when (var2[var1])
+		yields
+			52
+		}, ({
+			proc1(17, false)
+		yields
+			(var1) * (true)
+		}) != (((99) * (var2)) - ((93) >= (true)))]
+		get var2[var1[true]], var2[-(false), {
+			put skip, var1
+		yields
+			func1(true)
+		}], var2[-(var2[true, var1]), {
+			put ":D", var1[true], skip
+		yields
+			var2[false, true]
+		}]
+	end
+end
+

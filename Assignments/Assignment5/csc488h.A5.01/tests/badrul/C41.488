@@ -1,0 +1,12 @@
+% branch on false: if-then-else-end
+begin
+	boolean x
+	x <= false
+	if x
+	then
+		put "true "
+	else
+		put "false "
+	end
+	put "after if"
+end

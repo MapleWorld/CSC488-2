@@ -1,0 +1,20 @@
+begin
+	exit when (15)
+	put skip
+	integer function func1(integer arg1, integer arg2, boolean arg3)
+	begin
+		while {
+			boolean var1[47]
+		yields
+			arg3[(func1(arg3, true, 68)) != (arg3), false]
+		} do
+			exit when (func1(arg3[arg3[false, (true) | (88)]], false, 21))
+			put skip
+			get arg3[arg3], arg3[false]
+			exit
+			put true, skip
+		end
+	end
+
+end
+

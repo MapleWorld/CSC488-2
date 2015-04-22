@@ -1,0 +1,49 @@
+begin
+	procedure proc1(integer arg1, integer arg2, boolean arg3)
+	begin
+		arg3[false, {
+			boolean var1[-33..-68], var2[-1..-4, 90], var3[82]
+		yields
+			(!(13)) * (false)
+		}] <= ({
+			proc1(true, false, 23)
+		yields
+			true
+		}) - (-({
+			return (42)
+		yields
+			51
+		}))
+	end
+
+	while {
+		proc1(false, (88) > ((true) != (78)), {
+			put "hello", "!?", false
+		yields
+			-(false)
+		})
+	yields
+		{
+			proc1(-((false) = (68)), (false) & (75), ((83) + (false)) * (false))
+		yields
+			!(51)
+		}
+	} do
+		exit when (55)
+		loop
+			exit when (42)
+			proc1(false, false, 11)
+			proc1(false, true, !(99))
+			exit when (53)
+			put false
+		end
+		boolean function func3
+		begin
+			exit when (91)
+			exit
+		end
+
+	end
+	exit
+end
+

@@ -1,0 +1,8 @@
+begin
+    integer function functionFoo (boolean arg, integer lul) begin
+        return (lul)
+    end
+    boolean function functionBar (boolean arg, boolean lol) begin
+        return (arg)
+    end
+end

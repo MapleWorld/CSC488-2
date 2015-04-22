@@ -1,0 +1,11 @@
+
+begin 
+	loop 
+		procedure a 
+		begin 
+			integer function z 
+			begin 
+			end 
+		end 
+	end 
+end 

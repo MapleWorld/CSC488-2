@@ -1,0 +1,6 @@
+begin
+    integer x
+    boolean y
+    x <= true
+    y <= 5
+end

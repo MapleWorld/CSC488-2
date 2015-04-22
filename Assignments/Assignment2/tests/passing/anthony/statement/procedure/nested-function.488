@@ -1,0 +1,9 @@
+begin
+    integer function hello begin
+        boolean function world begin
+            return (false)
+        end
+
+        return (0)
+    end
+end

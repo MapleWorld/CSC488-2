@@ -1,0 +1,31 @@
+begin
+	while {
+		boolean function func1(boolean arg3, boolean arg2, boolean arg1)
+		begin
+			return (func1((arg1) & (true), (-(46)) < (96), ((96) < (87)) & (!(arg3))))
+			put "!?", ":D", 85
+			return (arg2)
+		end
+
+	yields
+		func1({
+			integer var1[27, 93..97], var2[0..41]
+		yields
+			false
+		}, true, true)
+	} do
+		if {
+			integer var1, var2[55..85, 88..88], var3
+		yields
+			false
+		} then
+			put "world", "hello"
+			exit when ((-(36)) = (64))
+			exit
+		else
+			integer var1[81]
+			put "hello", 25, skip
+		end
+	end
+end
+

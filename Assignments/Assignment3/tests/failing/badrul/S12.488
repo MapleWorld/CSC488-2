@@ -1,0 +1,7 @@
+% int proc returns boolean value
+begin
+	integer function add1 (integer x)
+	begin
+		return (true)
+	end
+end

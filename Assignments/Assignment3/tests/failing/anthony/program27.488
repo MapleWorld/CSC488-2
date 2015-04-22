@@ -1,0 +1,14 @@
+begin
+	exit when ((({
+		procedure proc1(integer arg1, boolean arg2)
+		begin
+			proc1(true, 0)
+			exit
+			get arg2[true, true]
+		end
+
+	yields
+		true
+	}) / (false)) - (true))
+end
+

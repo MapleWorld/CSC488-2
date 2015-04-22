@@ -1,0 +1,7 @@
+
+begin 
+	boolean function g ( boolean q , boolean k , boolean j , boolean e , integer j , boolean f , boolean x , integer n ) 
+	begin 
+		j ( false , - 44 ) 
+	end 
+end 
